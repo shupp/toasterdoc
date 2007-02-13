@@ -11,7 +11,7 @@ class ToasterDoc extends Book
     } 
 
     protected function sessionInit() {
-        ini_set('session.use_trans_sid',1);
+        ini_set('session.use_cookies',1);
         session_name('toasterSession');
         session_start();
     }
@@ -35,7 +35,7 @@ class ToasterDoc extends Book
     protected function loadVersions() {
         $versions = simplexml_load_file(BTS_TEMPLATE_DIR . '/versions.xml');
         foreach((array)$versions as $key => $val) {
-            $book->tpl->var_array[$key] = $val;
+            $this->tpl->var_array[$key] = $val;
         }
     }
 }
