@@ -82,4 +82,9 @@
  <xsl:template match="listitem">
    <li><xsl:apply-templates/></li>
  </xsl:template>
+ <xsl:template match="userinput">
+        <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
+        <input type="text" name="varsrc" value="<?php echo $varsrc?>" /> <input type="submit" value="set" />
+        </form>
+ </xsl:template>
 </xsl:stylesheet>

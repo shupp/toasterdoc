@@ -1,7 +1,7 @@
 <title><?php echo _("Getting Started")?></title>
 <itemizedlist>
     <listitem>
-        <para><emphasis><?php echo _("DNS")?></emphasis></para>
+        <para><anchor id="dns" /><emphasis><?php echo _("DNS")?></emphasis></para>
         <para><?php echo _("Before we begin, make sure DNS (mx record) is properly setup. If you were using <quote>merchbox.com</quote> as your virtual domain, here's how your host lookups would look after setting up dns:")?></para>
 
         <blockquote role="configure">
@@ -13,7 +13,7 @@
     </listitem>
 
     <listitem>
-        <para><emphasis><?php echo _("Remove existing smtp/pop/imap servers")?></emphasis></para>
+        <para><anchor id="remove" /><emphasis><?php echo _("Remove existing smtp/pop/imap servers")?></emphasis></para>
         <para><?php echo _("Now we must remove any existing installations of sendmail/postfix and disable pop/imap servers. To remove sendmail and postfix from an rpm based distribution, try this:")?></para>
         <programlisting role="gen-rpm"><literal>rpm -e --nodeps sendmail postfix</literal></programlisting>
 
@@ -22,8 +22,12 @@
 </listitem>
 
 <listitem>
-    <para><emphasis><?php echo _("Download Packages") ?></emphasis></para>
+    <para><anchor id="download" /><emphasis><?php echo _("Download Packages") ?></emphasis></para>
     <para><?php echo _(" I keep my software source in /var/src. If you want to put it in another location, set the location below, and all paths will be updated.")?></para>
+
+    <literallayout>
+        <userinput></userinput>
+    </literallayout>
 
 
     <programlisting>
