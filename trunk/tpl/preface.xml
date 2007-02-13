@@ -46,18 +46,18 @@
     <programlisting role="debian">
         <lineannotation><?php echo _("install equivs")?></lineannotation>
         <literal>apt-get install equivs</literal>
-        <para></para>
+        <literal></literal>
         <lineannotation><?php echo _("build the dummy mta package")?></lineannotation>
         <literal>cd /tmp</literal>
         <literal>cp /usr/share/doc/equivs/literallayouts/mail-transport-agent.ctl .</literal>
         <literal>equivs-build mail-transport-agent.ctl</literal>
-        <para></para>
+        <literal></literal>
         <lineannotation><?php echo _("remove exim4")?></lineannotation>
         <literal>dpkg --ignore-depends=exim4 -r exim4</literal>
         <literal>dpkg --ignore-depends=exim4-daemon-light -r exim4-daemon-light</literal>
         <literal>dpkg --ignore-depends=exim4-base -r exim4-base</literal>
         <literal>dpkg --ignore-depends=exim4-base -r exim4-base</literal>
-        <para></para>
+        <literal></literal>
         <lineannotation><?php echo _("and install the dummy mta package")?></lineannotation>
         <literal>dpkg -i /tmp/mta-local_1.0_all.deb</literal>
         </programlisting>
@@ -104,7 +104,12 @@
 </listitem>
 
 <listitem>
-    <para><emphasis><?php echo _("Trustix Notes:")?></emphasis></para>
+    <para><anchor id="trustix" /><emphasis><?php echo _("Trustix Notes:")?></emphasis></para>
     <para><?php echo _("Matthew Valentini provided some <ulink url='http://shupp.org/toaster/trustix_notes.eml.html'>notes</ulink> on using this toaster with Trustix 3.0. I have not tested them, I'm just making them available as-is.") ?></para>
+</listitem>
+<listitem>
+    <para><anchor id="license" /><emphasis><?php echo _("Toaster License")?></emphasis></para>
+    <para><?php echo _("This document is covered by the same license as Life With Qmail, and the license is detailed here:")?></para>
+    <para><ulink url="http://www.opencontent.org/opl.shtml">http://www.opencontent.org/opl.shtml</ulink></para>
 </listitem>
 </itemizedlist>
