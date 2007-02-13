@@ -8,6 +8,7 @@
    <html>
    <head>
      <title><xsl:value-of select="title"/></title>
+     <link rel="STYLESHEET" type="text/css" href="doc-style.css" />
    </head>
    <body>
      <a name="top"></a>
