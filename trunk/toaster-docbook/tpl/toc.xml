@@ -1,0 +1,26 @@
+<title>Table of Contents</title>
+<itemizedlist>
+<listitem>
+<para><ulink url="?page=preface"><?php echo _("Preface")?></ulink></para>
+    <itemizedlist>
+        <listitem><literallayout><ulink url="?page=preface#whatisatoaster"><?php echo _("What's a POP Toaster?")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=preface#doesanddoesnot"><?php echo _('What this toaster does and does not do')?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=preface#assumptions"><?php echo _('Assumptions/Support (Please Read!)')?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=preface#prerequisites"><?php echo _('Prerequisites')?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=preface#debian"><?php echo _('Debian Notes')?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=preface#trustix"><?php echo _('Trustix Notes')?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=preface#license"><?php echo _('Toaster License')?></ulink></literallayout></listitem>
+    </itemizedlist>
+</listitem>
+<listitem>
+<para><ulink url="?page=gettingstarted"><?php echo _("Getting Started")?></ulink></para>
+    <itemizedlist>
+    <listitem><literallayout><ulink url="?page=gettingstarted#dns"><?php echo _("DNS")?></ulink></literallayout></listitem>
+    <listitem><literallayout><ulink url="?page=gettingstarted#remove"><?php echo _("Remove existing sendmail/pop/imap servers")?></ulink></literallayout></listitem>
+    <listitem><literallayout><ulink url="?page=gettingstarted#download"><?php echo _("Download packages")?></ulink></literallayout></listitem>
+    </itemizedlist>
+</listitem>
+
+
+
+</itemizedlist>
