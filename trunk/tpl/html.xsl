@@ -1,21 +1,31 @@
 <xsl:stylesheet version="1.0"
  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
- <xsl:output method="html"
-        doctype-public = "-//W3C//DTD HTML 4.01 Transitional//EN"/>
+<xsl:output method="xml" indent="yes" 
+    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+    doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" />
 
  <xsl:template match="article">
    <html>
    <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
      <title><xsl:value-of select="title"/></title>
-     <link rel="STYLESHEET" type="text/css" href="doc-style.css" />
+     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
    </head>
    <body>
+
+<div id="wrap">
+
+<div id="bodytop"></div>
+
+<div id="content">
+
+<div class="header">
      <a name="top"></a>
      <h1><xsl:value-of select="title"/></h1>
-     <xsl:apply-templates select="section"/>
+</div>
 
-    <center>
+<div class="breadcrumbs">
     <table border="0" width="100%" cellpadding="0" cellspacing="0">
     <tr>
         <td><div align="left"><a href="./?page={previousPage}"><b><?php echo _("Back")?></b></a></div></td>
@@ -23,14 +33,21 @@
         <td><div align="right"><b><a href="./?page={nextPage}"><?php echo _("Next")?></a></b></div></td>
     </tr>
     </table>
-    </center>
+</div>
+
+
+     <xsl:apply-templates select="section"/>
+
+
+    </div>
+    <div id="bottom"></div>
+    </div>
    </body>
    </html>
  </xsl:template>
 
  <xsl:template match="section">
    <xsl:apply-templates/>
-   <hr />
  </xsl:template>
 
  <xsl:template match="section/title">
