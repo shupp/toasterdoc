@@ -45,7 +45,7 @@ class Book
         $outArray = array();
         $count = 0;
         foreach($inObject as $key => $val) {
-            foreach($val->${item} as $key1 => $val1) {
+            foreach($val->$item as $key1 => $val1) {
                 $outArray[$count] = (string)$val1;
                 $count++;
             }
