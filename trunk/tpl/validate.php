@@ -2,7 +2,7 @@
 
 $wrapfile = $argv[1];
 $contentfile = $argv[2];
-$dontdelete = $argv[3];
+if(isset($argv[3])) $dontdelete = $argv[3];
 
 $wrapcontents = file_get_contents($wrapfile);
 $contents = file_get_contents($contentfile);
