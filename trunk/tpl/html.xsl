@@ -71,7 +71,7 @@
     </blockquote>
  </xsl:template>
  <xsl:template match="lineannotation">
-    # <xsl:apply-templates/><br />
+    # <i><xsl:apply-templates/></i><br />
  </xsl:template>
  <xsl:template match="literal">
     <xsl:apply-templates/><br />
