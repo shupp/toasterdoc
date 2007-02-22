@@ -39,6 +39,16 @@
      <xsl:apply-templates select="section"/>
 
 
+    <div class="breadcrumbs">
+        <table border="0" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td><div align="left"><a href="./?page={previousPage}"><b><?php echo _("Back")?></b></a></div></td>
+            <td><div align="center"><a href="./?page={defaultPage}"><b><?php echo _("Home") ?></b></a></div></td>
+            <td><div align="right"><b><a href="./?page={nextPage}"><?php echo _("Next")?></a></b></div></td>
+        </tr>
+        </table>
+    </div>
+
     </div>
     <div id="bottom"></div>
     </div>
