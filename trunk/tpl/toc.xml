@@ -20,7 +20,47 @@
     <listitem><literallayout><ulink url="?page=gettingstarted#download"><?php echo _("Download packages")?></ulink></literallayout></listitem>
     </itemizedlist>
 </listitem>
+<listitem><para><ulink url="?page=daemontools"><?php echo _("Install Software")?></ulink></para>
 
+    <itemizedlist>
+        <listitem><literallayout><ulink url="?page=daemontools"><?php echo _("daemontools")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=ucspi-tcp"><?php echo _("ucspi-tcp")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=qmail"><?php echo _("qmail")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=vpopmail"><?php echo _("vpopmail")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=courier-imap"><?php echo _("courier-imap")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=squirrelmail"><?php echo _("squirrel mail")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=autorespond"><?php echo _("autorespond")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=ezmlm-idx"><?php echo _("ezmlm-idx")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=qmailadmin"><?php echo _("qmailadmin")?></ulink></literallayout></listitem>
+    </itemizedlist>
+</listitem>
+
+<listitem><para><ulink url="?page=test"><?php echo _("Test Drive")?></ulink></para>
+</listitem>
+
+<listitem><para><ulink url="?page=spamassassin"><?php echo _("Options")?></ulink></para>
+
+    <itemizedlist>
+        <listitem><literallayout><ulink url="?page=spamassassin"><?php echo _("Spam Assassin")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=clamav"><?php echo _("ClamAV")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=ripmime"><?php echo _("ripmime")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=simscan"><?php echo _("simscan")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=tmda"><?php echo _("TMDA")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=qmailmrtg7"><?php echo _("Qmailmrtg7 - MRTG Graphs")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=qmailadmin-limits"><?php echo _("QmailAdmin Limits")?></ulink></literallayout></listitem>
+    </itemizedlist>
+
+</listitem>
+
+<listitem><para><ulink url="?page=appendix"><?php echo _("Appendix")?></ulink></para>
+    <itemizedlist>
+        <listitem><literallayout><ulink url="?page=appendix#donate"><?php echo _("Donate")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=appendix#troubleshooting"><?php echo _("Troubleshooting")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=appendix#credits"><?php echo _("Credits")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=appendix#resources"><?php echo _("Resources")?></ulink></literallayout></listitem>
+        <listitem><literallayout><ulink url="?page=appendix#success"><?php echo _("Success Reports")?></ulink></literallayout></listitem>
+    </itemizedlist>
+</listitem>
 
 
 </itemizedlist>
