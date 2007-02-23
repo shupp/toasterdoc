@@ -41,7 +41,7 @@
     <pages>clamav</pages>
     <pages>ripmime</pages>
     <pages>qmailmrtg7</pages>
-    <pages>qmailadmin</pages>
+    <pages>qmailadmin-limits</pages>
 </chapter>
 <chapter>
     <id>appendix</id>
