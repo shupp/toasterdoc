@@ -22,7 +22,7 @@
             <listitem><literallayout><?php echo _("big concurrency (set the spawn limit above 255)")?></literallayout></listitem>
         </itemizedlist>
 
-        <para>Install:</para>
+        <para><?php echo _("Install:")?></para>
 
 
 
