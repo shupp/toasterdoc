@@ -16,9 +16,9 @@ on a single IP address, and none of the user accounts are /etc/passwd or <quote>
 			<literal>useradd -u 89 -g vchkpw vpopmail</literal>
 			<literal></literal>
 			<literal>cd {varsrc}</literal>
-			<literal>tar -xzf tar/vpopmail-5.4.17.tar.gz</literal>
-			<literal>cd vpopmail-5.4.17</literal>
-			<literal>patch -p0 &lt; ../tar/vpopmail-5.4.17-cumulative.patch</literal>
+			<literal>tar -xzf tar/vpopmail-{vpopmail}.tar.gz</literal>
+			<literal>cd vpopmail-{vpopmail}</literal>
+			<literal>patch -p0 &lt; ../tar/vpopmail-{vpopmail}-cumulative.patch</literal>
 			<literal></literal>
 			<lineannotation><?php echo _("NOTE: If you are on the x86_64 platform, you need to set the CFLAGS compiler environment by prefacing the next command with <quote>CFLAGS=-fPIC</quote>, like so: <quote>CFLAGS=-fPIC ./configure ...</quote>")?></lineannotation>
 			<literal></literal>
@@ -32,14 +32,14 @@ on a single IP address, and none of the user accounts are /etc/passwd or <quote>
 			<literal>(cd ~vpopmail/etc ; tcprules tcp.smtp.cdb tcp.smtp.tmp &lt; tcp.smtp)</literal>
 			<literal></literal>
 			<lineannotation><?php echo _("install the vpopmail start script")?></lineannotation>
-			<literal>cp ../toaster-scripts-0.8.1/vpopmailctl /var/qmail/bin/vpopmailctl</literal>
+			<literal>cp ../toaster-scripts-{toasterscripts}/vpopmailctl /var/qmail/bin/vpopmailctl</literal>
 			<literal></literal>
 			<literal>chmod 755 /var/qmail/bin/vpopmailctl</literal>
 			<literal>ln -s /var/qmail/bin/vpopmailctl /usr/bin</literal>
 			<literal></literal>
 			<lineannotation><?php echo _("add qmail toaster patch now that vpopmail is installed")?></lineannotation>
-			<literal>cd {varsrc}/netqmail-1.05/netqmail-1.05</literal>
-			<literal>bunzip2 -c ../../tar/qmail-toaster-0.8.3.patch.bz2 | patch -p0</literal>
+			<literal>cd {varsrc}/netqmail-{netqmail}/netqmail-{netqmail}</literal>
+			<literal>bunzip2 -c ../../tar/qmail-toaster-{toasterpatch}.patch.bz2 | patch -p0</literal>
 			<literal>make clean</literal>
 			<literal>make</literal>
 			<literal>qmailctl stop</literal>

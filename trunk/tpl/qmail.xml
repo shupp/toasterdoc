@@ -39,8 +39,8 @@
 			<literal>useradd -g qmail -d /var/qmail qmails</literal>
 			<literal></literal>
 			<literal>cd {varsrc}</literal>
-			<literal>tar -xzf tar/toaster-scripts-0.8.1.tar.gz</literal>
-			<literal>cd netqmail-1.05/netqmail-1.05/</literal>
+			<literal>tar -xzf tar/toaster-scripts-{toasterscripts}.tar.gz</literal>
+			<literal>cd netqmail-{netqmail}netqmail-{netqmail}</literal>
 			<literal></literal>
 			<lineannotation><?php echo _("NOTE: RedHat/Fedora users may need to link certain include files for the TLS patch.")?></lineannotation>
 			<lineannotation><?php echo _("Issue the command below only if make fails:")?></lineannotation>
@@ -59,9 +59,9 @@
 			<lineannotation><?php echo _("Setup the primary administrator's email address.")?></lineannotation>
 			<lineannotation><?php echo _("This address will receive mail for root, postmaster, and mailer-daemon.")?></lineannotation>
 			<lineannotation><?php echo _("Replace <quote>admin@example.com</quote> with your email address")?></lineannotation>
-			<literal>(cd ~alias; echo "admin@example.com" > .qmail-postmaster ;\</literal>
-			<literal>echo "admin@example.com" > .qmail-mailer-daemon ;\</literal>
-			<literal>echo "admin@example.com" > .qmail-root )</literal>
+			<literal>(cd ~alias; echo "admin@example.com" > .qmail-postmaster ;\ </literal>
+			<literal>echo "admin@example.com" > .qmail-mailer-daemon ;\ </literal>
+			<literal>echo "admin@example.com" > .qmail-root ) </literal>
 			<literal>chmod 644 ~alias/.qmail*</literal>
 			<literal></literal>
 			<literal>./config-fast `hostname --long`</literal>
@@ -80,11 +80,11 @@
 
         <programlisting>
 				<literal>cd /var/src</literal>
-				<literal>cp toaster-scripts-0.8.1/rc /var/qmail/rc</literal>
+				<literal>cp toaster-scripts-{toasterscripts}/rc /var/qmail/rc</literal>
 				<literal>chmod 755 /var/qmail/rc</literal>
 				<literal>mkdir /var/log/qmail</literal>
 				<literal>echo ./Maildir/ >/var/qmail/control/defaultdelivery</literal>
-				<literal>cp toaster-scripts-0.8.1/qmailctl /var/qmail/bin/</literal>
+				<literal>cp toaster-scripts-{toasterscripts}/qmailctl /var/qmail/bin/</literal>
 				<literal>chmod 755 /var/qmail/bin/qmailctl</literal>
 				<literal>ln -s /var/qmail/bin/qmailctl /usr/bin</literal>
 				<literal>ln -s /var/qmail/bin/sendmail /usr/sbin/sendmail</literal>
@@ -95,23 +95,23 @@
 				<literal>mkdir -p /var/qmail/supervise/qmail-smtpd/log</literal>
 				<literal>mkdir -p /var/qmail/supervise/qmail-pop3d/log</literal>
 				<literal>mkdir -p /var/qmail/supervise/qmail-pop3ds/log</literal>
-				<literal>cp /var/src/toaster-scripts-0.8.1/send.run /var/qmail/supervise/qmail-send/run</literal>
-				<literal>cp /var/src/toaster-scripts-0.8.1/send.log.run /var/qmail/supervise/qmail-send/log/run</literal>
-				<literal>cp /var/src/toaster-scripts-0.8.1/smtpd.run /var/qmail/supervise/qmail-smtpd/run</literal>
-				<literal>cp /var/src/toaster-scripts-0.8.1/smtpd.log.run /var/qmail/supervise/qmail-smtpd/log/run</literal>
-				<literal>cp /var/src/toaster-scripts-0.8.1/pop3d.run /var/qmail/supervise/qmail-pop3d/run</literal>
-				<literal>cp /var/src/toaster-scripts-0.8.1/pop3d.log.run /var/qmail/supervise/qmail-pop3d/log/run</literal>
+				<literal>cp /var/src/toaster-scripts-{toasterscripts}/send.run /var/qmail/supervise/qmail-send/run</literal>
+				<literal>cp /var/src/toaster-scripts-{toasterscripts}/send.log.run /var/qmail/supervise/qmail-send/log/run</literal>
+				<literal>cp /var/src/toaster-scripts-{toasterscripts}/smtpd.run /var/qmail/supervise/qmail-smtpd/run</literal>
+				<literal>cp /var/src/toaster-scripts-{toasterscripts}/smtpd.log.run /var/qmail/supervise/qmail-smtpd/log/run</literal>
+				<literal>cp /var/src/toaster-scripts-{toasterscripts}/pop3d.run /var/qmail/supervise/qmail-pop3d/run</literal>
+				<literal>cp /var/src/toaster-scripts-{toasterscripts}/pop3d.log.run /var/qmail/supervise/qmail-pop3d/log/run</literal>
 				<literal></literal>
 				<lineannotation><?php echo _(" NOTE: If you are using stunnel version 4, you should use pop3ds.run.v4")?></lineannotation>
 				<lineannotation><?php echo _(" instead of pop3ds.run below.")?></lineannotation>
 				<lineannotation><?php echo _(" Type <quote>stunnel -V</quote> (v. 3) or <quote>stunnel -version</quote> (v. 4) to see what version is installed.")?></lineannotation>
 				<lineannotation><?php echo _(" You will also need to copy over stunnel.conf like so:")?></lineannotation>
 				<lineannotation></lineannotation>
-				<lineannotation><?php echo _(" cp /var/src/toaster-scripts-0.8.1/stunnel.conf /var/qmail/supervise/qmail-pop3ds/")?></lineannotation>
+				<lineannotation><?php echo _(" cp /var/src/toaster-scripts-{toasterscripts}/stunnel.conf /var/qmail/supervise/qmail-pop3ds/")?></lineannotation>
 				<literal></literal>
-				<literal>cp /var/src/toaster-scripts-0.8.1/pop3ds.run /var/qmail/supervise/qmail-pop3ds/run</literal>
+				<literal>cp /var/src/toaster-scripts-{toasterscripts}/pop3ds.run /var/qmail/supervise/qmail-pop3ds/run</literal>
 				<literal></literal>
-				<literal>cp /var/src/toaster-scripts-0.8.1/pop3ds.log.run /var/qmail/supervise/qmail-pop3ds/log/run</literal>
+				<literal>cp /var/src/toaster-scripts-{toasterscripts}/pop3ds.log.run /var/qmail/supervise/qmail-pop3ds/log/run</literal>
 				<literal>echo 20 > /var/qmail/control/concurrencyincoming</literal>
 				<literal>chmod 644 /var/qmail/control/concurrencyincoming</literal>
 				<literal>chmod 755 /var/qmail/supervise/qmail-send/run</literal>
@@ -133,7 +133,6 @@
 				<lineannotation><?php echo _("verify that it's running with qmailctl")?></lineannotation>
 				<literal>sleep 5</literal>
 				<literal>qmailctl stat </literal>
-
         </programlisting>
 
     </listitem>
