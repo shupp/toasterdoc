@@ -11,7 +11,7 @@ $result = ereg_replace('{contents}', $contents, $wrapcontents);
 $fp = fopen('/tmp/validate.tmp', 'w');
 fwrite($fp, $result);
 fclose($fp);
-$out = shell_exec("xmllint --dtdvalid ./sdocbook.dtd /tmp/validate.tmp");
+$out = shell_exec("xmllint --dtdvalid ./sdocbook.dtd /tmp/validate.tmp >/dev/null");
 echo $out;
 if(!isset($dontdelete))
     unlink('/tmp/validate.tmp');
