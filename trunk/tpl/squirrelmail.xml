@@ -8,7 +8,7 @@
 
         <para><?php echo _("Info: ")?><ulink url="http://www.squirrelmail.org">http://www.squirrelmail.org</ulink></para>
 
-        <para><?php echo _("<emphasis>NOTE: This section assumes that your apache ServerRoot is /var/www and that your DocumentRoot is /var/www/html, and also that your web server runs as apache:apache")?></para>
+        <para><?php echo _("<emphasis>NOTE: This section assumes that your apache ServerRoot is /var/www and that your DocumentRoot is /var/www/html, and also that your web server runs as apache:apache</emphasis>")?></para>
 
         <para><?php echo _("Install:")?></para>
 
