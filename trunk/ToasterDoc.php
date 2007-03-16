@@ -12,6 +12,7 @@ class ToasterDoc extends Book
 
     protected function sessionInit() {
         ini_set('session.use_cookies',1);
+        ini_set('session.use_trans_sid',0);
         session_name('toasterSession');
         session_start();
     }
