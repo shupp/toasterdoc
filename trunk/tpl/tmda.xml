@@ -82,6 +82,10 @@
                 </listitem>
             </itemizedlist>
         </blockquote>
+
+        <para><?php echo _("Now, you should be able to point your browser to /cgi-bin/tmda.cgi, log in with your email address and password, and add/edit/remove tmda for your account. Note that the .qmail files created by tmda WILL show up in QmailAdmin.")?></para>
+
     </listitem>
+
 
 </itemizedlist>
