@@ -37,9 +37,10 @@
 <chapter>
     <id>options</id>
     <title><?php echo _("Options")?></title>
-    <pages>simscan</pages>
+    <pages>spamassassin</pages>
     <pages>clamav</pages>
     <pages>ripmime</pages>
+    <pages>simscan</pages>
     <pages>qmailmrtg7</pages>
     <pages>qmailadmin-limits</pages>
 </chapter>
