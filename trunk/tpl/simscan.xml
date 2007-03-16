@@ -28,14 +28,14 @@
 			<literal>make</literal>
 			<literal>make install-strip</literal>
 			<literal></literal>
-			<lineannotation>add default rules for simscan</lineannotation>
+			<lineannotation><?php echo _("add default rules for simscan")?></lineannotation>
 			<literal>echo ":clam=yes,spam=yes,spam_passthru=yes,attach=.vbs:.lnk:.scr:.wsh:.hta:.pif" > /var/qmail/control/simcontrol</literal>
-			<lineannotation>update /var/qmail/control/simcontrol.cdb</lineannotation>
+			<lineannotation><?php echo _("update /var/qmail/control/simcontrol.cdb")?></lineannotation>
 			<literal>/var/qmail/bin/simscanmk</literal>
-			<lineannotation>put versions for received header in /var/qmail/control/simversions.cdb</lineannotation>
+			<lineannotation><?php echo _("put versions for received header in /var/qmail/control/simversions.cdb")?></lineannotation>
 			<literal>/var/qmail/bin/simscanmk -g</literal>
 			<literal></literal>
-			<lineannotation>turn on scanning</lineannotation>
+			<lineannotation><?php echo _("turn on scanning")?></lineannotation>
 			<literal>echo ':allow,QMAILQUEUE="/var/qmail/bin/simscan"' &gt;&gt; ~vpopmail/etc/tcp.smtp</literal>
 			<literal>qmailctl cdb</literal>
         </programlisting>

@@ -29,7 +29,7 @@
 			<literal>make</literal>
 			<literal>make install</literal>
 			<literal></literal>
-			<lineannotation>setup freshclam</lineannotation>
+			<lineannotation><?php echo _("setup freshclam")?></lineannotation>
 			<literal>touch /var/log/freshclam.log</literal>
 			<literal>chmod 600 /var/log/freshclam.log</literal>
 			<literal>chown clamav /var/log/freshclam.log</literal>
@@ -43,10 +43,10 @@
 			<literal>ln -s ../init.d/freshclam /etc/rc5.d/S80freshclam</literal>
 			<literal>ln -s ../init.d/freshclam /etc/rc6.d/K30freshclam</literal>
 			<literal></literal>
-			<lineannotation>add freshclam.log to logrotate</lineannotation>
+			<lineannotation><?php echo _("add freshclam.log to logrotate")?></lineannotation>
 			<literal>cp {varsrc}/toaster-scripts-{toasterscripts}/freshclam.logrotate /etc/logrotate.d/freshclam</literal>
 			<literal></literal>
-			<lineannotation>run clamd under daemontools</lineannotation>
+			<lineannotation><?php echo _("run clamd under daemontools")?></lineannotation>
 			<literal>mkdir -p /var/qmail/supervise/clamd/log</literal>
 			<literal>mkdir -p /var/log/clamd</literal>
 			<literal>chown clamav /var/log/clamd</literal>
@@ -55,7 +55,7 @@
 			<literal>chmod 755 /var/qmail/supervise/clamd/run</literal>
 			<literal>chmod 755 /var/qmail/supervise/clamd/log/run</literal>
 			<literal></literal>
-			<lineannotation>Start clamd and freshclam</lineannotation>
+			<lineannotation><?php echo _("Start clamd and freshclam")?></lineannotation>
 			<literal>ln -s /var/qmail/supervise/clamd /service</literal>
 			<literal>/etc/init.d/freshclam start</literal>
 
