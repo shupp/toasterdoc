@@ -4,7 +4,14 @@
     <listitem>
         <para><anchor id="donate" /><emphasis><?php echo _("Donate!")?></emphasis></para>
         <para><?php echo _("If you find this toaster useful to you, and want to support its development, please feeel free to donate via Paypal:")?></para>
-        <para><userinput role="donate"></userinput></para>
+        <literallayout><userinput role="donate"></userinput></literallayout>
+    </listitem>
+
+    <listitem>
+        <para><anchor id="troubleshooting" /><emphasis><?php echo _("Troubleshooting")?></emphasis></para>
+        <para><?php echo _("Subscribe to this toaster list: toaster-subscribe@shupp.org
+(to unsubscribe: toaster-unsubscribe@shupp.org)
+There is also a searchable archive")?></para>
     </listitem>
 
 
