@@ -26,7 +26,7 @@
             <literal>cp {varsrc}/toaster-scripts-{toasterscripts}/spamd.log.run /var/qmail/supervise/spamd/log/run</literal>
             <literal>chmod 755 /var/qmail/supervise/spamd/run</literal>
             <literal>chmod 755 /var/qmail/supervise/spamd/log/run</literal>
-            <literal>cp /var/src/toaster-scripts-{toasterscripts}/local.cf /etc/mail/spamassassin/local.cf</literal>
+            <literal>cp {varsrc}/toaster-scripts-{toasterscripts}/local.cf /etc/mail/spamassassin/local.cf</literal>
             <literal>mkdir /etc/mail/spamassassin/.spamassassin/</literal>
             <literal>chown vpopmail /etc/mail/spamassassin/.spamassassin/</literal>
             <literal>ln -s /var/qmail/supervise/spamd /service</literal>
