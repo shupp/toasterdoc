@@ -41,6 +41,7 @@
     <pages>clamav</pages>
     <pages>ripmime</pages>
     <pages>simscan</pages>
+    <pages>tmda</pages>
     <pages>qmailmrtg7</pages>
     <pages>qmailadmin-limits</pages>
 </chapter>
