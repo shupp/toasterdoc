@@ -111,8 +111,24 @@
    <li><xsl:apply-templates/></li>
  </xsl:template>
  <xsl:template match="userinput">
-        <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
-        <input type="text" name="varsrc" value="<?php echo $varsrc?>" /> <input type="submit" value="set" />
-        </form>
+    <xsl:choose>
+        <xsl:when test="@role='varsrc'">
+            <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
+            <input type="text" name="varsrc" value="<?php echo $varsrc?>" /> <input type="submit" value="set" />
+            </form>
+        </xsl:when>
+
+        <xsl:when test="@role='donate'">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_xclick" />
+                <input type="hidden" name="business" value="hostmaster@shupp.org" />
+                <input type="hidden" name="item_name" value="Shupp.Org Support Donation" />
+                <input type="hidden" name="no_shipping" value="1" />
+                <input type="hidden" name="cancel_return" value="http://shupp.org/toaster/" />
+                <input type="image" align="left" src="/images/paypal-donate.gif" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+            </form>
+        </xsl:when>
+
+    </xsl:choose>
  </xsl:template>
 </xsl:stylesheet>

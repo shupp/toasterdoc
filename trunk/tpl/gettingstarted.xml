@@ -26,7 +26,7 @@
     <para><?php echo _(" I keep my software source in /var/src. If you want to put it in another location, set the location below, and all paths will be updated.")?></para>
 
     <literallayout>
-        <userinput></userinput>
+        <userinput role="varsrc"></userinput>
     </literallayout>
 
 
