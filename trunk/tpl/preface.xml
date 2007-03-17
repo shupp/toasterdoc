@@ -22,6 +22,18 @@
 </listitem>
 
 <listitem>
+    <para><anchor id="assumptions" /><emphasis><?php echo _("Assumptions/Support") ?></emphasis></para>
+
+    <para><?php echo _("This document assumes that you are familiar with Unix system administration, mail/web protocols, etc. You don't have to be a guru to make this work, but you will be patching and compiling source code, as well as editing configuration files. If you want a <quote>point and click</quote> install experience, this is not for you.")?></para>
+
+    <para><?php echo _("These instructions come with no warranty or guarantee. If you blow up your server, and lose business in the process, that's your problem.")?></para>
+
+    <para><?php echo _("Support is not provided. There are mailing lists for all these packages, as well as one specific to this toaster. See links in the appendix for more information.")?></para>
+
+    <para><?php echo _("<emphasis>Commercial support is available</emphasis>. See <ulink url='http://merchbox.com/qmail.php'>http://merchbox.com/qmail.php</ulink> for more information. There are also other sources of commercial support for the individual packages. See the respective documentation for each package for further information.")?></para>
+</listitem>
+
+<listitem>
     <para><anchor id="prerequisites" /><emphasis><?php echo _("Prerequisites") ?></emphasis></para>
     <para><?php echo _("If you have installed a recent version of your Linux distribution, you shouldn't have any problems, especially if you did a \"server\" type of install rather than \"Desktop\". However, this install DOES require that you have the apache web server and PHP installed. Most distributions come with these now. PHP is only required for SquirrelMail. The main issues you might see are missing development libraries, or gdbm, stunnel, kerberos dev files, or openssl. If you are using an rpm based distro, an easy way to make sure they are installed is to use yum, which is likely installed already. Make sure the packages get installed if necessary using this command:") ?></para>
 
