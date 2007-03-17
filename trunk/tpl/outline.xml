@@ -50,4 +50,9 @@
     <title><?php echo _("Appendix")?></title>
     <pages>appendix</pages>
 </chapter>
+<chapter>
+    <id>changelog</id>
+    <title><?php echo _("ChangeLog")?></title>
+    <pages>changelog</pages>
+</chapter>
 </document>

@@ -125,7 +125,7 @@
                 <input type="hidden" name="item_name" value="Shupp.Org Support Donation" />
                 <input type="hidden" name="no_shipping" value="1" />
                 <input type="hidden" name="cancel_return" value="http://shupp.org/toaster/" />
-                <input type="image" align="left" src="/images/paypal-donate.gif" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+                <input type="image" align="left" src="/images/paypal-donate.gif" name="submit" alt="<?php echo _("Make payments with PayPal - it's fast, free and secure!")?>" />
             </form>
         </xsl:when>
 

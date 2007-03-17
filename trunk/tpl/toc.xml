@@ -62,5 +62,7 @@
     </itemizedlist>
 </listitem>
 
+<listitem><para><ulink url="?page=changelog"><?php echo _("ChangeLog")?></ulink></para>
+</listitem>
 
 </itemizedlist>
