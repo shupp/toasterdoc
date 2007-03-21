@@ -1,7 +1,7 @@
 <title>Table of Contents</title>
 <itemizedlist>
 <listitem>
-<para><ulink url="?page=preface"><?php echo _("Preface")?></ulink></para>
+<literallayout><ulink url="?page=preface"><?php echo _("Preface")?></ulink></literallayout>
     <itemizedlist>
         <listitem><literallayout><ulink url="?page=preface#whatisatoaster"><?php echo _("What's a POP Toaster?")?></ulink></literallayout></listitem>
         <listitem><literallayout><ulink url="?page=preface#doesanddoesnot"><?php echo _('What this toaster does and does not do')?></ulink></literallayout></listitem>
@@ -13,14 +13,14 @@
     </itemizedlist>
 </listitem>
 <listitem>
-<para><ulink url="?page=gettingstarted"><?php echo _("Getting Started")?></ulink></para>
+<literallayout><ulink url="?page=gettingstarted"><?php echo _("Getting Started")?></ulink></literallayout>
     <itemizedlist>
     <listitem><literallayout><ulink url="?page=gettingstarted#dns"><?php echo _("DNS")?></ulink></literallayout></listitem>
     <listitem><literallayout><ulink url="?page=gettingstarted#remove"><?php echo _("Remove existing sendmail/pop/imap servers")?></ulink></literallayout></listitem>
     <listitem><literallayout><ulink url="?page=gettingstarted#download"><?php echo _("Download packages")?></ulink></literallayout></listitem>
     </itemizedlist>
 </listitem>
-<listitem><para><ulink url="?page=daemontools"><?php echo _("Install Software")?></ulink></para>
+<listitem><literallayout><ulink url="?page=daemontools"><?php echo _("Install Software")?></ulink></literallayout>
 
     <itemizedlist>
         <listitem><literallayout><ulink url="?page=daemontools"><?php echo _("daemontools")?></ulink></literallayout></listitem>
@@ -35,10 +35,10 @@
     </itemizedlist>
 </listitem>
 
-<listitem><para><ulink url="?page=test"><?php echo _("Test Drive")?></ulink></para>
+<listitem><literallayout><ulink url="?page=test"><?php echo _("Test Drive")?></ulink></literallayout>
 </listitem>
 
-<listitem><para><ulink url="?page=spamassassin"><?php echo _("Options")?></ulink></para>
+<listitem><literallayout><ulink url="?page=spamassassin"><?php echo _("Options")?></ulink></literallayout>
 
     <itemizedlist>
         <listitem><literallayout><ulink url="?page=spamassassin"><?php echo _("Spam Assassin")?></ulink></literallayout></listitem>
@@ -52,7 +52,7 @@
 
 </listitem>
 
-<listitem><para><ulink url="?page=appendix"><?php echo _("Appendix")?></ulink></para>
+<listitem><literallayout><ulink url="?page=appendix"><?php echo _("Appendix")?></ulink></literallayout>
     <itemizedlist>
         <listitem><literallayout><ulink url="?page=appendix#donate"><?php echo _("Donate")?></ulink></literallayout></listitem>
         <listitem><literallayout><ulink url="?page=appendix#troubleshooting"><?php echo _("Troubleshooting")?></ulink></literallayout></listitem>
@@ -62,7 +62,7 @@
     </itemizedlist>
 </listitem>
 
-<listitem><para><ulink url="?page=changelog"><?php echo _("ChangeLog")?></ulink></para>
+<listitem><literallayout><ulink url="?page=changelog"><?php echo _("ChangeLog")?></ulink></literallayout>
 </listitem>
 
 </itemizedlist>
