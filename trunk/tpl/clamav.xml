@@ -27,7 +27,7 @@
 			<literal>patch -p0 &lt; ../tar/clamav-{clamav}-freshclamconf.patch</literal>
 			<literal>./configure</literal>
 			<literal>make</literal>
-			<literal>make install</literal>
+			<literal>make install-strip</literal>
 			<literal></literal>
 			<lineannotation><?php echo _("setup freshclam")?></lineannotation>
 			<literal>touch /var/log/freshclam.log</literal>
