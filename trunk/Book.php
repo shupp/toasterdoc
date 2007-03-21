@@ -1,23 +1,126 @@
 <?php
 
+/**
+ * Book 
+ * 
+ * Book is a class to process DocBook XML, and display using XSLT and BTS
+ * (simple template class)
+ * 
+ * @package ToasterDoc
+ * @copyright 2007 Bill Shupp
+ * @author Bill Shupp <hostmaster@shupp.org> 
+ * @license GPL 2.0  {@link http://www.gnu.org/licenses/gpl.txt}
+ */
+
 require_once('BTS.php');
 require_once('PEAR.php');
 require_once( 'I18Nv2.php');
 require_once( 'I18Nv2/Negotiator.php');
 
+/**
+ * Book 
+ * 
+ * Book is a class to process DocBook XML, and display using XSLT and BTS
+ * (simple template class)
+ * 
+ * @package DocBook
+ * @copyright 2007 Bill Shupp
+ * @author Bill Shupp <hostmaster@shupp.org> 
+ * @license GPL 2.0  {@link http://www.gnu.org/licenses/gpl.txt}
+ */
 class Book
 {
 
+    /**
+     * tpl 
+     * 
+     * BTS instance
+     * 
+     * @var mixed
+     * @access public
+     */
     public $tpl = null;
+    /**
+     * outline 
+     * 
+     * Outline loaded from outline.xml
+     * 
+     * @var mixed
+     * @access public
+     */
     public $outline = null;
+    /**
+     * rendererConfig 
+     * 
+     * Renderer configuration
+     * 
+     * @var mixed
+     * @access public
+     */
     public $rendererConfig = null;
+    /**
+     * renderersAvailable 
+     * 
+     * Renderers Available
+     * 
+     * @var mixed
+     * @access public
+     */
     public $renderersAvailable = null;
+    /**
+     * renderer 
+     * 
+     * Selected Renderer
+     * 
+     * @var mixed
+     * @access public
+     */
     public $renderer = null;
+    /**
+     * currentPage 
+     * 
+     * Current Page (from _REQUEST)
+     * 
+     * @var mixed
+     * @access public
+     */
     public $currentPage = null;
+    /**
+     * previousPage 
+     * 
+     * Previous Page (based on currentPage)
+     * 
+     * @var mixed
+     * @access public
+     */
     public $previousPage = null;
+    /**
+     * nextPage 
+     * 
+     * Next Page (based on currentPage)
+     * 
+     * @var mixed
+     * @access public
+     */
     public $nextPage = null;
+    /**
+     * pages 
+     * 
+     * All Pages, built from outline
+     * 
+     * @var mixed
+     * @access public
+     */
     public $pages = null;
 
+    /**
+     * __construct 
+     * 
+     * Constructor
+     * 
+     * @access protected
+     * @return void
+     */
     function __construct() {
         $this->tpl = new BTS;
         $this->outline = $this->simpleLoad('outline.xml');
@@ -27,6 +130,14 @@ class Book
         $this->setLocale();
     }
 
+    /**
+     * setLocale 
+     * 
+     * Set Locate info using I18Nv2_Negotiator
+     * 
+     * @access protected
+     * @return void
+     */
     protected function setLocale() {
         $neg = &new I18Nv2_Negotiator;
         I18Nv2::setLocale($neg->getLocaleMatch());
@@ -34,6 +145,15 @@ class Book
         textdomain("messages");
     }
 
+    /**
+     * simpleLoad 
+     * 
+     * Generic Simple XML Loader
+     * 
+     * @param mixed $file 
+     * @access protected
+     * @return void
+     */
     protected function simpleLoad($file) {
         $xml = $this->tpl->display($file, 1);
         if(!($temp = simplexml_load_string($xml)))
@@ -41,6 +161,16 @@ class Book
         return $temp;
     }
 
+    /**
+     * xmlObjToArray 
+     * 
+     * Return search for and return simple array within an object
+     * 
+     * @param mixed $inObject 
+     * @param mixed $item 
+     * @access protected
+     * @return void
+     */
     protected function xmlObjToArray($inObject, $item) {
         $outArray = array();
         $count = 0;
@@ -53,6 +183,14 @@ class Book
         return $outArray;
     }
 
+    /**
+     * setPages 
+     * 
+     * Set currentPage, nextPage, previousPage based on _REQUEST and outline
+     * 
+     * @access protected
+     * @return void
+     */
     protected function setPages() {
         // Build array of pages from outline
         $chapters = $this->outline->xpath('chapter');
@@ -85,6 +223,14 @@ class Book
         if($curKey < (count($this->pages) - 1)) $this->nextPage = $this->pages[$curKey + 1];
     }
 
+    /**
+     * setRenderer 
+     * 
+     * Choose renderer based on _REQUEST['renderer']
+     * 
+     * @access protected
+     * @return void
+     */
     protected function setRenderer() {
         $this->renderersAvailable = $this->xmlObjToArray($this->rendererConfig, 'type');
         if(isset($_REQUEST['renderer'])) {
@@ -96,6 +242,14 @@ class Book
             $this->renderer = $this->rendererConfig->defaultRenderer;
     }
 
+    /**
+     * display 
+     * 
+     * Display page
+     * 
+     * @access public
+     * @return void
+     */
     public function display() {
         $this->setPages();
         $this->setRenderer();
