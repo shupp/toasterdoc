@@ -127,6 +127,7 @@
                 <input type="hidden" name="cancel_return" value="http://shupp.org/toaster/" />
                 <input type="image" align="left" src="/images/paypal-donate.gif" name="submit" alt="<?php echo _("Make payments with PayPal - it's fast, free and secure!")?>" />
             </form>
+            <br /><br />
         </xsl:when>
 
     </xsl:choose>
