@@ -13,8 +13,9 @@
 
         <programlisting>
 			<literal>cd {varsrc}</literal>
-			<literal>tar -xjf tar/courier-authlib-{courier-authlib}.tar.bz2</literal>
-			<literal>cd courier-authlib-{courier-authlib}</literal>
+			<literal>tar -xjf tar/courier-authlib-{courierauthlib}.tar.bz2</literal>
+			<literal>cd courier-authlib-{courierauthlib}</literal>
+			<literal>patch -p0 &lt; ../tar/vpopmail_courier_cram.diff</literal>
 			<literal>./configure</literal>
 			<lineannotation>NOTE: RedHat/Fedora users need to add "--with-redhat"</lineannotation>
 			<literal></literal>
