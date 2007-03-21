@@ -84,6 +84,7 @@
 		<literallayout>Edit /usr/lib/courier-imap/etc/imapd</literallayout>
 		<itemizedlist>
                <listitem><literallayout><?php echo _("Change 'IMAPDSTART=NO' to 'IMAPDSTART=YES'")?></literallayout></listitem>
+               <listitem><literallayout><?php echo _('add " AUTH=CRAM-MD5" to IMAP_CAPABILITY to enable secure authentication (CRAM-MD5)')?></literallayout></listitem>
 		</itemizedlist>
 		<literallayout><?php echo _("Edit /usr/lib/courier-imap/etc/imapd-ssl")?></literallayout>
 		<itemizedlist>
