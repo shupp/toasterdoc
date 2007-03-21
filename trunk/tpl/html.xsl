@@ -87,7 +87,7 @@
     <xsl:apply-templates/><br />
  </xsl:template>
  <xsl:template match="literallayout">
-    <xsl:apply-templates/><br />
+    <xsl:apply-templates/>
  </xsl:template>
 
  <xsl:template match="itemizedlist">
