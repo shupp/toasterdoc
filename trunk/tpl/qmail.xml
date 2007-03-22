@@ -135,7 +135,7 @@
 				<literal>qmailctl stat </literal>
         </programlisting>
 
-        <para><php echo _("Now let's compile libdomainkeys, we'll need that later:")?></para>
+        <para><?php echo _("Now let's compile libdomainkeys, we'll need that later:")?></para>
 
         <programlisting>
 				<literal>cd {varsrc}</literal>
