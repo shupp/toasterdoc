@@ -67,7 +67,7 @@
 			<literal>./config-fast `hostname --long`</literal>
         </programlisting>
 
-        <para>Configure:</para>
+        <para><?php echo _("Configure:")?></para>
 
         <blockquote role="configure">
             <title><?php echo _("add qmail man pages to MANPATH")?></title>
@@ -133,6 +133,16 @@
 				<lineannotation><?php echo _("verify that it's running with qmailctl")?></lineannotation>
 				<literal>sleep 5</literal>
 				<literal>qmailctl stat </literal>
+        </programlisting>
+
+        <para><php echo _("Now let's compile libdomainkeys, we'll need that later:")?></para>
+
+        <programlisting>
+				<literal>cd {varsrc}</literal>
+				<literal>tar -xvzf tar/libdomainkeys-{libdomainkeys}.tar.gz</literal>
+				<literal>cd libdomainkeys-{libdomainkeys}</literal>
+				<literal>patch -p0 &lt;  ../tar/libdomainkeys.diff</literal>
+				<literal>make</literal>
         </programlisting>
 
     </listitem>

@@ -1,11 +1,12 @@
 <versions>
-    <tversion>0.8.11</tversion>
+    <tversion>0.9.b1</tversion>
     <daemontools>0.76</daemontools>
     <ucspitcp>0.88</ucspitcp>
     <netqmail>1.05</netqmail>
-    <toasterpatch>0.8.3</toasterpatch>
-    <vpopmail>5.4.17</vpopmail>
-    <vpopmail_patch>vpopmail-5.4.17-cumulative.patch</vpopmail_patch>
+    <libdomainkeys>0.68</libdomainkeys>
+    <toasterpatch>0.9.0</toasterpatch>
+    <vpopmail>5.4.18</vpopmail>
+    <vpopmail_patch>vpopmail-5.4.18-cumulative.patch</vpopmail_patch>
     <autorespond>2.0.4</autorespond>
     <qmailadmin>1.2.10</qmailadmin>
     <qmailadminhelp>1.0.8</qmailadminhelp>

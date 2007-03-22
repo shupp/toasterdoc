@@ -37,6 +37,8 @@
         <literal>wget http://cr.yp.to/daemontools/daemontools-{daemontools}.tar.gz</literal>
         <literal>wget http://cr.yp.to/ucspi-tcp/ucspi-tcp-{ucspitcp}.tar.gz</literal>
         <literal>wget http://shupp.org/software/netqmail-{netqmail}.tar.gz</literal>
+        <literal>wget http://shupp.org/software/libdomainkeys-{libdomainkeys}.tar.gz</literal>
+        <literal>wget http://shupp.org/patches/libdomainkeys.diff</literal>
         <literal>wget http://shupp.org/patches/qmail-toaster-{toasterpatch}.patch.bz2</literal>
         <literal>wget http://shupp.org/patches/doublebounce-trim.patch</literal>
         <literal>wget http://shupp.org/software/vpopmail-{vpopmail}.tar.gz</literal>
