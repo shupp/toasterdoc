@@ -4,22 +4,25 @@
     <listitem>
         <para><emphasis><?php echo _("qmail")?> </emphasis></para>
 
-        <para><?php echo _("qmail rocks. It's a modern smtp server that makes sendmail obsolete.")?></para>
+        <para><?php echo _("qmail is allegedly the second most popular MTA in use, known for speed and security.")?></para>
 
         <para><?php echo _("Info: ")?><ulink url="http://www.qmail.org">http://www.qmail.org</ulink></para>
 
-        <para><?php echo _("The patch you will apply below is a composite of existing patches.")?></para>
+        <para><?php echo _("The patch you will apply later is a composite of existing patches.")?></para>
 
         <itemizedlist>
-            <listitem><literallayout><?php echo _("smtp auth")?></literallayout></listitem>
-            <listitem><literallayout><?php echo _("spf")?></literallayout></listitem>
-            <listitem><literallayout><?php echo _("qmail-queue (to allow for virus scanners)")?></literallayout></listitem>
-            <listitem><literallayout><?php echo _("maildir++ patch")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("smtp auth (cram-md5)")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("starttls support")?></literallayout></listitem>
             <listitem><literallayout><?php echo _("support oversize dns packets (not necessary if you use dnscache)")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("qregex (regular expression matching in badmailfrom and badmailto)")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("reread concurrency via HUP")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("big concurrency (set the spawn limit above 255)")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("maildir++ patch")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("qmail-queue (to allow for virus scanners, part of netqmail)")?></literallayout></listitem>
             <listitem><literallayout><?php echo _("chkuser (check for local users, envelope syntax) with user extensions enabled (for TMDA)")?></literallayout></listitem>
             <listitem><literallayout><?php echo _("spam throttle")?></literallayout></listitem>
-            <listitem><literallayout><?php echo _("qregex (regular expression matching in badmailfrom and badmailto)")?></literallayout></listitem>
-            <listitem><literallayout><?php echo _("big concurrency (set the spawn limit above 255)")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("spf")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("surbl support in qmail-smtpd")?></literallayout></listitem>
         </itemizedlist>
 
         <para><?php echo _("Install:")?></para>
