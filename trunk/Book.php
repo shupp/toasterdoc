@@ -12,10 +12,10 @@
  * @license GPL 2.0  {@link http://www.gnu.org/licenses/gpl.txt}
  */
 
-require_once('BTS.php');
-require_once('PEAR.php');
-require_once( 'I18Nv2.php');
-require_once( 'I18Nv2/Negotiator.php');
+require_once 'BTS.php';
+require_once 'PEAR.php';
+require_once  'I18Nv2.php';
+require_once  'I18Nv2/Negotiator.php';
 
 /**
  * Book 

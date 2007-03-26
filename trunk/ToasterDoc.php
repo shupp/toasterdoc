@@ -11,7 +11,7 @@
  * @license GPL 2.0  {@link http://www.gnu.org/licenses/gpl.txt}
  */
 
-require_once('Book.php');
+require_once 'Book.php';
 
 /**
  * ToasterDoc 
