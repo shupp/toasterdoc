@@ -51,7 +51,7 @@
     <programlisting><literal role="debian">apt-get install libgdbm-dev gcc g++ patch make libc-dev stunnel libssl-dev libapache2-mod-php4 wget bzip2</literal></programlisting>
     <para><?php echo _("In addition, you probably want these things installed as well:") ?></para>
     <programlisting>
-        <literal>apt-get install man telnet host</literal>
+        <literal>apt-get install man telnet</literal>
     </programlisting>
     <para><?php echo _("Lots of Debian packages require an MTA, and Debian defaults to exim4. This obviously can be a problem for qmail. So lets fix that with a dummy equivs package:") ?></para>
 
@@ -61,7 +61,7 @@
         <literal></literal>
         <lineannotation><?php echo _("build the dummy mta package")?></lineannotation>
         <literal>cd /tmp</literal>
-        <literal>cp /usr/share/doc/equivs/literallayouts/mail-transport-agent.ctl .</literal>
+        <literal>cp /usr/share/doc/equivs/examples/mail-transport-agent.ctl .</literal>
         <literal>equivs-build mail-transport-agent.ctl</literal>
         <literal></literal>
         <lineannotation><?php echo _("remove exim4")?></lineannotation>
@@ -83,19 +83,6 @@
     <programlisting role="debian">
         <literal>alias gmake='make'</literal>
     </programlisting>
-
-    <para><?php echo _("Apache's default config (for apache 1 anyway), may cause us some problems later. Let's fix them now:")?></para>
-    <blockquote role="configure">
-        <literallayout><?php echo _("Edit /etc/apache/httpd.conf")?></literallayout>
-        <itemizedlist>
-        <listitem>
-            <literallayout><?php echo _("Remove comments in front of the <quote>AddType</quote> directives for .php and .phps file extensions if they exist")?></literallayout>
-        </listitem>
-        <listitem>
-        <literallayout><?php echo _("Comment out the default <quote>Alias</quote> directive pointing <quote>/images/</quote> to <quote>/usr/share/images/</quote>")?></literallayout>
-        </listitem>
-        </itemizedlist>
-    </blockquote>
 
     <para><?php echo _("Apache's DocumentRoot is in /var/www instead of /var/www/html. What I do is use that, and put SquirrelMail's data directory in /etc/apache.")?></para>
 
