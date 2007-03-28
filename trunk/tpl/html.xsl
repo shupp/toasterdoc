@@ -100,7 +100,14 @@
     <xsl:apply-templates/><br />
  </xsl:template>
  <xsl:template match="literallayout">
-    <xsl:apply-templates/>
+    <xsl:choose>
+        <xsl:when test="@role='listitem'">
+            <xsl:apply-templates/>
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:apply-templates/><br />
+        </xsl:otherwise>
+    </xsl:choose>
  </xsl:template>
 
  <xsl:template match="itemizedlist">
