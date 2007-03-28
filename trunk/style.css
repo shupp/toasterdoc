@@ -20,9 +20,9 @@ a:hover {
 
 #wrap {
 margin: 20px auto;
-width: 724px;
+width: 800px;
 background: #fff url('images/midbg.jpg');
-background-repeat: repeat-y;
+background-repeat: repeat-n;
 }
 
 #bodytop { 

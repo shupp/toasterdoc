@@ -35,7 +35,7 @@
     </table>
 </div>
 
-    <table border="0">
+    <table border="0" width="100%">
     <tr valign="top"><td width="80%">
      <xsl:apply-templates select="section"/>
     </td>
