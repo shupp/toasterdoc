@@ -48,7 +48,7 @@
 <listitem>
     <para><anchor id="debian" /><emphasis><?php echo _("Debian Notes") ?></emphasis></para>
     <para><?php echo _("The easy way to make sure you have all the proper debian packages installed is to just execute this command:")?></para>
-    <programlisting><literal role="debian">apt-get install libgdbm-dev gcc g++ patch make libc-dev stunnel libssl-dev apache php4 wget bzip2</literal></programlisting>
+    <programlisting><literal role="debian">apt-get install libgdbm-dev gcc g++ patch make libc-dev stunnel libssl-dev libapache2-mod-php4 wget bzip2</literal></programlisting>
     <para><?php echo _("In addition, you probably want these things installed as well:") ?></para>
     <programlisting>
         <literal>apt-get install man telnet host</literal>
