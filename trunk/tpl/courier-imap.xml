@@ -50,10 +50,10 @@
 
     <programlisting>
         <literal>cd {varsrc}</literal>
-		<literal>tar -xjf tar/courier-imap-{courier-imap}.tar.bz2</literal>
-		<literal>cd courier-imap-{courier-imap}</literal>
+		<literal>tar -xjf tar/courier-imap-{courierimap}.tar.bz2</literal>
+		<literal>cd courier-imap-{courierimap}</literal>
 		<lineannotation><?php echo _("build as vpopmail")?></lineannotation>
-		<literal>chown -R vpopmail:vchkpw ../courier-imap-{courier-imap}</literal>
+		<literal>chown -R vpopmail:vchkpw ../courier-imap-{courierimap}</literal>
 		<literal>su vpopmail</literal>
 		<literal>umask 0022</literal>
 		<lineannotation><?php echo _("configure may take some time...")?></lineannotation>

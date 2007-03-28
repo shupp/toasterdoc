@@ -92,7 +92,7 @@
         <literal>apt-get install libdigest-sha1-perl libnet-dns-perl \</literal>
         <literal>libmail-spf-query-perl libgeo-ipfree-perl razor pyzor libnet-ident-perl \</literal>
         <literal>libio-socket-ssl-perl libarchive-tar-perl libio-zlib-perl \</literal>
-        <literal>libsys-hostname-long-perl</literal>
+        <literal>libsys-hostname-long-perl libhtml-parser-perl</literal>
     </programlisting>
 
     <para><?php echo _("ClamAV requires the zlib and zlib-dev packages:")?></para>
