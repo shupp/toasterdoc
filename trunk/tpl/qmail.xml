@@ -43,7 +43,7 @@
 			<literal></literal>
 			<literal>cd {varsrc}</literal>
 			<literal>tar -xzf tar/toaster-scripts-{toasterscripts}.tar.gz</literal>
-			<literal>cd netqmail-{netqmail}netqmail-{netqmail}</literal>
+			<literal>cd netqmail-{netqmail}/netqmail-{netqmail}</literal>
 			<literal></literal>
 			<lineannotation><?php echo _("NOTE: RedHat/Fedora users may need to link certain include files for the TLS patch.")?></lineannotation>
 			<lineannotation><?php echo _("Issue the command below only if make fails:")?></lineannotation>
