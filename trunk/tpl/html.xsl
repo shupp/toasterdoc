@@ -35,8 +35,19 @@
     </table>
 </div>
 
-
+    <table border="0">
+    <tr valign="top"><td width="80%">
      <xsl:apply-templates select="section"/>
+    </td>
+
+    <td>
+    <script type="text/javascript" src="ad.js">
+    </script>
+    <script type="text/javascript"
+        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
+    </td></tr>
+    </table>
 
 
     <div class="breadcrumbs">
@@ -49,7 +60,9 @@
         </table>
     </div>
 
+    <div class="clear"></div>
     </div>
+
     <div id="bottom"></div>
     </div>
    </body>

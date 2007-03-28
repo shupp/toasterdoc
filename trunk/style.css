@@ -1,11 +1,11 @@
 * {
     padding: 0;
-    margin: .5;
+    margin: 0;
 } 
 
 body {
     background: #fff;
-	font: .80em "Trebuchet MS" Verdana, Arial, sans-serif;
+	font: .80em Verdana, Arial, sans-serif;
 	/* font: .85em "Trebuchet MS" Verdana, Arial, sans-serif;*/
 	line-height: 1.5em; 
 }
