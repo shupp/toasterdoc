@@ -42,7 +42,7 @@
         <literal>wget http://shupp.org/patches/qmail-toaster-{toasterpatch}.patch.bz2</literal>
         <literal>wget http://shupp.org/patches/doublebounce-trim.patch</literal>
         <literal>wget http://shupp.org/software/vpopmail-{vpopmail}.tar.gz</literal>
-        <literal>wget http://shupp.org/patches/{vpopmail_patch}</literal>
+        <literal>wget http://shupp.org/patches/{vpopmail}-cumulative-patch</literal>
         <literal>wget http://shupp.org/software/autorespond-{autorespond}.tar.gz</literal>
         <literal>wget http://shupp.org/patches/autorespond-2.0.4-2.0.5.patch</literal>
         <literal>wget http://shupp.org/software/qmailadmin-{qmailadmin}.tar.gz</literal>
