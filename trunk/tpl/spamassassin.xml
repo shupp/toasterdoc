@@ -5,7 +5,8 @@
 <itemizedlist>
     <listitem>
         <para><anchor id="spamassassin" /><emphasis><?php echo _("SpamAssassin")?></emphasis></para>
-        <para><?php echo _("SpamAssassin is the leading open source spam scanner.  We'll be installing SpamAssassin via CPAN below")?></para>
+        <para><?php echo _("SpamAssassin is the leading open source spam scanner.  We'll be installing SpamAssassin via CPAN below.")?></para>
+        <para><?php echo _("<emphasis>NOTE:</emphasis> Debian users should have installed the SpamAssassin prerequisites during 'Debian Notes' eariler.  RPM distributions may want to use 'yum install spamassassin' instead of CPAN below, so that you get all the dependencies.  If the RPM of SpamAssassin is out of date, you could then simply do 'yum uninstall spamassassin', and follow the CPAN installation below, as you'll have the dependencies.")?></para>
         <para><?php echo _("Info: ")?> <ulink url="http://www.spamassassin.org">http://www.spamassassin.org</ulink></para>
 
         <para><?php echo _("Install:")?></para>
