@@ -17,14 +17,11 @@
 			<literal>useradd -g clamav clamav</literal>
 			<literal>cd {varsrc}/tar</literal>
 			<literal>wget http://shupp.org/software/clamav-{clamav}.tar.gz</literal>
-			<literal>wget http://shupp.org/patches/clamav-{clamav}-conf.patch</literal>
-			<literal>wget http://shupp.org/patches/clamav-{clamav}-freshclamconf.patch</literal>
+			<literal>wget http://shupp.org/patches/clamav-{clamav}.patch</literal>
 			<literal>cd ../</literal>
 			<literal>tar -xzf tar/clamav-{clamav}.tar.gz</literal>
 			<literal>cd clamav-{clamav}</literal>
-			<literal>patch -p0 &lt; ../tar/clamav-{clamav}-stderr.patch</literal>
-			<literal>patch -p0 &lt; ../tar/clamav-{clamav}-conf.patch</literal>
-			<literal>patch -p0 &lt; ../tar/clamav-{clamav}-freshclamconf.patch</literal>
+			<literal>patch -p0 &lt; ../tar/clamav-{clamav}.patch</literal>
 			<literal>./configure</literal>
 			<literal>make</literal>
 			<literal>make install-strip</literal>
