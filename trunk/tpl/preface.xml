@@ -110,7 +110,7 @@
 
 <listitem>
     <para><anchor id="trustix" /><emphasis><?php echo _("Trustix Notes:")?></emphasis></para>
-    <para><?php echo _("Matthew Valentini provided some <ulink url='http://shupp.org/toaster/trustix_notes.eml.html'>notes</ulink> on using this toaster with Trustix 3.0. I have not tested them, I'm just making them available as-is.") ?></para>
+    <para><?php echo _("Matthew Valentini provided some <ulink url='trustix_notes.eml.html'>notes</ulink> on using this toaster with Trustix 3.0. I have not tested them, I'm just making them available as-is.") ?></para>
 </listitem>
 <listitem>
     <para><anchor id="license" /><emphasis><?php echo _("Toaster License")?></emphasis></para>
