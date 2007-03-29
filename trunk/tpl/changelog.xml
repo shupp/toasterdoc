@@ -8,7 +8,7 @@
     <listitem><literallayout role="listitem"><?php echo _("Upgrade clamav to 0.90.1")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Updgrade courier-imap to 4.1.2, courier-authlib to 0.59.1.  Wrote cram patch for authvchkpw so secure auth is available for imap connections")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Updgrade vpopmail to 5.4.18 + vpopmaild and configure patches")?></literallayout></listitem>
-    <listitem><literallayout role="listitem"><?php echo _("Updgrade TMDA and TMDA-cgi to 1.1.11 and 0.16.1 + patches respectively")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Updgrade TMDA and TMDA-cgi to 1.1.11 and 0.16.2 respectively")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Update lots of text and notes.")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Make install-strip for clamav now")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Update toaster-scripts to 0.9.0 (new kill options in ctl scripts, remove -L argument to spamd)")?></literallayout></listitem>

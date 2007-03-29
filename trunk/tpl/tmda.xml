@@ -12,7 +12,6 @@
 			<literal>wget http://shupp.org/software/tmda-{tmda}.tgz</literal>
 			<literal>wget http://shupp.org/software/tmda-cgi-{tmdacgi}.tar.bz2</literal>
 			<literal>wget http://shupp.org/patches/tmda-cgi-parent_re.patch</literal>
-			<literal>wget http://shupp.org/patches/tmda-cgi-confirm-template.patch</literal>
 			<literal></literal>
 			<literal>cd ../</literal>
 			<literal>tar -xvzf tar/tmda-{tmda}.tgz</literal>
@@ -55,7 +54,6 @@
 			<literal>tar -xvjf tar/tmda-cgi-{tmdacgi}.tar.bz2</literal>
 			<literal>cd tmda-cgi-{tmdacgi}</literal>
 			<literal>patch -p0 &lt; ../tar/tmda-cgi-parent_re.patch</literal>
-			<literal>patch -p0 &lt; ../tar/tmda-cgi-confirm-template.patch</literal>
 			<literal>rm -r skel/uninstall/%\(Parent\)s/</literal>
 			<literal>cd ../</literal>
 			<literal>mv tmda-cgi-{tmdacgi} /usr/local/</literal>
