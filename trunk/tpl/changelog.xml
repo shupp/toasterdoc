@@ -13,6 +13,7 @@
     <listitem><literallayout role="listitem"><?php echo _("Make install-strip for clamav now")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Update toaster-scripts to 0.9.0 (new kill options in ctl scripts, remove -L argument to spamd)")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Update simscan to 1.3.1.shupp1 (tarball with clamavdb configure patch applied)")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Add server thread sorting and server-side sorting to squirrelmail configuration - tnx Maciej Soltysiak")?></literallayout></listitem>
 </itemizedlist>
 
 <literallayout><?php echo _("0.8.11 - 11/6/2006")?></literallayout>

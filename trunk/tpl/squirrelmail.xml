@@ -28,8 +28,8 @@
 
         <blockquote role="configure">
             <itemizedlist>
-                <listitem><literallayout><?php echo _("go to Server Settings (2) and change the Server Software from <quote>other</quote> to <quote>courier</quote> (a)")?></literallayout></listitem>
-                <listitem><literallayout><?php echo _("From the main menu, go to General Options (4) and change Data Direcotry (2) to <quote>/var/www/data/</quote>")?></literallayout></listitem>
+                <listitem><literallayout><?php echo _("go to Server Settings (2), Server Software (8) and change the Server Software from <quote>other</quote> to <quote>courier</quote> (a)")?></literallayout></listitem>
+                <listitem><literallayout><?php echo _("From the main menu, go to General Options (4) and change Data Direcotry (2) to <quote>/var/www/data/</quote>, change <quote>Allow server thread sort</quote> (10) to y, and change <quote>Allow server-side sorting</quote> (11) to y.")?></literallayout></listitem>
                 <listitem><literallayout><?php echo _("From the main menu, go to Plugins and enable the quota_usage plugin, along with any others you prefer")?></literallayout></listitem>
                 <listitem><literallayout><?php echo _("Save settings")?></literallayout></listitem>
                 <listitem><literallayout><?php echo _("quit")?></literallayout></listitem>
