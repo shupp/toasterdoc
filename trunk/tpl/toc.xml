@@ -1,4 +1,4 @@
-<title>Table of Contents</title>
+<title><?php echo _("Table of Contents")?></title>
 <itemizedlist>
 <listitem>
 <literallayout role="listitem"><ulink url="?page=preface"><?php echo _("Preface")?></ulink></literallayout>
@@ -66,3 +66,5 @@
 </listitem>
 
 </itemizedlist>
+
+<para><?php echo _("<emphasis>NOTE:</emphasis> This document is now paginated.  If you prefer to view it all as one page, click <ulink url='?page=all'>here</ulink>")?></para>
