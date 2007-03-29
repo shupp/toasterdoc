@@ -127,6 +127,10 @@
     </a>
  </xsl:template>
 
+ <xsl:template match="quote">
+   "<xsl:apply-templates/>"
+ </xsl:template>
+
  <xsl:template match="listitem">
    <li><xsl:apply-templates/></li>
  </xsl:template>
