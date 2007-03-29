@@ -8,7 +8,7 @@
 
         <para><?php echo _("Info: ")?><ulink url="http://www.qmail.org">http://www.qmail.org</ulink></para>
 
-        <para><?php echo _("The patch you will apply later is a composite of existing patches.")?></para>
+        <para><?php echo _("The patch you will apply later is a composite of these existing patches:")?></para>
 
         <itemizedlist>
             <listitem><literallayout><?php echo _("smtp auth (cram-md5)")?></literallayout></listitem>
@@ -23,6 +23,7 @@
             <listitem><literallayout><?php echo _("spam throttle")?></literallayout></listitem>
             <listitem><literallayout><?php echo _("spf")?></literallayout></listitem>
             <listitem><literallayout><?php echo _("surbl support in qmail-smtpd")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("domainkeys support")?></literallayout></listitem>
         </itemizedlist>
 
         <para><?php echo _("Install:")?></para>
