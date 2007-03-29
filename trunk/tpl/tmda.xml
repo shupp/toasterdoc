@@ -11,8 +11,8 @@
 			<literal>cd {varsrc}/tar</literal>
 			<literal>wget http://shupp.org/software/tmda-{tmda}.tgz</literal>
 			<literal>wget http://shupp.org/software/tmda-cgi-{tmdacgi}.tar.bz2</literal>
-			<literal>wget http://shupp.org/patches/tmda-cgi-{tmdacgi}.patch</literal>
 			<literal>wget http://shupp.org/patches/tmda-cgi-parent_re.patch</literal>
+			<literal>wget http://shupp.org/patches/tmda-cgi-confirm-template.patch</literal>
 			<literal></literal>
 			<literal>cd ../</literal>
 			<literal>tar -xvzf tar/tmda-{tmda}.tgz</literal>
@@ -54,12 +54,12 @@
 			<literal>cd {varsrc}</literal>
 			<literal>tar -xvjf tar/tmda-cgi-{tmdacgi}.tar.bz2</literal>
 			<literal>cd tmda-cgi-{tmdacgi}</literal>
-			<literal>patch -p0 &lt; ../tar/tmda-cgi-{tmdacgi}.patch</literal>
 			<literal>patch -p0 &lt; ../tar/tmda-cgi-parent_re.patch</literal>
+			<literal>patch -p0 &lt; ../tar/tmda-cgi-confirm-template.patch</literal>
+			<literal>rm -r skel/uninstall/%\(Parent\)s/</literal>
 			<literal>cd ../</literal>
 			<literal>mv tmda-cgi-{tmdacgi} /usr/local/</literal>
 			<literal>cd /usr/local/tmda-cgi-{tmdacgi}</literal>
-			<literal>rm -r skel/uninstall/%\(Parent\)s/</literal>
 			<literal></literal>
 			<literal>./configure \</literal>
 			<literal>-t /var/www/cgi-bin/tmda.cgi \</literal>
@@ -68,6 +68,7 @@
 			<literal>-l "vpopmail1 /home/vpopmail/bin/vuserinfo ~" \</literal>
 			<literal>-i /usr/local/tmda-cgi-{tmdacgi}/ \</literal>
 			<literal>-d /display</literal>
+			<lineannotation><?php echo _("NOTE: If you installed vpopmail somewhere other than /home/vpopmail, you'll need to update refernces in defaults.ini here")?></lineannotation>
 			<literal></literal>
 			<literal>make</literal>
 			<literal>make install</literal>
