@@ -89,7 +89,9 @@
 		<itemizedlist>
                <listitem><literallayout><?php echo _("Change 'IMAPDSSLSTART=NO' to 'IMAPDSSLSTART=YES'")?></literallayout></listitem>
            </itemizedlist>
-		<note><?php echo _("optional: The first time courier-imap is started, the SSL certificate is first created using 'localhost' as the 'common name'.  If you want to change this to match your hostname, you can customize the CN line in /usr/lib/courier-imap/etc/imapd.cnf (and pop3d.cnf of you choose to use courier's pop3d) so that the common name matches your server name BEFORE you start the server for the first time.")?></note>
+		<itemizedlist>
+		    <listitem><literallayout><?php echo _("optional: The first time courier-imap is started, the SSL certificate is first created using 'localhost' as the 'common name'.  If you want to change this to match your hostname, you can customize the CN line in /usr/lib/courier-imap/etc/imapd.cnf (and pop3d.cnf of you choose to use courier's pop3d) so that the common name matches your server name BEFORE you start the server for the first time.")?></literallayout></listitem>
+        </itemizedlist>
 
     </blockquote>
 
