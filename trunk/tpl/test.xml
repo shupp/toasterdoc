@@ -33,13 +33,13 @@
     <literallayout>Trying 127.0.0.1...</literallayout>
     <literallayout>Connected to localhost.localdomain.</literallayout>
     <literallayout>Escape character is '^]'.</literallayout>
-    <literallayout>+OK Hello there.</literallayout>
+    <literallayout>+OK &lt;25248.1175148975@localhost&gt;</literallayout>
     <literallayout>user user@test.com</literallayout>
-    <literallayout>+OK Password required.</literallayout>
+    <literallayout>+OK</literallayout>
     <literallayout>pass <?php echo _("[password]")?></literallayout>
     <literallayout>+OK logged in.</literallayout>
     <literallayout>quit</literallayout>
-    <literallayout>+OK Bye-bye.</literallayout>
+    <literallayout>+OK</literallayout>
     <literallayout>Connection closed by foreign host.</literallayout>
 </blockquote>
 
