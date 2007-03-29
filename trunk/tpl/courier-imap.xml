@@ -7,6 +7,7 @@
         <para><?php echo _("Courier-IMAP will supply IMAP/SIMAP access.")?></para>
 
         <para><?php echo _("Info: ")?><ulink url="http://www.courier-mta.org/imap/">http://www.courier-mta.org/imap/</ulink></para>
+        <para><?php echo _("<emphasis>NOTE:</emphasis> If you are on a system that does not use GNU make, such as FreeBSD, install GNU make and substitue 'gmake' for 'make' during the install of courier-authlib and courier-imap.  Most Linux systems use GNU make.")?></para>
 
         <para><?php echo _("Install Courier's Auth Library: ")?></para>
 
@@ -19,9 +20,9 @@
 			<literal>./configure</literal>
 			<lineannotation>NOTE: RedHat/Fedora users need to add "--with-redhat"</lineannotation>
 			<literal></literal>
-			<literal>gmake</literal>
-			<literal>gmake install-strip</literal>
-			<literal>gmake install-configure</literal>
+			<literal>make</literal>
+			<literal>make install-strip</literal>
+			<literal>make install-configure</literal>
 			<literal></literal>
 			<literal>cp courier-authlib.sysvinit /etc/init.d/courier-authlib</literal>
 			<literal>chmod 755 /etc/init.d/courier-authlib</literal>
@@ -60,12 +61,10 @@
 		<literal>./configure</literal>
 		<lineannotation><?php echo _("NOTE: RedHat/Fedora users need to add '--with-redhat'")?></lineannotation>
 		<literal></literal>
-		<lineannotation><?php echo _("NOTE: If you do not have gmake installed, use <quote>make</quote> below")?></lineannotation>
-		<literal></literal>
-		<literal>gmake</literal>
+		<literal>make</literal>
 		<literal>exit</literal>
-		<literal>gmake install-strip</literal>
-		<literal>gmake install-configure</literal>
+		<literal>make install-strip</literal>
+		<literal>make install-configure</literal>
 		<literal></literal>
 		<literal>cp courier-imap.sysvinit /etc/init.d/courier-imap</literal>
 		<literal>chmod 755 /etc/init.d/courier-imap</literal>

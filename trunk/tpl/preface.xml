@@ -79,10 +79,6 @@
     <programlisting role="debian">
         <literal>mkdir /var/lock/subsys</literal>
     </programlisting>
-    <para><?php echo _("Courier's programs want gmake, which is actually make on debian. Let's alias it:")?></para>
-    <programlisting role="debian">
-        <literal>alias gmake='make'</literal>
-    </programlisting>
 
     <para><?php echo _("Apache's DocumentRoot is in /var/www instead of /var/www/html. What I do is use that, and put SquirrelMail's data directory in /etc/apache.")?></para>
 

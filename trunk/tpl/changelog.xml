@@ -6,7 +6,7 @@
     <listitem><literallayout role="listitem"><?php echo _("Moved documentation to <ulink url='http://www.docbook.org/schemas/sdocbook/index.html'>Simplified DocBook</ulink> format with embedded gettext support.  It's displayed via a few new PHP classes written for this purpose.   See <ulink url='http://trac.merchbox.com/trac/toasterdoc'>ToasterDoc</ulink> for more info.")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Upgrade toaster patch to 0.9.0")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Upgrade clamav to 0.90.1")?></literallayout></listitem>
-    <listitem><literallayout role="listitem"><?php echo _("Updgrade courier-imap to 4.1.2, courier-authlib to 0.59.1")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Updgrade courier-imap to 4.1.2, courier-authlib to 0.59.1.  Wrote cram patch for authvchkpw so secure auth is available for imap connections")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Updgrade vpopmail to 5.4.18 + vpopmaild and configure patches")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Updgrade TMDA and TMDA-cgi to 1.1.11 and 0.16.1 + patches respectively")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Update lots of text and notes.")?></literallayout></listitem>
