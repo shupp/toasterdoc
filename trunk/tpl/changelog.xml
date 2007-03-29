@@ -1,6 +1,19 @@
 <title><?php echo _("ChangeLog")?></title>
 
 
+<para><?php echo _("0.9.0 - 3/28/2007")?></para>
+<itemizedlist>
+    <listitem><literallayout><?php echo _("Moved documentation to <ulink url='http://www.docbook.org/schemas/sdocbook/index.html'>Simplified DocBook</ulink> format with embedded gettext support.  It's displayed via a few new PHP classes written for this purpose.   See <ulink url='http://trac.merchbox.com/trac/toasterdoc'>ToasterDoc</ulink> for more info.")?></literallayout></listitem>
+    <listitem><literallayout><?php echo _("Upgrade clamav to 0.90.1")?></literallayout></listitem>
+    <listitem><literallayout><?php echo _("Updgrade courier-imap to 4.1.2, courier-authlib to 0.59.1")?></literallayout></listitem>
+    <listitem><literallayout><?php echo _("Updgrade vpopmail to 5.4.18 + vpopmaild and configure patches")?></literallayout></listitem>
+    <listitem><literallayout><?php echo _("Updgrade TMDA and TMDA-cgi to 1.1.11 and 0.16.1 + patches respectively")?></literallayout></listitem>
+    <listitem><literallayout><?php echo _("Update lots of text and notes.")?></literallayout></listitem>
+    <listitem><literallayout><?php echo _("Make install-strip for clamav now")?></literallayout></listitem>
+    <listitem><literallayout><?php echo _("Update toaster-scripts to 0.9.0 (new kill options in ctl scripts, remove -L argument to spamd)")?></literallayout></listitem>
+    <listitem><literallayout><?php echo _("Update simscan to 1.3.1.shupp1 (tarball with clamavdb configure patch applied)")?></literallayout></listitem>
+</itemizedlist>
+
 <para><?php echo _("0.8.11 - 11/6/2006")?></para>
 <itemizedlist>
     <listitem><literallayout><?php echo _("Added step to install double-bounce-trim patch to qmail")?></literallayout></listitem>
