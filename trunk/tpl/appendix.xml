@@ -6,6 +6,7 @@
         <para><?php echo _("If you find this toaster useful to you, and want to support its development, please feeel free to donate via Paypal:")?></para>
         <literallayout></literallayout>
         <literallayout><userinput role="donate"></userinput></literallayout>
+        <para><?php echo _("<emphasis>NOTE:</emphasis> If you want to support a particular translation, please indicate which translation you wish to support in the 'Message to Seller' option at the end of checkout")?></para>
     </listitem>
 
     <listitem>
