@@ -100,6 +100,12 @@
     <programlisting role="debian">
         <literal>apt-get install zlib1g zlib1g-dev libbz2-dev libgmp3 libgmp3-dev</literal>
     </programlisting>
+
+    <para><?php echo _("QmailMRTG7 requires the mrtg package:")?></para>
+
+    <programlisting role="debian">
+        <literal>apt-get install mrtg</literal>
+    </programlisting>
 </listitem>
 
 <listitem>
