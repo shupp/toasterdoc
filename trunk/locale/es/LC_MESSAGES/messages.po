@@ -13,23 +13,23 @@ msgstr ""
 "Last-Translator: Abel Lucano <abel@decode.com.ar>\n"
 "Language-Team: spanish <toaster-tr@shupp.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: tpl/appendix.xml:1 tpl/outline.xml:50 tpl/toc.xml:55
 msgid "Appendix"
-msgstr "ApÈndice"
+msgstr "Ap√©ndice"
 
 #: tpl/appendix.xml:5
 msgid "Donate!"
-msgstr "°Colabore!"
+msgstr "¬°Colabore!"
 
 #: tpl/appendix.xml:6
 msgid ""
 "If you find this toaster useful to you, and want to support its development, "
 "please feeel free to donate via Paypal:"
 msgstr ""
-"Si Ud encuentra este toaster ˙til, y desea soportar su desarrollo, "
+"Si Ud encuentra este toaster √∫til, y desea soportar su desarrollo, "
 "por favor colabore con el mismo via Paypal:"
 
 #: tpl/appendix.xml:9
@@ -38,13 +38,13 @@ msgid ""
 "please indicate which translation you wish to support in the 'Message to "
 "Seller' option at the end of checkout"
 msgstr ""
-"<emphasis>NOTA:</emphasis> Si Ud quiere soportar una traducciÛn particular, "
-"por favor indique cu·l traducciÛn desea soportar en la opciÛn 'Message to "
+"<emphasis>NOTA:</emphasis> Si Ud quiere soportar una traducci√≥n particular, "
+"por favor indique cu√°l traducci√≥n desea soportar en la opci√≥n 'Message to "
 "Seller' al final del checkout"
 
 #: tpl/appendix.xml:13 tpl/toc.xml:58
 msgid "Troubleshooting"
-msgstr "ResoluciÛn de Problemas"
+msgstr "Resoluci√≥n de Problemas"
 
 #: tpl/appendix.xml:15
 msgid ""
@@ -62,8 +62,8 @@ msgid ""
 "There is also a <ulink url='http://www.mail-archive.com/toaster@shupp."
 "org'>searchable archive</ulink>"
 msgstr ""
-"TambiÈn existe un <ulink url='http://www.mail-archive.com/toaster@shupp."
-"org'>archivo para hacer b˙squedas</ulink>"
+"Tambi√©n existe un <ulink url='http://www.mail-archive.com/toaster@shupp."
+"org'>archivo para hacer b√∫squedas</ulink>"
 
 #: tpl/appendix.xml:19
 msgid ""
@@ -80,8 +80,8 @@ msgid ""
 "Also, <ulink url='http://www.lifewithqmail.org/'>Life With Qmail</ulink> "
 "covers qmail setup/maintenance in great detail. Make sure you read it."
 msgstr ""
-"TambiÈn, <ulink url='http://www.lifewithqmail.org/'>Life With Qmail</ulink> "
-"cubre la instalaciÛn/mantenimiento de qmail con gran detalle. Aseg˙rese de "
+"Tambi√©n, <ulink url='http://www.lifewithqmail.org/'>Life With Qmail</ulink> "
+"cubre la instalaci√≥n/mantenimiento de qmail con gran detalle. Aseg√∫rese de "
 "leerlo."
 
 #: tpl/appendix.xml:27 tpl/toc.xml:59
@@ -94,7 +94,7 @@ msgid ""
 "www.tnpi.biz/internet/mail/toaster/'>FreeBSD Mail Toaster</ulink>. If you "
 "use FreeBSD, use it instead, it's great."
 msgstr ""
-"Este documento est· inspirado ciertamente por el toaster <ulink url='http://"
+"Este documento est√° inspirado ciertamente por el toaster <ulink url='http://"
 "www.tnpi.biz/internet/mail/toaster/'>FreeBSD Mail Toaster</ulink> de Matt "
 "Simerson. Si Ud usa FreeBSD, utilice aquel en ese caso, es un gran trabajo."
 
@@ -104,8 +104,8 @@ msgid ""
 "from the documentation or <ulink url='http://www.lifewithqmail.org/'>Life "
 "With Qmail</ulink>."
 msgstr "" 
-"La mayorÌa de los comandos mencionados en los pasos arriba son derivados "
-"directamente de la documentaciÛn o bien de <ulink url='http://www."
+"La mayor√≠a de los comandos mencionados en los pasos arriba son derivados "
+"directamente de la documentaci√≥n o bien de <ulink url='http://www."
 "lifewithqmail.org/'>Life With Qmail</ulink>."
 
 #: tpl/appendix.xml:32
@@ -113,7 +113,7 @@ msgid ""
 "There have been countless ideas, corrections, testing, and even bits of code "
 "contribted from the toaster users list."
 msgstr "" 
-"Han habido innumerables ideas, correcciones, pruebas, y a˙n bits de cÛdigo "
+"Han habido innumerables ideas, correcciones, pruebas, y a√∫n bits de c√≥digo "
 "aportado por la lista de usuarios del toaster."
 
 #: tpl/appendix.xml:33
@@ -147,7 +147,7 @@ msgid ""
 "Matt G."
 msgstr "" 
 "<quote>Bill, muchas gracias por el toaster. Trabaja maravillosamente, y no "
-"llevÛ mucho tiempo instalarlo. Solamente deseo haberlo tenido hace dos "
+"llev√≥ mucho tiempo instalarlo. Solamente deseo haberlo tenido hace dos "
 "semanas. :)</quote> -- Matt G."
 
 #: tpl/appendix.xml:54
@@ -156,9 +156,9 @@ msgid ""
 "[nearly] flawless installation. . and [nearly] all done from your site. . i "
 "think you are doing great things with that toaster site.</quote> -- Ezra P."
 msgstr ""
- "<quote>Hola, Yo solamente instalÈ la suite completa del qmail toaster esta "
-"noche. . instalaciÛn [pr·cticamente] sin fallas. . y [pr·cticamente] todo "
-"hecho desde tu sitio web. . Pienso que est·s haciendo grandes cosas con ese "
+ "<quote>Hola, Yo solamente instal√© la suite completa del qmail toaster esta "
+"noche. . instalaci√≥n [pr√°cticamente] sin fallas. . y [pr√°cticamente] todo "
+"hecho desde tu sitio web. . Pienso que est√°s haciendo grandes cosas con ese "
 "toaster website.</quote> -- Ezra P."
 
 #: tpl/appendix.xml:58
@@ -166,7 +166,7 @@ msgid ""
 "<quote>Thanks for making it easy. Now to understand what I (you) have "
 "done. ; )</quote> -- Charles C."
 msgstr "" 
-"<quote>Gracias por hacerlo f·cil. Ahora entiendo lo que (t˙) has "
+"<quote>Gracias por hacerlo f√°cil. Ahora entiendo lo que (t√∫) has "
 "hecho. ; )</quote> -- Charles C."
 
 #: tpl/appendix.xml:62
@@ -181,14 +181,14 @@ msgid ""
 "my server).  I couldn't have done it without you! I really do appreciate the "
 "work you put into the instructions and patches.</quote> -- Thomas A."
 msgstr "" 
-"<quote>Hola Bill, solamente querÌa agradecerte por las estupendas "
+"<quote>Hola Bill, solamente quer√≠a agradecerte por las estupendas "
 "instrucciones para instalar qmail, etc. en Linux. Yo soy un poco novato y el "
-"˙ltimo mes estuve buscando una manera limpia y sencilla de configurar una "
-"instalaciÛn de correo electrÛnico. Luego de haber ido desde RedHat c/ Sendmail"
+"√∫ltimo mes estuve buscando una manera limpia y sencilla de configurar una "
+"instalaci√≥n de correo electr√≥nico. Luego de haber ido desde RedHat c/ Sendmail"
 "a Win 2K / Exchange a FreeBSD, Debian, Gentoo, Slack con algun combo de qmail"
-",courier, postfix y volver atr·s finalmente tropecÈ con tu sitio web - hice "
-"una instalaciÛn limpia de RedHat y en media hora me encontraba corriendo con"
-"Qmail. (Te estoy enviando esto usando mi servidor). No podrÌa haberlo hecho"
+",courier, postfix y volver atr√°s finalmente tropec√© con tu sitio web - hice "
+"una instalaci√≥n limpia de RedHat y en media hora me encontraba corriendo con"
+"Qmail. (Te estoy enviando esto usando mi servidor). No podr√≠a haberlo hecho"
 "sin ti! Realmente aprecio el trabajo que pusiste en las instrucciones y los "
 "parches.</quote> -- Thomas A."
 
@@ -200,10 +200,10 @@ msgid ""
 "setup. Again, thanks for all the hard work that went into the instructions.</"
 "quote> -- Jim S."
 msgstr ""
-"<quote> Bill, solamente querÌa dejarte una nota para agradecerte por todo"
-"el evidente trabajo que has puesto en el sitio web del toaster. Yo sÛlo "
-"lo instalÈ, y funcionÛ perfectamente. De hecho, te estoy enviando este primer"
-"email desde mi nueva instalaciÛn. Nuevamente, gracias por el duro trabajo "
+"<quote> Bill, solamente quer√≠a dejarte una nota para agradecerte por todo"
+"el evidente trabajo que has puesto en el sitio web del toaster. Yo s√≥lo "
+"lo instal√©, y funcion√≥ perfectamente. De hecho, te estoy enviando este primer"
+"email desde mi nueva instalaci√≥n. Nuevamente, gracias por el duro trabajo "
 "puesto dentro de las instrucciones.</quote>-- Jim S."
 
  
@@ -232,7 +232,7 @@ msgstr ""
 #: tpl/spamassassin.xml:10 tpl/squirrelmail.xml:9 tpl/tmda.xml:7
 #: tpl/ucspi-tcp.xml:9 tpl/vpopmail.xml:10
 msgid "Info: "
-msgstr "InformaciÛn:"
+msgstr "Informaci√≥n:"
 
 #: tpl/autorespond.xml:11 tpl/clamav.xml:11 tpl/daemontools.xml:13
 #: tpl/ezmlm-idx.xml:11 tpl/qmailadmin.xml:11 tpl/qmailmrtg7.xml:8
@@ -258,41 +258,41 @@ msgid ""
 "purpose.   See <ulink url='http://trac.merchbox.com/trac/"
 "toasterdoc'>ToasterDoc</ulink> for more info."
 msgstr ""
-"Se migrÛ la documentaciÛn al formato <ulink url='http://www.docbook.org/"
+"Se migr√≥ la documentaci√≥n al formato <ulink url='http://www.docbook.org/"
 "schemas/sdocbook/index.html'>DocBook Simplificado</ulink> con soporte gettext"
 "embebido. Se exhibe via unas pocas clases HP nuevas escritas para este"
-"propÛsito. Vea <ulink url='http://trac.merchbox.com/trac/toasterdoc'>"
-"ToasterDoc</ulink> para m·s informaciÛn."
+"prop√≥sito. Vea <ulink url='http://trac.merchbox.com/trac/toasterdoc'>"
+"ToasterDoc</ulink> para m√°s informaci√≥n."
 
 
 #: tpl/changelog.xml:7
 msgid "Upgrade toaster patch to 0.9.0"
-msgstr "ActualizaciÛn del toaster patch a 0.9.0"
+msgstr "Actualizaci√≥n del toaster patch a 0.9.0"
 
 #: tpl/changelog.xml:8
 msgid "Upgrade clamav to 0.90.1"
-msgstr "ActualizaciÛn de clamav a 0.90.1"
+msgstr "Actualizaci√≥n de clamav a 0.90.1"
 
 #: tpl/changelog.xml:9
 msgid ""
 "Upgrade courier-imap to 4.1.2, courier-authlib to 0.59.1.  Wrote cram patch "
 "for authvchkpw so secure auth is available for imap connections"
 msgstr ""
-"ActualizaciÛn de courier-imap a 4.1.2, courier-authlib a 0.59.1. Se"
-"escribiÛ el cram patch para authvchkpw asÌ queda disponible secure auth"
+"Actualizaci√≥n de courier-imap a 4.1.2, courier-authlib a 0.59.1. Se"
+"escribi√≥ el cram patch para authvchkpw as√≠ queda disponible secure auth"
 "para conexiones imap"
 
 #: tpl/changelog.xml:10
 msgid "Upgrade vpopmail to 5.4.18 + vpopmaild and configure patches"
-msgstr "ActualizaciÛn de vpopmail a 5.4.18 + vpopmaild y parches de configure"
+msgstr "Actualizaci√≥n de vpopmail a 5.4.18 + vpopmaild y parches de configure"
 
 #: tpl/changelog.xml:11
 msgid "Upgrade TMDA and TMDA-cgi to 1.1.11 and 0.16.2 respectively"
-msgstr "ActualizaciÛn de TMDA y TMDA-cgi a 1.1.11 y 0.16.2 respectivamente"
+msgstr "Actualizaci√≥n de TMDA y TMDA-cgi a 1.1.11 y 0.16.2 respectivamente"
 
 #: tpl/changelog.xml:12
 msgid "Update lots of text and notes."
-msgstr "ActualizaciÛn de cantidad de textos y notas"
+msgstr "Actualizaci√≥n de cantidad de textos y notas"
 
 #: tpl/changelog.xml:13
 msgid "Make install-strip for clamav now"
@@ -303,7 +303,7 @@ msgid ""
 "Update toaster-scripts to 0.9.0 (new kill options in ctl scripts, remove -L "
 "argument to spamd)"
 msgstr ""
-"ActualizaciÛn de toaster-scripts a 0.9.0 (nuevas opciones de 'kill' en los"
+"Actualizaci√≥n de toaster-scripts a 0.9.0 (nuevas opciones de 'kill' en los"
 "scripts ctl, argumento -L removido en spamd)" 
 
 #: tpl/changelog.xml:15
@@ -311,7 +311,7 @@ msgid ""
 "Update simscan to 1.3.1.shupp1 (tarball with clamavdb configure patch "
 "applied)"
 msgstr ""
-"ActualizaciÛn de simscan a 1.3.1.shupp1 (archivos compactados con el "
+"Actualizaci√≥n de simscan a 1.3.1.shupp1 (archivos compactados con el "
 "parche de configure para clamavdb aplicado)" 
 
 #: tpl/changelog.xml:16
@@ -320,7 +320,7 @@ msgid ""
 "configuration - tnx Maciej Soltysiak"
 msgstr ""
 "Agregado de opciones 'server thread sorting' y 'server-side sorting'"
-"a la configuraciÛn de squirrelmail - gracias Maciej Soltysiak"
+"a la configuraci√≥n de squirrelmail - gracias Maciej Soltysiak"
 
 #: tpl/changelog.xml:19
 msgid "0.8.11 - 11/6/2006"
@@ -332,20 +332,20 @@ msgstr "Paso agregado para instalar el parche double-bounce-trim a qmail"
 
 #: tpl/changelog.xml:22
 msgid "Upgrade clamav to 0.88.6"
-msgstr "ActualizaciÛn de clamav a 0.88.6"
+msgstr "Actualizaci√≥n de clamav a 0.88.6"
 
 #: tpl/changelog.xml:23
 msgid "Upgrade courier-imap to 4.1.1"
-msgstr "ActualizaciÛn de courier-imap a 0.88.6"
+msgstr "Actualizaci√≥n de courier-imap a 0.88.6"
 
 #: tpl/changelog.xml:24
 msgid "Upgrade vpopmail to 5.4.17 + vpopmaild patches"
-msgstr "ActualizaciÛn de vpopmail a 5.4.17 + parches vpopmaild"
+msgstr "Actualizaci√≥n de vpopmail a 5.4.17 + parches vpopmaild"
 
 #: tpl/changelog.xml:25
 msgid "Upgrade TMDA and TMDA-cgi to 1.1.9 and 0.15+patch respectively"
 msgstr ""
-"ActualizaciÛn de TMDA y TMDA-cgi a 1.1.9 y 0.15+parche respectivamente"
+"Actualizaci√≥n de TMDA y TMDA-cgi a 1.1.9 y 0.15+parche respectivamente"
 
 #: tpl/changelog.xml:28
 msgid "0.8.10 - 8/7/2006"
@@ -360,20 +360,20 @@ msgid ""
 "Upgrade qmail-toaster-0.8.3.patch, which removes the mfcheck patch and "
 "instead enables CHKUSER_SENDER_MX in chkuser_settings.h"
 msgstr ""
-"ActualizaciÛn de qmail-toaster-0.8.3.patch, el cual remueve el parche"
+"Actualizaci√≥n de qmail-toaster-0.8.3.patch, el cual remueve el parche"
 "mfcheck y habilita en su lugar CHKUSER_SENDER_MX en chkuser_settings.h"
 
 #: tpl/changelog.xml:37
 msgid "Fix some typos"
-msgstr "CorrecciÛn de algunos errores de tipeo"
+msgstr "Correcci√≥n de algunos errores de tipeo"
 
 #: tpl/changelog.xml:38
 msgid ""
 "Change to 'config-fast `hostname --long`' during qmail install for easier "
 "automation"
 msgstr ""
-"Cambio a 'config-fast `hostname --long`' durante la instalaciÛn de qmail"
-"para automatizaciÛn simplificada"
+"Cambio a 'config-fast `hostname --long`' durante la instalaci√≥n de qmail"
+"para automatizaci√≥n simplificada"
 
 #: tpl/changelog.xml:41
 msgid "0.8.8 - 5/11/2006"
@@ -381,7 +381,7 @@ msgstr "0.8.8 - 5/11/2006"
 
 #: tpl/changelog.xml:44
 msgid "Update clamav to 0.88.2"
-msgstr "ActualizaciÛn de clamav a 0.88.2 "
+msgstr "Actualizaci√≥n de clamav a 0.88.2 "
 
 #: tpl/changelog.xml:45
 msgid "Added link to Trustix 3.0 notes - tnx Matthew Valentini"
@@ -397,7 +397,7 @@ msgid ""
 "ezmlm-idx, courier imap, squirrelmail, quota usage, toaster scripts, clamav "
 "(and corresponding patches), and simscan"
 msgstr ""
-"ActualizaciÛn del 'toaster patch' (retirar mfcheck, habilitar extensiones de"
+"Actualizaci√≥n del 'toaster patch' (retirar mfcheck, habilitar extensiones de"
 "usuario en chkuser), ezmlm-idx, courier imap, squirrelmail, quota usage, "
 "toaster scripts, clamav (y parches correspondientes), y simscan"
 
@@ -430,7 +430,7 @@ msgstr "Directivas 'umask' agregadas - gracias George Toft"
 
 #: tpl/changelog.xml:57
 msgid "Added clear option in qmailctl to clear readproctitle errors - tnx Sim"
-msgstr "OpciÛn 'clear' agregada en 'qmailctl' para limpiar errores de "
+msgstr "Opci√≥n 'clear' agregada en 'qmailctl' para limpiar errores de "
 "'readproctitle' - gracias Sim"
 
 #: tpl/changelog.xml:58
@@ -441,7 +441,7 @@ msgstr "Agregado de parche a simscan para llamar correctamente a ripmime"
 msgid ""
 "Added SSL/TLS testing info. Also noted how to deal with cipher list problems"
 msgstr ""
-"Agregada informaciÛn de prueba de SSL/TLS. TambiÈn se anota como tratar con"
+"Agregada informaci√≥n de prueba de SSL/TLS. Tambi√©n se anota como tratar con"
 "problemas de cipher"
 
 #: tpl/changelog.xml:60
@@ -457,7 +457,7 @@ msgid ""
 "4/10/2006 - Note different version syntax for stunnel 3 and 4 - tnx Ingo "
 "Claro"
 msgstr ""
-"4/1/2006 - Nota de diferentes versiÛn de sintaxis para stunnel 3 y 4 - "
+"4/1/2006 - Nota de diferentes versi√≥n de sintaxis para stunnel 3 y 4 - "
 "gracias Ingo Claro"
 
 
@@ -467,12 +467,12 @@ msgid ""
 "the new version"
 msgstr ""
 "4/10/2006 - Retroceso de ezmlm-idx a 0.443 hasta que chkuser sea actualizado"
-"para soportar la nueva versiÛn"
+"para soportar la nueva versi√≥n"
 
 #: tpl/changelog.xml:64
 msgid "4/10/2006 - upgrade QmailAdmin to 1.2.10 to include security fixes"
 msgstr ""
-"4/10/2006 - actualizaciÛn de QmailAdmin a 1.2.10 para incluir varios"
+"4/10/2006 - actualizaci√≥n de QmailAdmin a 1.2.10 para incluir varios"
 "correciones de seguridad"
 
 #: tpl/changelog.xml:65
@@ -488,15 +488,15 @@ msgstr "0.8.6 - 1/28/2006"
 
 #: tpl/changelog.xml:71
 msgid "Update clamav to 0.88"
-msgstr "ActualizaciÛn de clamav a 0.88"
+msgstr "Actualizaci√≥n de clamav a 0.88"
 
 #: tpl/changelog.xml:72
 msgid ""
 "use vpopmail-5.4.13-cumulative-1.patch which has one bug fix and back ports "
 "vpopmaild"
 msgstr ""
-"uso de vpopmail-5.4.13-cumulative-1.patch el cual tiene una correcciÛn y "
-"vuelve atr·s a vpopmaild"
+"uso de vpopmail-5.4.13-cumulative-1.patch el cual tiene una correcci√≥n y "
+"vuelve atr√°s a vpopmaild"
 
 
 #: tpl/changelog.xml:75
@@ -505,11 +505,11 @@ msgstr "0.8.5 - 1/5/2006"
 
 #: tpl/changelog.xml:78
 msgid "Update toaster patch to version 0.8.1 (tls update)"
-msgstr "ActualizaciÛn del 'toaster patch' a versiÛn 0.8.1 (actualizacion tls)"
+msgstr "Actualizaci√≥n del 'toaster patch' a versi√≥n 0.8.1 (actualizacion tls)"
 
 #: tpl/changelog.xml:79
 msgid "Update ripmime to 1.4.0.6"
-msgstr "ActualizaciÛn de ripmime a 1.4.0.6"
+msgstr "Actualizaci√≥n de ripmime a 1.4.0.6"
 
 #: tpl/changelog.xml:82
 msgid "0.8.4 - 12/26/2005"
@@ -517,11 +517,11 @@ msgstr "0.8.4 - 12/26/2005"
 
 #: tpl/changelog.xml:85
 msgid "Update courier-imap/courier-authlib versions"
-msgstr "ActualizaciÛn de versiones de courier-imap/courier-authlib"
+msgstr "Actualizaci√≥n de versiones de courier-imap/courier-authlib"
 
 #: tpl/changelog.xml:86
 msgid "Fix spelling error"
-msgstr "CorrecciÛn de error de deletreo"
+msgstr "Correcci√≥n de error de deletreo"
 
 #: tpl/changelog.xml:87
 msgid "Use yum instead of rpm -q in 'Prerequisites'"
@@ -529,7 +529,7 @@ msgstr "Uso de 'yum' en lugar de 'rpm -q' en 'Prerrequisitos'"
 
 #: tpl/changelog.xml:88
 msgid "Fix some apt-get typos - tnx Tom Nats"
-msgstr "CorrecciÛn de algunos errores de tipeo en 'apt-get' - "
+msgstr "Correcci√≥n de algunos errores de tipeo en 'apt-get' - "
 " gracias Tom Nats"
 
 #: tpl/changelog.xml:89
@@ -545,8 +545,8 @@ msgid ""
 "Add SpamAssassin and ClamAV dependencies installation, and gmake alias to "
 "Debian Notes section"
 msgstr ""
-"Agregado de instalaciÛn de dependencias de  SpamAssassin y ClamAV, y alias"
-"de gmake a la secciÛn Notas de Debian"
+"Agregado de instalaci√≥n de dependencias de  SpamAssassin y ClamAV, y alias"
+"de gmake a la secci√≥n Notas de Debian"
 
 #: tpl/changelog.xml:98
 msgid "0.8.2 - 11/7/2005"
@@ -554,7 +554,7 @@ msgstr "0.8.2 - 11/7/2005"
 
 #: tpl/changelog.xml:101
 msgid "Update clamav to 0.87.1"
-msgstr "ActualizaciÛn de clamav a 0.87.1"
+msgstr "Actualizaci√≥n de clamav a 0.87.1"
 
 #: tpl/changelog.xml:104
 msgid "0.8.1 - 9/16/2005"
@@ -565,7 +565,7 @@ msgid ""
 "Update qmailadmin, courier-authlib, courier-imap, clamav, and ezmlm-idx "
 "versions"
 msgstr ""
-"ActualizaciÛn de versiones de qmailadmin, courier-authlib, courier-imap, "
+"Actualizaci√≥n de versiones de qmailadmin, courier-authlib, courier-imap, "
 "clamav y ezmlm-idx "
 
 
@@ -576,7 +576,7 @@ msgstr "0.8 - 7/24/2005"
 #: tpl/changelog.xml:113
 msgid "Update qmailadmin configure line since debian requires arguments"
 msgstr ""
-"ActualizaciÛn de la lÌnea 'configure' de qmailadmin puesto que debian"
+"Actualizaci√≥n de la l√≠nea 'configure' de qmailadmin puesto que debian"
 "requiere argumentos"
 
 #: tpl/changelog.xml:114
@@ -592,21 +592,21 @@ msgid ""
 "Update all software packages to latest versions, including courier-imap "
 "which now requires authlib"
 msgstr ""
-"ActualizaciÛn de todos los paquetes de software a las ˙ltimas versiones"
+"Actualizaci√≥n de todos los paquetes de software a las √∫ltimas versiones"
 "incluyendo courier-imap que ahora requiere authlib"
 
 
 #: tpl/changelog.xml:117
 msgid "Update toaster patch to include latest patch versions"
-msgstr "ActualizaciÛn del 'toaster patch' para incluir las ˙ltimas versiones"
+msgstr "Actualizaci√≥n del 'toaster patch' para incluir las √∫ltimas versiones"
 
 #: tpl/changelog.xml:118
 msgid "Update notes in Test Drive"
-msgstr "ActualizaciÛn de notas en la Prueba de InstalaciÛn"
+msgstr "Actualizaci√≥n de notas en la Prueba de Instalaci√≥n"
 
 #: tpl/changelog.xml:119
 msgid "Update archive links in Troubleshooting"
-msgstr "ActualizaciÛn del archivo de vÌnculos web en 'SoluciÛn de Problemas'"
+msgstr "Actualizaci√≥n del archivo de v√≠nculos web en 'Soluci√≥n de Problemas'"
 
 #: tpl/changelog.xml:122
 msgid "0.7.13 - 6/23/2005"
@@ -614,7 +614,7 @@ msgstr "0.7.13 - 6/23/2005"
 
 #: tpl/changelog.xml:125
 msgid "Update clamav to 0.86.1"
-msgstr "ActualizaciÛn de clamav a 0.86.1"
+msgstr "Actualizaci√≥n de clamav a 0.86.1"
 
 #: tpl/changelog.xml:128
 msgid "0.7.12 - 5/23/2005"
@@ -622,7 +622,7 @@ msgstr "0.7.12 - 5/23/2005"
 
 #: tpl/changelog.xml:131
 msgid "Update clamav to 0.85.1"
-msgstr "ActualizaciÛn de clamav a 0.85.1"
+msgstr "Actualizaci√≥n de clamav a 0.85.1"
 
 #: tpl/changelog.xml:134
 msgid "0.7.11 - 5/13/2005"
@@ -630,7 +630,7 @@ msgstr "0.7.11 - 5/13/2005"
 
 #: tpl/changelog.xml:137
 msgid "Update clamav to 0.85"
-msgstr "ActualizaciÛn de clamav a 0.85"
+msgstr "Actualizaci√≥n de clamav a 0.85"
 
 #: tpl/changelog.xml:140
 msgid "0.7.10 - 5/1/2005"
@@ -638,15 +638,15 @@ msgstr "0.7.10 - 5/1/2005"
 
 #: tpl/changelog.xml:143
 msgid "Update vpopmail to 5.4.10"
-msgstr "ActualizaciÛn de vpopmail a 5.4.10"
+msgstr "Actualizaci√≥n de vpopmail a 5.4.10"
 
 #: tpl/changelog.xml:144
 msgid "Update ripmime to 1.4.0.5"
-msgstr "ActualizaciÛn de ripmime a 1.4.0.5"
+msgstr "Actualizaci√≥n de ripmime a 1.4.0.5"
 
 #: tpl/changelog.xml:145
 msgid "Update clamav to 0.84"
-msgstr "ActualizaciÛn de clamav a 0.84"
+msgstr "Actualizaci√≥n de clamav a 0.84"
 
 #: tpl/changelog.xml:148
 msgid "0.7.9 - 3/13/2005"
@@ -654,7 +654,7 @@ msgstr "0.7.9 - 3/13/2005"
 
 #: tpl/changelog.xml:151
 msgid "Update vpopmail to 5.4.9"
-msgstr "ActualizaciÛn de 5.4.9"
+msgstr "Actualizaci√≥n de 5.4.9"
 
 #: tpl/changelog.xml:154 tpl/changelog.xml:164
 msgid "0.7.7 - 2/16/2005"
@@ -689,18 +689,18 @@ msgid ""
 "update qmailctl to use svclist for a list of services - handy for multiple "
 "instances of qmail-smtpd. - tnx Tom Collins"
 msgstr ""
-"ActualizaciÛn de qmailctl para usar svclist para una lista de servicios"
-"˙til para m˙ltiples instancias de qmail-smtpd. - gracias Tom Collins" 
+"Actualizaci√≥n de qmailctl para usar svclist para una lista de servicios"
+"√∫til para m√∫ltiples instancias de qmail-smtpd. - gracias Tom Collins" 
 
 
 
 #: tpl/changelog.xml:167
 msgid "Upgraded clamav to 0.83"
-msgstr "ActualizaciÛn de clamav a 0.83"
+msgstr "Actualizaci√≥n de clamav a 0.83"
 
 #: tpl/changelog.xml:168
 msgid "Upgraded simscan to 1.1"
-msgstr "ActualizaciÛn de simscan a 1.1"
+msgstr "Actualizaci√≥n de simscan a 1.1"
 
 #: tpl/changelog.xml:171
 msgid "0.7.6 - 2/7/2005"
@@ -708,7 +708,7 @@ msgstr "0.7.6 - 2/7/2005"
 
 #: tpl/changelog.xml:174
 msgid "Upgraded clamav to 0.82"
-msgstr "ActualizaciÛn de clamav a 0.83"
+msgstr "Actualizaci√≥n de clamav a 0.83"
 
 #: tpl/changelog.xml:177
 msgid "0.7.5 - 2/4/2005"
@@ -717,17 +717,17 @@ msgstr "0.7.5 - 2/4/2005"
 #: tpl/changelog.xml:180
 msgid "Fixed missing semi-colons in creation of aliases - tnx Tom Collins"
 msgstr ""
-"CorrecciÛn de punto y comas faltantes en la creaciÛn de aliases"
+"Correcci√≥n de punto y comas faltantes en la creaci√≥n de aliases"
 "gracias Tom Collins"
 
 #: tpl/changelog.xml:181
 msgid "Consolidate rpm command suggestions - tnx Tom Collins"
-msgstr "ConsolidaciÛn de sugerencias para comandos 'rpm'- gracias Tom Collins"
+msgstr "Consolidaci√≥n de sugerencias para comandos 'rpm'- gracias Tom Collins"
 
 #: tpl/changelog.xml:182
 msgid "Add qmail man pages to MANCONFIG path - tnx Tom Collins"
 msgstr ""
-"Agregado de p·ginas de manual de qmail a la ruta MANCONFIG "
+"Agregado de p√°ginas de manual de qmail a la ruta MANCONFIG "
 "gracias Tom Collins "
 
 #: tpl/changelog.xml:185
@@ -737,7 +737,7 @@ msgstr "0.7.4 - 2/1/2005"
 #: tpl/changelog.xml:188
 msgid "Updated clamav to 0.81 - tnx Bob Hutchinson for updated stderr patch"
 msgstr ""
-"ActualizaciÛn de clamab a 0.81 - gracias Bob Hutchinson por el parche"
+"Actualizaci√≥n de clamab a 0.81 - gracias Bob Hutchinson por el parche"
 "actualizado de stderr"
 
 
@@ -745,7 +745,7 @@ msgstr ""
 msgid ""
 "Minor change to tcprules command in vpopmail install - tnx Jake Applebaum"
 msgstr ""
-"Cambios menores al comando 'tcprules' en la instalaciÛn de vpopmail"
+"Cambios menores al comando 'tcprules' en la instalaci√≥n de vpopmail"
 "gracias Jake Applebaum"
 
 #: tpl/changelog.xml:192
@@ -755,7 +755,7 @@ msgstr "0.7.3 - 1/25/2005"
 #: tpl/changelog.xml:195
 msgid "Updated qmail-toaster patch to 0.7.2 to fix a CR in overmaildirquota.c"
 msgstr ""
-"ActualizaciÛn del parche 'qmail-toaster' a 0.7.2 para corregir un CR en "
+"Actualizaci√≥n del parche 'qmail-toaster' a 0.7.2 para corregir un CR en "
 "overmaildirquota.c"
 
 #: tpl/changelog.xml:198
@@ -765,7 +765,7 @@ msgstr "0.7.2 - 1/20/2005"
 #: tpl/changelog.xml:201
 msgid "Updated maildir++ patch to fix duplicate free() - tnx Tom Collins"
 msgstr ""
-"ActualizaciÛn del parche maildir++ para corregir un free() duplicado"
+"Actualizaci√≥n del parche maildir++ para corregir un free() duplicado"
 "- gracias Tom Collins"
 
 #: tpl/changelog.xml:204
@@ -776,7 +776,7 @@ msgstr "0.7.1 - 1/8/2005"
 msgid ""
 "Added mention of SELinux incompatibility with QmailAdmin - tnx Dave Roberts"
 msgstr ""
-"Agregado de menciÛn a la incompatibilidad de SELinux con QmailAdmin"
+"Agregado de menci√≥n a la incompatibilidad de SELinux con QmailAdmin"
 "- gracias Dave Roberts"
 
 
@@ -789,7 +789,7 @@ msgid ""
 "1/8/2005 - Added mention of SELinux incompatibility with QmailAdmin - tnx "
 "Dave Roberts"
 msgstr ""
-"1/8/2005-Agregado de menciÛn a la incompatibilidad de SELinux con QmailAdmin"
+"1/8/2005-Agregado de menci√≥n a la incompatibilidad de SELinux con QmailAdmin"
 "- gracias Dave Roberts"
 
 #: tpl/changelog.xml:214
@@ -798,14 +798,14 @@ msgstr "Parche qmail-toaster cambiado de 0.75b a 0.7 (sin cambios)"
 
 #: tpl/changelog.xml:215
 msgid "Changed toaster version from 0.7b2 to 0.7"
-msgstr "VersiÛn de toaster cambiada de 0.72b a 0.7"
+msgstr "Versi√≥n de toaster cambiada de 0.72b a 0.7"
 
 #: tpl/changelog.xml:216
 msgid ""
 "Added note to courier-imap install about changing from self-signed "
 "certificate "
 msgstr ""
-"Nota agregada a la instalaciÛn de courier-imap acerca del cambio del"
+"Nota agregada a la instalaci√≥n de courier-imap acerca del cambio del"
 "certificado auto-firmado"
 
 #: tpl/changelog.xml:219
@@ -823,12 +823,12 @@ msgstr ""
 #: tpl/changelog.xml:223
 msgid "Enabled per-domain scanning in simscan - tnx Jose Luis Canciani"
 msgstr ""
-"Habilitado escaneo por-dominio en simscan - gracias JosÈ Luis Canciani"
+"Habilitado escaneo por-dominio en simscan - gracias Jos√© Luis Canciani"
 
 #: tpl/changelog.xml:224
 msgid "Typo in version info of toaster patch - tnx Eduardo Cortes "
 msgstr ""
-"Error de tipeo en la informaciÛn de versiÛn del parche del toaster"
+"Error de tipeo en la informaci√≥n de versi√≥n del parche del toaster"
 "- gracias Eduardo Cortes"
 
 #: tpl/changelog.xml:227
@@ -845,11 +845,11 @@ msgstr ""
 
 #: tpl/changelog.xml:231
 msgid "Updated vpopmail to 5.4.8, qmailadmin to 1.2.3"
-msgstr "ActualizaciÛn de vpopmail a 5.4.8, qmailadmin a 1.2.3"
+msgstr "Actualizaci√≥n de vpopmail a 5.4.8, qmailadmin a 1.2.3"
 
 #: tpl/changelog.xml:232
 msgid "Updated courier-imap to 3.0.8"
-msgstr "ActualizaciÛn de courier-imap a 3.0.8"
+msgstr "Actualizaci√≥n de courier-imap a 3.0.8"
 
 #: tpl/changelog.xml:233
 msgid "Added SpamAssassin, ClamAV, simscan, ripmime to Options"
@@ -861,7 +861,7 @@ msgstr "Cantidad de actualizaciones a los archivos run/config"
 
 #: tpl/changelog.xml:235
 msgid "qmailctl now detects whether roaming users is being used "
-msgstr "qmailctl ahora detecta si se est·n usando usuarios con 'roaming'"
+msgstr "qmailctl ahora detecta si se est√°n usando usuarios con 'roaming'"
 
 #: tpl/changelog.xml:238
 msgid "0.6 - 2/16/2004"
@@ -869,20 +869,20 @@ msgstr "0.6 - 2/16/2004"
 
 #: tpl/changelog.xml:241
 msgid "Switched to netqmail 1.05 for base patch install"
-msgstr "Cambio a netqmail 1.05 para la instalaciÛn del parche base"
+msgstr "Cambio a netqmail 1.05 para la instalaci√≥n del parche base"
 
 #: tpl/changelog.xml:242
 msgid "Updated large patch and chkuser patch"
-msgstr "ActualizaciÛn del gran parche y del parche 'chkuser'"
+msgstr "Actualizaci√≥n del gran parche y del parche 'chkuser'"
 
 #: tpl/changelog.xml:243
 msgid "Updated vpopmail to 5.4.1, qmailadmin to 1.2.1"
-msgstr "ActualizaciÛn de vpopmail a 5.4.1, qmailadmin a 1.2.1"
+msgstr "Actualizaci√≥n de vpopmail a 5.4.1, qmailadmin a 1.2.1"
 
 #: tpl/changelog.xml:244
 msgid "Updated courier-imap to 2.2.2.20040207 to comply with vlimits code "
 msgstr ""
-"ActualizaciÛn de courier-imap a 2.2.2.20040207 conforme con cÛdigo de vlimits"
+"Actualizaci√≥n de courier-imap a 2.2.2.20040207 conforme con c√≥digo de vlimits"
 
 #: tpl/changelog.xml:247
 msgid "0.5.2 - 1/27/2004"
@@ -891,7 +891,7 @@ msgstr "0.5.2 - 1/27/2004"
 #: tpl/changelog.xml:250
 msgid "Fixed problem with missing config.php in quota_usage plugin install "
 msgstr ""
-"CorrecciÛn del problema con el 'config.php' en la instalaciÛn del plugin"
+"Correcci√≥n del problema con el 'config.php' en la instalaci√≥n del plugin"
 "'quota usage'"
 
 #: tpl/changelog.xml:253
@@ -915,7 +915,7 @@ msgstr "0.5 - 1/6/2004"
 
 #: tpl/changelog.xml:263
 msgid "Updated core software versions, qmail patch"
-msgstr "ActualizaciÛn de versiones base del software, parche qmail"
+msgstr "Actualizaci√≥n de versiones base del software, parche qmail"
 
 #: tpl/changelog.xml:264
 msgid "Switched from SqWebmail to SquirrelMail"
@@ -923,7 +923,7 @@ msgstr "Cambio de SqWebmail a SquirrelMail"
 
 #: tpl/changelog.xml:265
 msgid "Removed Apache install (just use the distro's)"
-msgstr "InstalaciÛn de Apache removida (usar solo la de la distribuciÛn)"
+msgstr "Instalaci√≥n de Apache removida (usar solo la de la distribuci√≥n)"
 
 #: tpl/changelog.xml:266
 msgid "Removed roaming users support (use smtp-auth instead)"
@@ -952,7 +952,7 @@ msgid ""
 "the qmail-smtpd run script didn't have a hostname, which is now required for "
 "the smtp-auth patch 0.30 and above."
 msgstr ""
-"el script qmail-smtpd 'run' no tenÌa un hostname, lo cual es ahora requerido "
+"el script qmail-smtpd 'run' no ten√≠a un hostname, lo cual es ahora requerido "
 "para el parche smtp-auth 0.30 y superior."
 
 #: tpl/changelog.xml:280
@@ -960,12 +960,12 @@ msgid ""
 "forgot to chown the imapd.pem for courier-imap now that we're running as "
 "vpopmail"
 msgstr ""
-"olvidÈ hacer 'chown' a imapd.pem para courier-imap ahora que lo estamos"
+"olvid√© hacer 'chown' a imapd.pem para courier-imap ahora que lo estamos"
 "corriendo como vpopmail"
 
 #: tpl/changelog.xml:281
 msgid "incorrect configure option for qmailadmin "
-msgstr "opciÛn de 'configure' incorrecta para qmailadmin"
+msgstr "opci√≥n de 'configure' incorrecta para qmailadmin"
 
 #: tpl/changelog.xml:284
 msgid "0.4.5 - 6/03/2002"
@@ -973,7 +973,7 @@ msgstr "0.4.5 - 6/03/2002"
 
 #: tpl/changelog.xml:287
 msgid "Use courier-imap 1.4.6 (security advisory) "
-msgstr "Uso de courier-imap 1.4.7 (recomendaciÛn de seguridad)"
+msgstr "Uso de courier-imap 1.4.7 (recomendaci√≥n de seguridad)"
 
 #: tpl/changelog.xml:290
 msgid "0.4.4 - 5/31/2002"
@@ -984,12 +984,12 @@ msgid ""
 "Update courier-imap install to run as vpopmail.vchkpw instead of root (for "
 "romaing imap users)"
 msgstr ""
-"ActualizaciÛn de la instalaciÛn de courier-imap para correr como vpopmail."
+"Actualizaci√≥n de la instalaci√≥n de courier-imap para correr como vpopmail."
 "vchkpw en lugar de root (para 'usuarios imap con roaming')"
 
 #: tpl/changelog.xml:294
 msgid "Update support information"
-msgstr "ActualizaciÛn de informaciÛn de soporte"
+msgstr "Actualizaci√≥n de informaci√≥n de soporte"
 
 #: tpl/changelog.xml:297
 msgid "0.4.3 - 5/29/2002"
@@ -998,7 +998,7 @@ msgstr "0.4.3 - 5/29/200"
 #: tpl/changelog.xml:300
 msgid "Use port numbers in pop3d start scripts instead of 'pop-3' and 'pop3s'"
 msgstr ""
-"Uso de n˙meros de puertos en los scripts de inicio de pop3d en lugar"
+"Uso de n√∫meros de puertos en los scripts de inicio de pop3d en lugar"
 "de 'pop-3' y 'pop3s'"
 
 #: tpl/changelog.xml:303
@@ -1007,7 +1007,7 @@ msgstr "0.4.2 - 5/26/2002"
 
 #: tpl/changelog.xml:306
 msgid "Upgrade to new 0.31 smtp auth patch "
-msgstr "ActualizaciÛn del parche smtp auth al nuevo 0.31"
+msgstr "Actualizaci√≥n del parche smtp auth al nuevo 0.31"
 
 #: tpl/changelog.xml:309
 msgid "0.4.1 - 5/21/2002"
@@ -1031,7 +1031,7 @@ msgstr "0.4 - 4/20/2002 (no publicado)"
 
 #: tpl/changelog.xml:320
 msgid "Supply new vchkpwcmd5 module (alternate to vchkpw)"
-msgstr "ProvisiÛn de nuevo mÛdulo vchkpwcmd5 (alternativo a vchkpw)"
+msgstr "Provisi√≥n de nuevo m√≥dulo vchkpwcmd5 (alternativo a vchkpw)"
 
 #: tpl/changelog.xml:321
 msgid "Use vpopmail-5.3.5-cmd5 and qmailadmin 1.0.4"
@@ -1047,7 +1047,7 @@ msgstr "Cambio a qmail-pop3d para courier pop3d"
 
 #: tpl/changelog.xml:324
 msgid "Upgrade to v. 0.30 of the SMTP-AUTH patch "
-msgstr "ActualizaciÛn a v.0.30 del parche SMTP-AUTH"
+msgstr "Actualizaci√≥n a v.0.30 del parche SMTP-AUTH"
 
 #: tpl/changelog.xml:327
 msgid "0.3 - 1/3/2002"
@@ -1067,7 +1067,7 @@ msgstr "0.2 - 12/26/2001"
 
 #: tpl/changelog.xml:337
 msgid "fixed broken link in download section"
-msgstr "CorrecciÛn de enlace roto en la secciÛn de download"
+msgstr "Correcci√≥n de enlace roto en la secci√≥n de download"
 
 #: tpl/changelog.xml:338
 msgid "added patch for quota problems in vpopmail-5.1.3 "
@@ -1093,7 +1093,7 @@ msgstr "ClamAV"
 
 #: tpl/clamav.xml:6
 msgid "This open source virus scanner will be called by simscan."
-msgstr "Este escaneador de virus de cÛdigo abierto ser· llamado por simscan"
+msgstr "Este escaneador de virus de c√≥digo abierto ser√° llamado por simscan"
 
 #: tpl/clamav.xml:9
 msgid ""
@@ -1105,7 +1105,7 @@ msgstr ""
 
 #: tpl/clamav.xml:29
 msgid "setup freshclam"
-msgstr "instalaciÛn de freshclam"
+msgstr "instalaci√≥n de freshclam"
 
 #: tpl/clamav.xml:43
 msgid "add freshclam.log to logrotate"
@@ -1125,7 +1125,7 @@ msgstr "Courier-IMAP"
 
 #: tpl/courier-imap.xml:7
 msgid "Courier-IMAP will supply IMAP/SIMAP access."
-msgstr "Courier-IMAP proporcionar· acceso IMAP/SIMAP"
+msgstr "Courier-IMAP proporcionar√° acceso IMAP/SIMAP"
 
 #: tpl/courier-imap.xml:10
 msgid ""
@@ -1134,9 +1134,9 @@ msgid ""
 "during the install of courier-authlib and courier-imap.  Most Linux systems "
 "use GNU make."
 msgstr ""
-"<emphasis>NOTA:</emphasis> Si Ud est· en un sistema que no usa GNU 'make'"
+"<emphasis>NOTA:</emphasis> Si Ud est√° en un sistema que no usa GNU 'make'"
 "tal como FreeBSD, instale GNU 'make' y sustituya 'gmake' por 'make' "
-"durante la instalaciÛn de courier-authlib y courier-imap. La mayorÌa de"
+"durante la instalaci√≥n de courier-authlib y courier-imap. La mayor√≠a de"
 "los sistemas Linux usan GNU 'make'."
 
 #: tpl/courier-imap.xml:12
@@ -1169,7 +1169,7 @@ msgstr "compilar como vpopmail"
 
 #: tpl/courier-imap.xml:60
 msgid "configure may take some time..."
-msgstr "'configure' podrÌa llevar algun tiempo..."
+msgstr "'configure' podr√≠a llevar algun tiempo..."
 
 #: tpl/courier-imap.xml:62
 msgid "NOTE: RedHat/Fedora users need to add '--with-redhat'"
@@ -1184,7 +1184,7 @@ msgid ""
 "add \" AUTH=CRAM-MD5\" to IMAP_CAPABILITY to enable secure authentication "
 "(CRAM-MD5)"
 msgstr ""
-"agregar \" AUTH=CRAM-MD5\" a IMAP_CAPABILITY para habilitar autenticaciÛn "
+"agregar \" AUTH=CRAM-MD5\" a IMAP_CAPABILITY para habilitar autenticaci√≥n "
 "(CRAM-MD5) segura"
 
 #: tpl/courier-imap.xml:88
@@ -1206,9 +1206,9 @@ msgid ""
 msgstr ""
 "opcional: La primera que 'courier-imap' es iniciado, el certificado SSL es "
 "creado por primera vez usando 'localhost' como el 'common name'.  Si ud quiere"
-"cambiar esto para equiparar con su 'hostname', Ud puede personalizar la lÌnea"
-"CN en /usr/lib/courier-imap/etc/imapd.cnf (y pop3d.cnf de su elecciÛn para "
-"usar el 'pop3d' de courier) asÌ el 'common name' es igual a su nombre de "
+"cambiar esto para equiparar con su 'hostname', Ud puede personalizar la l√≠nea"
+"CN en /usr/lib/courier-imap/etc/imapd.cnf (y pop3d.cnf de su elecci√≥n para "
+"usar el 'pop3d' de courier) as√≠ el 'common name' es igual a su nombre de "
 "servidor ANTES que Ud inicie el server por primera vez."
 
 #: tpl/daemontools.xml:2
@@ -1218,10 +1218,10 @@ msgid ""
 "order, unless you really know what you're doing. (Because if you did, you "
 "wouldn't be reading this, right?)"
 msgstr ""
-"Ahora que Ud ya bajÛ todos los paquetes de software a {varsrc}, por favor "
-"recorra cada uno de esos pasos de instalaciÛn como aparecen, y en este orden,"
-"a menos que Ud realmente sepa quÈ es lo que Ud est· haciendo. (Porque si lo "
-"hizo, Ud no querrÌa estar leyendo esto, øcorrecto?"
+"Ahora que Ud ya baj√≥ todos los paquetes de software a {varsrc}, por favor "
+"recorra cada uno de esos pasos de instalaci√≥n como aparecen, y en este orden,"
+"a menos que Ud realmente sepa qu√© es lo que Ud est√° haciendo. (Porque si lo "
+"hizo, Ud no querr√≠a estar leyendo esto, ¬øcorrecto?"
 
 #: tpl/daemontools.xml:3
 msgid ""
@@ -1229,7 +1229,7 @@ msgid ""
 "and your <quote>init.d</quote> path is <quote>/etc/init.d</quote>. If yours "
 "are different, please substitue paths accordingly."
 msgstr ""
-"Los pasos siguientes suponen que sus directorios <quote>rc</quote> est·n en"
+"Los pasos siguientes suponen que sus directorios <quote>rc</quote> est√°n en"
 " /etc/ y que su ruta a <quote>init.d</quote> es <quote>/etc/init.d</quote>."
 "Si las suyas son diferentes, por favor sustituya las rutas de acuerdo a esto. "
 
@@ -1243,8 +1243,8 @@ msgid ""
 "daemontools is a collection of tools for managing UNIX services. It will "
 "monitor qmail-send, and qmail-smtpd, and qmail-pop3d services."
 msgstr ""
-"daemontools es una colecciÛn de herramientas para administrar servicios UNIX."
-"Ella monitorear· los servicios 'qmail-send', 'qmail-smtpd' y 'qmail-pop3d'."
+"daemontools es una colecci√≥n de herramientas para administrar servicios UNIX."
+"Ella monitorear√° los servicios 'qmail-send', 'qmail-smtpd' y 'qmail-pop3d'."
 
 
 #: tpl/daemontools.xml:49
@@ -1252,7 +1252,7 @@ msgid ""
 "To verify that daemontools is running, make sure that `ps ax` reports '/bin/"
 "sh /command/svscanboot' and 'svscan /service' as running."
 msgstr ""
-"Para verificar que 'daemontools' est· corriendo, aseg˙rese de que `ps ax` "
+"Para verificar que 'daemontools' est√° corriendo, aseg√∫rese de que `ps ax` "
 "reporta a '/bin/sh /command/svscanboot' y 'svscan /service' corriendo."
 
 #: tpl/ezmlm-idx.xml:5 tpl/toc.xml:33
@@ -1262,7 +1262,7 @@ msgstr "ezmlm-idx"
 #: tpl/ezmlm-idx.xml:7
 msgid "Fast, full featured Mailing List Manager configureable from qmailadmin."
 msgstr ""
-"R·pido, lleno de opciones Administrador de Listas de Correo, configurable"
+"R√°pido, lleno de opciones Administrador de Listas de Correo, configurable"
 "desde qmailadmin"
 
 #: tpl/gettingstarted.xml:1 tpl/outline.xml:16 tpl/toc.xml:16
@@ -1279,9 +1279,9 @@ msgid ""
 "using <quote>merchbox.com</quote> as your virtual domain, here's how your "
 "host lookups would look after setting up dns:"
 msgstr ""
-"Antes de que comencemos, aseg˙rese de que el DNS (registro mx) estÈ configu-"
-"rado correctamente. Si Ud est· usando <quote>merchbox.com</quote> como su "
-"dominio virtual, asÌ es como sus 'host lookups' deberÌan verse luego de "
+"Antes de que comencemos, aseg√∫rese de que el DNS (registro mx) est√© configu-"
+"rado correctamente. Si Ud est√° usando <quote>merchbox.com</quote> como su "
+"dominio virtual, as√≠ es como sus 'host lookups' deber√≠an verse luego de "
 "configurado el dns:"
 
 #: tpl/gettingstarted.xml:8
@@ -1298,7 +1298,7 @@ msgstr "[shupp@ns1 toaster]$ host -t a mail.merchbox.com"
 
 #: tpl/gettingstarted.xml:11
 msgid "mail.merchbox.com. has address 216.234.249.114"
-msgstr "mail.merchbox.com. tiene direcciÛn 216.234.249.114"
+msgstr "mail.merchbox.com. tiene direcci√≥n 216.234.249.114"
 
 #: tpl/gettingstarted.xml:16
 msgid "Remove existing smtp/pop/imap servers"
@@ -1310,9 +1310,9 @@ msgid ""
 "disable pop/imap servers. To remove sendmail and postfix from an rpm based "
 "distribution, try this:"
 msgstr ""
-"Ahora debemos remover cualquier instalaciÛn existente de sendmail/postfix y"
+"Ahora debemos remover cualquier instalaci√≥n existente de sendmail/postfix y"
 "deshabilitar servidores pop/imap. Para remover sendmail y postfix de una "
-"distribuciÛn basada en rpm, intente esto: "
+"distribuci√≥n basada en rpm, intente esto: "
 
 
 #: tpl/gettingstarted.xml:20
@@ -1325,11 +1325,11 @@ msgid ""
 "ports. Otherwise, disable them manually."
 msgstr ""
 "A menos que Ud tenga otros servicios que absolutamente deban correr en esta"
-"m·quina, recomiendo apagar inetd o xinetd y removerlos de sus scripts de"
-"arranque. La ˙nica cosa que Ud necesitar· (fuera de lo que estamos por "
-"instalar nosotros) es ssh, el cual probablemente ya estÈ instalado. Esto "
-"probablemente apagar· cualquier servidor pop3 o imap, adem·s de otros puertos"
-"innecesarios. De otro modo, deshabilÌtelos manualmente."
+"m√°quina, recomiendo apagar inetd o xinetd y removerlos de sus scripts de"
+"arranque. La √∫nica cosa que Ud necesitar√° (fuera de lo que estamos por "
+"instalar nosotros) es ssh, el cual probablemente ya est√© instalado. Esto "
+"probablemente apagar√° cualquier servidor pop3 o imap, adem√°s de otros puertos"
+"innecesarios. De otro modo, deshabil√≠telos manualmente."
 
 
 #: tpl/gettingstarted.xml:21
@@ -1337,8 +1337,8 @@ msgid ""
 "To be sure that these services are disabled, try telnetting to ports 25, "
 "110, and 143 and make sure your connections are refused."
 msgstr ""
-"Para estar seguro que esos servicios est·n desactivados, intente hacer "
-"'telnete' a los puertos 25, 110, y 143 y aseg˙rese de que sus conexiones "
+"Para estar seguro que esos servicios est√°n desactivados, intente hacer "
+"'telnete' a los puertos 25, 110, y 143 y aseg√∫rese de que sus conexiones "
 "son rechazadas."
 
 #: tpl/gettingstarted.xml:25
@@ -1351,12 +1351,12 @@ msgid ""
 "location, set the location below, and all paths will be updated."
 msgstr ""
 " Yo mantengo mis fuentes de software /var/src. Si Ud quiere ubicarlos en otra"
-"ubicaciÛn, configure la ubicaciÛn debajo y todas las rutas ser·n actualizadas"
+"ubicaci√≥n, configure la ubicaci√≥n debajo y todas las rutas ser√°n actualizadas"
 
 
 #: tpl/html.xsl:31 tpl/html.xsl:56
 msgid "Back"
-msgstr "Atr·s"
+msgstr "Atr√°s"
 
 #: tpl/html.xsl:32 tpl/html.xsl:57
 msgid "Home"
@@ -1368,7 +1368,7 @@ msgstr "Siguiente"
 
 #: tpl/html.xsl:152
 msgid "Make payments with PayPal - it's fast, free and secure!"
-msgstr "Hacer pagos con PayPal - °es r·pido, gratis y seguro!"
+msgstr "Hacer pagos con PayPal - ¬°es r√°pido, gratis y seguro!"
 
 #: tpl/outline.xml:6 tpl/toc.xml:1
 msgid "Table of Contents"
@@ -1380,7 +1380,7 @@ msgstr "Prefacio"
 
 #: tpl/outline.xml:21
 msgid "Base Install"
-msgstr "InstalaciÛn Base"
+msgstr "Instalaci√≥n Base"
 
 #: tpl/outline.xml:34
 msgid "Test"
@@ -1388,19 +1388,19 @@ msgstr "Prueba"
 
 #: tpl/preface.xml:4
 msgid "What's a POP toaster?"
-msgstr "øQuÈ es un toaster POP?"
+msgstr "¬øQu√© es un toaster POP?"
 
 #: tpl/preface.xml:5
 msgid ""
 "I use Dan Bernstein's definition described at <ulink url='http://cr.yp.to/"
 "qmail/toaster.html'>http://cr.yp.to/qmail/toaster.html</ulink>"
 msgstr ""
-"Yo uso la definiciÛn de Dan Bernstein descrita en <ulink url='http://cr.yp.to/"
+"Yo uso la definici√≥n de Dan Bernstein descrita en <ulink url='http://cr.yp.to/"
 "qmail/toaster.html'>http://cr.yp.to/qmail/toaster.html</ulink>"
 
 #: tpl/preface.xml:9 tpl/toc.xml:7
 msgid "What this toaster does and does not do"
-msgstr "øQuÈ es lo que este toaster hace y quÈ es lo que no hace"
+msgstr "¬øQu√© es lo que este toaster hace y qu√© es lo que no hace"
 
 #: tpl/preface.xml:10
 msgid ""
@@ -1409,7 +1409,7 @@ msgid ""
 "distributions, they will probably work on other flavors of Unix without too "
 "much modification."
 msgstr ""
-"Este \"cÛmo\" lo conducir· a poner operativo un Qmail \"Toaster\" en Linux. "
+"Este \"c√≥mo\" lo conducir√° a poner operativo un Qmail \"Toaster\" en Linux. "
 "Mientras que estas instrucciones se pensaron para trabajar con distribuciones"
 "populares de Linux, probablemente funcionen en otros sabores de Unix sin "
 "demasiadas modificaciones."
@@ -1436,11 +1436,11 @@ msgstr "Servidor WebMail"
 
 #: tpl/preface.xml:16
 msgid "Quota Support (usage viewable by webmail)"
-msgstr "Soporte de Cuota (utilizaciÛn visible desde webmail)"
+msgstr "Soporte de Cuota (utilizaci√≥n visible desde webmail)"
 
 #: tpl/preface.xml:17
 msgid "Autoresponder"
-msgstr "Contestador Autom·tico"
+msgstr "Contestador Autom√°tico"
 
 #: tpl/preface.xml:18
 msgid "Mailing Lists"
@@ -1448,7 +1448,7 @@ msgstr "Listas de Correo"
 
 #: tpl/preface.xml:19
 msgid "Web-Based Email Administration"
-msgstr "AdministraciÛn de Correo basada en Web"
+msgstr "Administraci√≥n de Correo basada en Web"
 
 #: tpl/preface.xml:21
 msgid ""
@@ -1462,14 +1462,14 @@ msgid ""
 "documentation of each package that's to be installed. There's no substitute "
 "for that."
 msgstr ""
-"Lo que este toaster NO hace es actuar como una guÌa exhaustiva de qmail o "
-"de cualquiera de los otros paquetes que instala. Dicha informaciÛn est· ya"
-"disponible en la documentaciÛn, <ulink url='http://www.lifewithqmail.org/'>"
-"Life With Qmail</ulink>, o en otros 'cÛmos'/toasters. Yo sÛlo pongo esto en"
+"Lo que este toaster NO hace es actuar como una gu√≠a exhaustiva de qmail o "
+"de cualquiera de los otros paquetes que instala. Dicha informaci√≥n est√° ya"
+"disponible en la documentaci√≥n, <ulink url='http://www.lifewithqmail.org/'>"
+"Life With Qmail</ulink>, o en otros 'c√≥mos'/toasters. Yo s√≥lo pongo esto en"
 "conjunto para doucmentar todos los comandos/urls/procedimientos que yo mismo"
-"enontrÈ repitiÈndose frecuentemente. Esto fue pensado para tener un poco de"
-"un sensaciÛn de \"copiar y pegar\" para auxiliar al impaciente (como yo)."
-"Si esto no es suficiente para Ud, tÛmese el tiempo de leer la documentaciÛn"
+"enontr√© repiti√©ndose frecuentemente. Esto fue pensado para tener un poco de"
+"un sensaci√≥n de \"copiar y pegar\" para auxiliar al impaciente (como yo)."
+"Si esto no es suficiente para Ud, t√≥mese el tiempo de leer la documentaci√≥n"
 "de cada paquete que haya sido instalado. No existe reemplazo para eso."
 
 
@@ -1485,18 +1485,18 @@ msgid ""
 "configuration files. If you want a <quote>point and click</quote> install "
 "experience, this is not for you."
 msgstr ""
-"Este documento supone que Ud est· familiarizado con la administraciÛn de "
-"sistemas Unix, protocolos mail/web, etc. Ud no tiene que ser un gur˙ para "
-"hacer este trabajo, pero Ud estar· parcheando y compilando cÛdigo fuente, "
-"asimisimo editando archivos de configuraciÛn. Si Ud quiere una experiencia de"
-"instalaciÛn del tipo <quote>apuntar y clickear</quote>, esto no es para Ud."
+"Este documento supone que Ud est√° familiarizado con la administraci√≥n de "
+"sistemas Unix, protocolos mail/web, etc. Ud no tiene que ser un gur√∫ para "
+"hacer este trabajo, pero Ud estar√° parcheando y compilando c√≥digo fuente, "
+"asimisimo editando archivos de configuraci√≥n. Si Ud quiere una experiencia de"
+"instalaci√≥n del tipo <quote>apuntar y clickear</quote>, esto no es para Ud."
 
 #: tpl/preface.xml:29
 msgid ""
 "These instructions come with no warranty or guarantee. If you blow up your "
 "server, and lose business in the process, that's your problem."
 msgstr ""
-"Estas instrucciones no incluyen ninguna garantÌa. Si Ud explota su servidor,"
+"Estas instrucciones no incluyen ninguna garant√≠a. Si Ud explota su servidor,"
 "y pierde negocios en el proceso, ese es su problema."
 
 #: tpl/preface.xml:31
@@ -1505,9 +1505,9 @@ msgid ""
 "well as one specific to this toaster. See links in the appendix for more "
 "information."
 msgstr ""
-"No se provee soporte. Existen listas de correo para todo estos paquetes, asÌ"
-"como una especÌfica para el toaster. Vea los enlaces en el apÈndice para m·s"
-"informaciÛn."
+"No se provee soporte. Existen listas de correo para todo estos paquetes, as√≠"
+"como una espec√≠fica para el toaster. Vea los enlaces en el ap√©ndice para m√°s"
+"informaci√≥n."
 
 #: tpl/preface.xml:33
 msgid ""
@@ -1517,11 +1517,11 @@ msgid ""
 "individual packages. See the respective documentation for each package for "
 "further information."
 msgstr ""
-"<emphasis>Est· disponible el soporte comercial</emphasis>. "
+"<emphasis>Est√° disponible el soporte comercial</emphasis>. "
 "Vea <ulink url='http://merchbox.com/qmail.php'>http://merchbox.com/qmail.php"
-"</ulink> para m·s informaciÛn. Existen adem·s otras fuentes de soporte"
-"comercial para los paquetes individuales. Vea la docuemntaciÛn respectiva"
-"para cada paquete para mayor informaciÛn."
+"</ulink> para m√°s informaci√≥n. Existen adem√°s otras fuentes de soporte"
+"comercial para los paquetes individuales. Vea la docuemntaci√≥n respectiva"
+"para cada paquete para mayor informaci√≥n."
 
 #: tpl/preface.xml:37 tpl/toc.xml:9
 msgid "Prerequisites"
@@ -1539,16 +1539,16 @@ msgid ""
 "they are installed is to use yum, which is likely installed already. Make "
 "sure the packages get installed if necessary using this command:"
 msgstr ""
-"Si Ud instalÛ una versiÛn reciente de su distribuciÛn Linux, no deberÌa tener"
-"ningun problema, especialmente si Ud realizÛ una instalaciÛn tipo \"server\" "
-"m·s que una instalaciÛn \"Desktop\". Sin embargo, esta instalaciÛn REQUIERE"
-"que Ud tenga un servidor web apache y PHP instalado. La mayorÌa de las dis-"
+"Si Ud instal√≥ una versi√≥n reciente de su distribuci√≥n Linux, no deber√≠a tener"
+"ningun problema, especialmente si Ud realiz√≥ una instalaci√≥n tipo \"server\" "
+"m√°s que una instalaci√≥n \"Desktop\". Sin embargo, esta instalaci√≥n REQUIERE"
+"que Ud tenga un servidor web apache y PHP instalado. La mayor√≠a de las dis-"
 "tribuciones vienen con esos ahora. PHP solo es requerido para SquirrelMail."
-"Las principales complicaciones que Ud podrÌa encontrarse son la falta de"
+"Las principales complicaciones que Ud podr√≠a encontrarse son la falta de"
 "bibliotecas de desarrollo, o archivos de desarrollo gdbm, stunnel, kerberos"
-"o openssl. Si Ud est· usando una distribuciÛn basada en rpm, una manera"
-"sencilla de que estÈn instaladas es usando 'yum', el cual estÈ instalado"
-"probablemente y listo. Aseg˙rese de tener instalados si es necesario"
+"o openssl. Si Ud est√° usando una distribuci√≥n basada en rpm, una manera"
+"sencilla de que est√©n instaladas es usando 'yum', el cual est√© instalado"
+"probablemente y listo. Aseg√∫rese de tener instalados si es necesario"
 "usando este comando:"
 
 #: tpl/preface.xml:42
@@ -1561,10 +1561,10 @@ msgid ""
 "quote> in /etc/sysconfig/selinux and rebooting."
 msgstr ""
 "<emphasis>SELinux</emphasis>: Algunos programas 'setuid', como QmailAdmin, "
-"no funcionar·n con SELinux. Ud deberÌa desactivar SELinux durante la ins-"
-"talaciÛn del OS. Si Ud ya instalÛ el OS, deberÌa desactivarlo. Yo tambiÈn he"
+"no funcionar√°n con SELinux. Ud deber√≠a desactivar SELinux durante la ins-"
+"talaci√≥n del OS. Si Ud ya instal√≥ el OS, deber√≠a desactivarlo. Yo tambi√©n he"
 "visto que SELinux impide que SquirrelMail trabaje bajo Apache apropiadamente."
-"En Fedora Core 4, pude desactivar esta configuraciÛn poniendo<quote>"
+"En Fedora Core 4, pude desactivar esta configuraci√≥n poniendo<quote>"
 "SELINUX=disabled</quote> en /etc/sysconfig/selinux y reiniciando el equipo."
 
 #: tpl/preface.xml:43
@@ -1574,8 +1574,8 @@ msgid ""
 "of the more common ones if you are unsure:"
 msgstr ""
 "<emphasis>Aliases</emphasis> Algunas distribuciones configuran aliases para"
-"comandos comunes que podrÌan interferir con esta instalaciÛn. Yo recomiendo "
-"desactivar ese aliasing de los comando m·s comunes si Ud no est· seguro:"
+"comandos comunes que podr√≠an interferir con esta instalaci√≥n. Yo recomiendo "
+"desactivar ese aliasing de los comando m√°s comunes si Ud no est√° seguro:"
 
 
 #: tpl/preface.xml:46
@@ -1584,9 +1584,9 @@ msgid ""
 "However, I now use debian exclusively now, and I fully recommend it. Once "
 "you get comfortable with apt, you'll never go back!"
 msgstr ""
-"Esta versiÛn original del documento fue escrita usando RedHat Linux 9.0. "
+"Esta versi√≥n original del documento fue escrita usando RedHat Linux 9.0. "
 "Sin embargo, ahora uso debian exclusivamente, y la recomiendo por completo"
-"Una vez que te sientes cÛmodo con 'apt', nunca querr·s volver atr·s!"
+"Una vez que te sientes c√≥modo con 'apt', nunca querr√°s volver atr√°s!"
 
 #: tpl/preface.xml:49 tpl/toc.xml:10
 msgid "Debian Notes"
@@ -1603,7 +1603,7 @@ msgstr ""
 
 #: tpl/preface.xml:52
 msgid "In addition, you probably want these things installed as well:"
-msgstr "Adem·s, Ud probablemente quiera tener estas cosas instaladas tambiÈn"
+msgstr "Adem√°s, Ud probablemente quiera tener estas cosas instaladas tambi√©n"
 
 #: tpl/preface.xml:56
 msgid ""
@@ -1638,7 +1638,7 @@ msgid ""
 "we'll just create it:"
 msgstr ""
 "Los scripts de arranque de Courier-imap prefieren usar un directorio 'lock'"
-"directorio, asÌ que lo crearemos directamente: "
+"directorio, as√≠ que lo crearemos directamente: "
 
 
 #: tpl/preface.xml:83
@@ -1646,7 +1646,7 @@ msgid ""
 "Apache's DocumentRoot is in /var/www instead of /var/www/html. What I do is "
 "use that, and put SquirrelMail's data directory in /etc/apache."
 msgstr ""
-"El 'DocumentRoot' de Apache est· en /var/www en lugar de /var/www/html. Lo "
+"El 'DocumentRoot' de Apache est√° en /var/www en lugar de /var/www/html. Lo "
 "que yo hago es usar eso, y poner el directorio 'data' de SquirrelMail en"
 "/etc/apache."
 
@@ -1655,7 +1655,7 @@ msgid ""
 "Apache's cgi-bin directory by default is /usr/lib/cgi-bin. You should use "
 "that path when configuring qmailadmin."
 msgstr ""
-"El directorio 'cgi-bin' de Apache por defecto es /usr/lib/cgi-bin. Ud deberÌa"
+"El directorio 'cgi-bin' de Apache por defecto es /usr/lib/cgi-bin. Ud deber√≠a"
 "usar esa ruta cuando configure qmailadmin."
 
 #: tpl/preface.xml:86
@@ -1684,9 +1684,9 @@ msgid ""
 "ulink> on using this toaster with Trustix 3.0. I have not tested them, I'm "
 "just making them available as-is."
 msgstr ""
-"Matthew Valentini proveyÛ algunas <ulink url='trustix_notes.eml.html'>notas</"
+"Matthew Valentini provey√≥ algunas <ulink url='trustix_notes.eml.html'>notas</"
 "ulink> sobre el uso de este toaster con Trustix 3.0. No las he probado, yo"
-"solo las estoy poniendo disponibles 'como-est·n'."
+"solo las estoy poniendo disponibles 'como-est√°n'."
 
 #: tpl/preface.xml:112 tpl/toc.xml:12
 msgid "Toaster License"
@@ -1697,12 +1697,12 @@ msgid ""
 "This document is covered by the same license as Life With Qmail, and the "
 "license is detailed here:"
 msgstr ""
-"Este documento est· protegido por la misma licencia que la de 'Life With "
-"Qmail', y la licencia es detallada aquÌ:"
+"Este documento est√° protegido por la misma licencia que la de 'Life With "
+"Qmail', y la licencia es detallada aqu√≠:"
 
 #: tpl/qmailadmin-limits.xml:5 tpl/toc.xml:50
 msgid "QmailAdmin Limits"
-msgstr "LÌmites en QmailAdmin"
+msgstr "L√≠mites en QmailAdmin"
 
 #: tpl/qmailadmin-limits.xml:6
 msgid ""
@@ -1710,9 +1710,9 @@ msgid ""
 "hosting companies with different mail packages. This is covered in detail in "
 "the INSTALL file of qmailadmin ({varsrc}/qmailadmin-{qmailadmin}/INSTALL)."
 msgstr ""
-"QmailAdmin puede configurar lÌmites/valores por defecto por dominio, lo cual"
-"es realmente ˙til para compaÒÌas de hospedaje web con diferentes paquetes"
-"para paquetes de correo electrÛnico. Esto est· cubierto en detalle en el "
+"QmailAdmin puede configurar l√≠mites/valores por defecto por dominio, lo cual"
+"es realmente √∫til para compa√±√≠as de hospedaje web con diferentes paquetes"
+"para paquetes de correo electr√≥nico. Esto est√° cubierto en detalle en el "
 "archivo INSTALL de qmailadmin ({varsrc}/qmailadmin-{qmailadmin}/INSTALL)."
 
 #: tpl/qmailadmin.xml:5
@@ -1750,7 +1750,7 @@ msgstr ""
 
 #: tpl/qmailmrtg7.xml:37
 msgid "Add the following line to your crontab"
-msgstr "Agregar la lÌnea siguiente a su 'crontab'"
+msgstr "Agregar la l√≠nea siguiente a su 'crontab'"
 
 #: tpl/qmail.xml:5 tpl/toc.xml:28
 msgid "qmail"
@@ -1761,14 +1761,14 @@ msgid ""
 "qmail is allegedly the second most popular MTA in use, known for speed and "
 "security."
 msgstr ""
-"qmail es supuestamente el segundo MTA m·s popular en uso, reconocido por su"
+"qmail es supuestamente el segundo MTA m√°s popular en uso, reconocido por su"
 "velocidad y seguridad."
 
 #: tpl/qmail.xml:11
 msgid ""
 "The patch you will apply later is a composite of these existing patches:"
 msgstr ""
-"El parche que Ud aplicar· despuÈs es una composiciÛn de estos parches"
+"El parche que Ud aplicar√° despu√©s es una composici√≥n de estos parches"
 "existentes:"
 
 #: tpl/qmail.xml:14
@@ -1797,7 +1797,7 @@ msgstr "re-leer 'concurrency' via HUP"
 
 #: tpl/qmail.xml:19
 msgid "big concurrency (set the spawn limit above 255)"
-msgstr "'big concurrency' (configura el lÌmite de 'spawn' arriba de 255)"
+msgstr "'big concurrency' (configura el l√≠mite de 'spawn' arriba de 255)"
 
 #: tpl/qmail.xml:20
 msgid "maildir++ patch"
@@ -1837,7 +1837,7 @@ msgid ""
 "NOTE: RedHat/Fedora users may need to link certain include files for the TLS "
 "patch."
 msgstr ""
-"NOTA: Usuarios de RedHat/Fedora podrÌan necesitar enlazar ciertos archivos"
+"NOTA: Usuarios de RedHat/Fedora podr√≠an necesitar enlazar ciertos archivos"
 "'include' para el parche TLS."
 
 #: tpl/qmail.xml:50
@@ -1846,11 +1846,11 @@ msgstr "Ejecute el siguiente comando solamente si falla 'make'"
 
 #: tpl/qmail.xml:53
 msgid "as well as remove the sendmail link if it still exists:"
-msgstr "tambiÈn como remover el enlace a 'sendmail' si existe todavÌa:"
+msgstr "tambi√©n como remover el enlace a 'sendmail' si existe todav√≠a:"
 
 #: tpl/qmail.xml:58
 msgid "NOTE: qmail will be patched AFTER vpopmail is installed"
-msgstr "NOTA: qmail ser· parcheado DESPUES de ser instalado vpopmail"
+msgstr "NOTA: qmail ser√° parcheado DESPUES de ser instalado vpopmail"
 
 #: tpl/qmail.xml:60
 msgid "turn on SPF checking"
@@ -1858,20 +1858,20 @@ msgstr "habilitar el chequeo SPF"
 
 #: tpl/qmail.xml:63
 msgid "Setup the primary administrator's email address."
-msgstr "Configurar la direcciÛn electrÛnica primaria del administrador"
+msgstr "Configurar la direcci√≥n electr√≥nica primaria del administrador"
 
 #: tpl/qmail.xml:64
 msgid "This address will receive mail for root, postmaster, and mailer-daemon."
 msgstr ""
-"Esta direcciÛn recibir· el correo para 'root','postmaster',y 'mailer-daemon'"
+"Esta direcci√≥n recibir√° el correo para 'root','postmaster',y 'mailer-daemon'"
 
 #: tpl/qmail.xml:65
 msgid "Replace <quote>admin@example.com</quote> with your email address"
-msgstr "Reemplace <quote>admin@example.com</quote> con su direcciÛni de email"
+msgstr "Reemplace <quote>admin@example.com</quote> con su direcci√≥ni de email"
 
 #: tpl/qmail.xml:77
 msgid "add qmail man pages to MANPATH"
-msgstr "agregar las p·ginas de manual de qmail a MANPATH"
+msgstr "agregar las p√°ginas de manual de qmail a MANPATH"
 
 #: tpl/qmail.xml:78
 msgid "Edit /etc/man.config"
@@ -1884,7 +1884,7 @@ msgstr "Agregar <quote>MANPATH  /var/qmail/man</quote>"
 #: tpl/qmail.xml:81
 msgid "NOTE: Debian users should set MANDATORY_MANPATH rather than MANPATH"
 msgstr ""
-"NOTA: usuarios Debian deberÌan configurar MANDATORY_MANPATH m·s que MANPATH"
+"NOTA: usuarios Debian deber√≠an configurar MANDATORY_MANPATH m√°s que MANPATH"
 
 #: tpl/qmail.xml:97
 msgid "Now create the supervise directories/scripts for the qmail services:"
@@ -1894,7 +1894,7 @@ msgstr ""
 
 #: tpl/qmail.xml:109
 msgid " NOTE: If you are using stunnel version 4, you should use pop3ds.run.v4"
-msgstr "NOTA: Si Ud est· usando stunnel version 4m, deberÌa usar pop3ds.run.v4"
+msgstr "NOTA: Si Ud est√° usando stunnel version 4m, deber√≠a usar pop3ds.run.v4"
 
 #: tpl/qmail.xml:110
 msgid " instead of pop3ds.run below."
@@ -1906,11 +1906,11 @@ msgid ""
 "(v. 4) to see what version is installed."
 msgstr ""
 "Tipear <quote>stunnel -V</quote> (v. 3) o <quote>stunnel -version</quote> "
-"(v. 4) para ver cu·l version est· instalada."
+"(v. 4) para ver cu√°l version est√° instalada."
 
 #: tpl/qmail.xml:112
 msgid " You will also need to copy over stunnel.conf like so:"
-msgstr "Ud tambiÈn necesitar· copiar sobre stunnel.conf asÌ:"
+msgstr "Ud tambi√©n necesitar√° copiar sobre stunnel.conf as√≠:"
 
 #: tpl/qmail.xml:114
 msgid ""
@@ -1926,11 +1926,11 @@ msgstr "permitir 'daemontools' para arrancar qmail"
 
 #: tpl/qmail.xml:137
 msgid "verify that it's running with qmailctl"
-msgstr "verificar que est· corriendo con 'qmailctl'"
+msgstr "verificar que est√° corriendo con 'qmailctl'"
 
 #: tpl/qmail.xml:142
 msgid "Now let's compile libdomainkeys, we'll need that later:"
-msgstr "Ahora compilemos 'libdomainkeys', lo necesitaremos m·s tarde:"
+msgstr "Ahora compilemos 'libdomainkeys', lo necesitaremos m√°s tarde:"
 
 #: tpl/ripmime.xml:5 tpl/toc.xml:46
 msgid "ripmime"
@@ -1941,7 +1941,7 @@ msgid ""
 "ripmime is a tool for extracting MIME attachments from email, and is used by "
 "simscan."
 msgstr ""
-"ripmime es una herramienta para extraer adjuntos MIME del correo electrÛnico,"
+"ripmime es una herramienta para extraer adjuntos MIME del correo electr√≥nico,"
 "y es utilizado por simscan."
 
 #: tpl/simscan.xml:5
@@ -1957,9 +1957,9 @@ msgid ""
 "infected messages instead of stopping them at the SMTP level."
 
 msgstr ""
-"Su instalaciÛn de qmail ya est· parcheada (parche qmail-queue) para soportar "
+"Su instalaci√≥n de qmail ya est√° parcheada (parche qmail-queue) para soportar "
 "simscan, una nueva herramienta para utilizar escaneadores de virus/spam con"
-"qmail. Lo interesante es que evita que viruses (y spam opcionalmente) a˙n"
+"qmail. Lo interesante es que evita que viruses (y spam opcionalmente) a√∫n"
 "ingresen en su cola de correo. Esto es diferente de qmail-scanner, el cual"
 "pone en cuarentena los mensajes infectado en lugar de detenerlos a nivel SMTP"
 
@@ -1987,8 +1987,8 @@ msgid ""
 "Here, you can add 4 tools that together will prevent viruses from reaching "
 "your system via email, and tag spam for client filtering"
 msgstr ""
-"AquÌ, Ud puede agregar 4 herramientas que juntas prevendr·n que los viruses"
-"lleguen a su sistema via correo electrÛnico, y etiquetar 'spam' para el "
+"Aqu√≠, Ud puede agregar 4 herramientas que juntas prevendr√°n que los viruses"
+"lleguen a su sistema via correo electr√≥nico, y etiquetar 'spam' para el "
 "filtrado por el cliente"
 
 #: tpl/spamassassin.xml:7
@@ -2000,7 +2000,7 @@ msgid ""
 "SpamAssassin is the leading open source spam scanner.  We'll be installing "
 "SpamAssassin via CPAN below."
 msgstr ""
-"SpamAssassin es el escaner lider de spam de cÛdigo abierto.  Instalaremos"
+"SpamAssassin es el escaner lider de spam de c√≥digo abierto.  Instalaremos"
 "SpamAssassin via CPAN debajo."
 
 #: tpl/spamassassin.xml:9
@@ -2012,12 +2012,12 @@ msgid ""
 "you could then simply do 'yum uninstall spamassassin', and follow the CPAN "
 "installation below, as you'll have the dependencies."
 msgstr ""
-"<emphasis>NOTA:</emphasis> usuarios Debian deberÌan tener instalados los "
+"<emphasis>NOTA:</emphasis> usuarios Debian deber√≠an tener instalados los "
 "pre-requisitos SpamAssassin durante 'Notas para Debian' anteriormente.  Las"
-"distribuciones RPM podrÌan querer usar 'yum install spamassassin' en lugar de"
-"CPAN debajo, asÌ que Ud obtendr· todas las dependencias.  Si el RPM de "
-"SpamAssassin est· desactualizado, Ud simplemente puede hacer 'yum uninstall"
-"spamassassin', y seguir la instalaciÛn por CPAN siguiente, y obtendr· todas"
+"distribuciones RPM podr√≠an querer usar 'yum install spamassassin' en lugar de"
+"CPAN debajo, as√≠ que Ud obtendr√° todas las dependencias.  Si el RPM de "
+"SpamAssassin est√° desactualizado, Ud simplemente puede hacer 'yum uninstall"
+"spamassassin', y seguir la instalaci√≥n por CPAN siguiente, y obtendr√° todas"
 "las dependencias."
 
 
@@ -2039,13 +2039,13 @@ msgid ""
 "and that your DocumentRoot is /var/www/html, and also that your web server "
 "runs as apache:apache</emphasis>"
 msgstr ""
-"<emphasis>NOTA: Esta secciÛn supone que el 'ServerRoot' de su apache es "
-"/var/www y que su DocumentRoot es /var/www/html, y tambiÈn que su servidor "
+"<emphasis>NOTA: Esta secci√≥n supone que el 'ServerRoot' de su apache es "
+"/var/www y que su DocumentRoot es /var/www/html, y tambi√©n que su servidor "
 "web corre como apache:apache</emphasis>"
 
 #: tpl/squirrelmail.xml:27
 msgid "here you will have to set a few options:"
-msgstr "aquÌ tendr· que configurar unas pocas opciones"
+msgstr "aqu√≠ tendr√° que configurar unas pocas opciones"
 
 #: tpl/squirrelmail.xml:31
 msgid ""
@@ -2062,7 +2062,7 @@ msgid ""
 "quote> (10) to y, and change <quote>Allow server-side sorting</quote> (11) "
 "to y."
 msgstr ""
-"Del men˙ principal, vaya a 'General Options' (4) y cambie 'Data Directory'(2)"
+"Del men√∫ principal, vaya a 'General Options' (4) y cambie 'Data Directory'(2)"
 "a <quote>/var/www/data/</quote>, cambie <quote>'Allow server thread sort'</"
 "quote> (10) a 'y', y cambie <quote>'Allow server-side sorting'</quote> (11) "
 "a 'y'."
@@ -2072,12 +2072,12 @@ msgid ""
 "From the main menu, go to Plugins and enable the quota_usage plugin, along "
 "with any others you prefer"
 msgstr ""
-"Del men˙ principal, vaya a 'Plugins' y habilite el plugin 'quota_usage',"
+"Del men√∫ principal, vaya a 'Plugins' y habilite el plugin 'quota_usage',"
 "igualmente con cualquiera de los otros que Ud prefiera"
 
 #: tpl/squirrelmail.xml:34
 msgid "Save settings"
-msgstr "Guardar configuraciÛn"
+msgstr "Guardar configuraci√≥n"
 
 #: tpl/squirrelmail.xml:35
 msgid "quit"
@@ -2100,7 +2100,7 @@ msgid ""
 "Here we'll add a virtual domain, 'test.com', and test sending/receiving "
 "mail. Substitue 'test.com' for whatever domain you setup DNS for."
 msgstr ""
-"AquÌ agregaremos un dominio virtual, 'test.com', y preobaremos enviar/recibir "
+"Aqu√≠ agregaremos un dominio virtual, 'test.com', y preobaremos enviar/recibir "
 "correo. Sustituya 'test.com' por cualquier dominio para el que haya configu-"
 "rado en el DNS."
 
@@ -2119,8 +2119,8 @@ msgid ""
 "qmailadmin here:"
 msgstr ""
 "Esto crea la cuenta por defecto <quote>postmaster</quote>para test.com. Ud "
-"usar· esta cuenta con qmailadmin. Intente agregando/removiendo usuarios con "
-"qmailadmin aquÌ:"
+"usar√° esta cuenta con qmailadmin. Intente agregando/removiendo usuarios con "
+"qmailadmin aqu√≠:"
 
 #: tpl/test.xml:14
 msgid ""
@@ -2133,7 +2133,7 @@ msgstr ""
 msgid ""
 "verify the user settings, and create the <quote>maildirsize</quote> file"
 msgstr ""
-"verifique la configuraciÛn del usuario, y cree el archivo <quote>maildirsize"
+"verifique la configuraci√≥n del usuario, y cree el archivo <quote>maildirsize"
 "</quote>"
 
 #: tpl/test.xml:23
@@ -2141,14 +2141,14 @@ msgid ""
 "Now, to log into SquirrelMail as user@test.com, point your browser here:"
 msgstr ""
 "Ahora, para loguearse al SquirrelMail como user@test.com, apunte su navegador"
-"web aquÌ:"
+"web aqu√≠:"
 
 #: tpl/test.xml:27
 msgid ""
 "Send yourself a message. If you get it, it's likely you're up and running."
 msgstr ""
-"EnvÌese un mensaje a Ud mismo. Si lo recibe, es posible que ya su instalaciÛn"
-"estÈ activa y corriendo."
+"Env√≠ese un mensaje a Ud mismo. Si lo recibe, es posible que ya su instalaci√≥n"
+"est√© activa y corriendo."
 
 #: tpl/test.xml:29
 msgid "To test your POP server, try telnetting to port 110 and logging in."
@@ -2168,7 +2168,7 @@ msgid ""
 msgstr ""
 "Para probar nuestras conexiones SSL/TLS, todo lo que necesita es duplicar los"
 "mismas pruebas de arribar, pero utilice la herramienta 's_client' de openssl"
-"para manejar la encripciÛn."
+"para manejar la encripci√≥n."
 
 #: tpl/test.xml:75
 msgid "<emphasis>NOTE:</emphasis> If you get an error like this:"
@@ -2182,8 +2182,8 @@ msgid ""
 "know why. The following commands will fix it:"
 
 msgstr ""
-"su instalaciÛn de qmail podrÌa necesitar las listas de cifrado. Con Debian"
-"ocurre esto, no sÈ porquÈ. Los siguientes comandos corregir·n esto:"
+"su instalaci√≥n de qmail podr√≠a necesitar las listas de cifrado. Con Debian"
+"ocurre esto, no s√© porqu√©. Los siguientes comandos corregir√°n esto:"
 
 
 #: tpl/tmda.xml:5 tpl/toc.xml:48
@@ -2199,9 +2199,9 @@ msgid ""
 "don't use it myself, but many people do."
 
 msgstr ""
-"Si Ud quiere la opciÛn de ser muy agresivo acerca del control de spam, TMDA"
-"('Tagged Message Delivery Agent') es una herramienta basada en recusaciÛn que"
-"requiere que un remitente confirme su direcciÛn de correo antes de que el"
+"Si Ud quiere la opci√≥n de ser muy agresivo acerca del control de spam, TMDA"
+"('Tagged Message Delivery Agent') es una herramienta basada en recusaci√≥n que"
+"requiere que un remitente confirme su direcci√≥n de correo antes de que el"
 "mensaje sea entregado. No lo utilizo para mi mismom, pero mucha gente lo hace"
 
 
@@ -2221,10 +2221,10 @@ msgid ""
 "copy over stunnel.conf like so: cp {varsrc}/toaster-scripts-{toasterscripts}/"
 "tmda-stunnel.conf /var/qmail/supervise/tmda-ssl/stunnel.conf"
 msgstr ""
-"NOTA: Si Ud est· usando la version 4 de 'stunnel',deberÌa utilizar 'tmda.ssl."
+"NOTA: Si Ud est√° usando la version 4 de 'stunnel',deber√≠a utilizar 'tmda.ssl."
 "run.v4' en lugar del 'tmda-ofmipd.ssl.run' debajo. Tipee 'stunnel -V' (v. 3) "
-"or 'stunnel -version' (v. 4) para ver quÈ version est· instalada. TambiÈn"
-"necesitar· una copiar sobre 'stunnel.conf' de este modo: cp {varsrc}/"
+"or 'stunnel -version' (v. 4) para ver qu√© version est√° instalada. Tambi√©n"
+"necesitar√° una copiar sobre 'stunnel.conf' de este modo: cp {varsrc}/"
 "toaster-scripts-{toasterscripts}/tmda-stunnel.conf /var/qmail/supervise/"
 "tmda-ssl/stunnel.conf"
 
@@ -2237,8 +2237,8 @@ msgid ""
 "NOTE: If you installed vpopmail somewhere other than /home/vpopmail, you'll "
 "need to update references in defaults.ini here"
 msgstr ""
-"NOTA: Si Ud instalÛ vpopmail en otro lugar diferente a /home/vpopmail, tendr· "
-"necesidad de actualizar las referencias en 'defaults.ini' aquÌ"
+"NOTA: Si Ud instal√≥ vpopmail en otro lugar diferente a /home/vpopmail, tendr√° "
+"necesidad de actualizar las referencias en 'defaults.ini' aqu√≠"
 
 #: tpl/tmda.xml:78
 msgid ""
@@ -2246,8 +2246,8 @@ msgid ""
 "following to /etc/httpd/httpd.conf (or where ever your conf file is), and "
 "restart Apache:"
 msgstr ""
-"Ahora, Ud necesitar· agregar una directiva 'alias' a su servidor  web. "
-"Agregue lo siguiente a /etc/httpd/httpd.conf (o donde estÈ su archivo conf),"
+"Ahora, Ud necesitar√° agregar una directiva 'alias' a su servidor  web. "
+"Agregue lo siguiente a /etc/httpd/httpd.conf (o donde est√© su archivo conf),"
 " y reinicie Apache:"
 
 #: tpl/tmda.xml:85
@@ -2257,14 +2257,14 @@ msgid ""
 "account. Note that the .qmail files created by tmda WILL show up in "
 "QmailAdmin."
 msgstr ""
-"Ahora, Ud deberÌa ser capaz de apuntar su navegador web a /cgi-bin/tmda.cgi,"
-"loguearse xon su direcciÛn de correo electrÛnico y contraseÒa, y agregar/"
+"Ahora, Ud deber√≠a ser capaz de apuntar su navegador web a /cgi-bin/tmda.cgi,"
+"loguearse xon su direcci√≥n de correo electr√≥nico y contrase√±a, y agregar/"
 "editar/remover 'tmda' de su cuenta. Note que los archivos .qmail creados por"
 "'tmda' SERAN mostrados por QmailAdmin."
 
 #: tpl/toc.xml:6
 msgid "What's a POP Toaster?"
-msgstr "øQuÈ es un Toaster POP?"
+msgstr "¬øQu√© es un Toaster POP?"
 
 #: tpl/toc.xml:8
 msgid "Assumptions/Support (Please Read!)"
@@ -2323,15 +2323,15 @@ msgid ""
 "<emphasis>NOTE:</emphasis> This document is now paginated.  If you prefer to "
 "view it all as one page, click <ulink url='?page=all'>here</ulink>"
 msgstr ""
-"<emphasis>NOTA:</emphasis> Este documento est· paginado ahora. Si Ud prefiere"
-"verlo todo como una ˙nica p·gina, cliquee <ulink url='?page=all'>aquÌ</ulink>"
+"<emphasis>NOTA:</emphasis> Este documento est√° paginado ahora. Si Ud prefiere"
+"verlo todo como una √∫nica p√°gina, cliquee <ulink url='?page=all'>aqu√≠</ulink>"
 
 #: tpl/ucspi-tcp.xml:7
 msgid ""
 "ucspi-tcp contains tcpserver and tcpclient, command line tools for building "
 "client-server applications."
 msgstr ""
-"ucspi-tcp contiene 'tcpserver' y 'tcpclient', herramientas de lÌnea de coman-"
+"ucspi-tcp contiene 'tcpserver' y 'tcpclient', herramientas de l√≠nea de coman-"
 "dos para construir aplicaciones cliente-servidor."
 
 #: tpl/ucspi-tcp.xml:19
@@ -2339,8 +2339,8 @@ msgid ""
 "NOTE: If you are on the x86_64 platform, you need to remove the <quote>-02</"
 "quote> argument to gcc in conf-cc. See this for details"
 msgstr ""
-"NOTA: Si Ud est· en una plataforma x86_64, necesita remover en conf-cc"
-"el argumento de gcc <quote>-02</quote>. Vea aquÌ por detalles"
+"NOTA: Si Ud est√° en una plataforma x86_64, necesita remover en conf-cc"
+"el argumento de gcc <quote>-02</quote>. Vea aqu√≠ por detalles"
 
 #: tpl/vpopmail.xml:5
 msgid "Vpopmail"
@@ -2354,7 +2354,7 @@ msgid ""
 "<quote>system</quote> accounts."
 msgstr ""
 "Vpopmail es una paquete agregado a qmail para manejar dominios virtuales. "
-"Puede manejar m˙ltiple dominios en una sola direcciÛn IP, y ninguna de las"
+"Puede manejar m√∫ltiple dominios en una sola direcci√≥n IP, y ninguna de las"
 "cuentas de usuario son cuentas /etc/passwd o de <quote>sistema</quote>"
 
 #: tpl/vpopmail.xml:23
@@ -2363,9 +2363,9 @@ msgid ""
 "environment by prefacing the next command with <quote>CFLAGS=-fPIC</quote>, "
 "like so: <quote>CFLAGS=-fPIC ./configure ...</quote>"
 msgstr ""
-"NOTA: Si Ud est· en una plataforma x86_64, necesitar· configurar 'CFLAGS' "
+"NOTA: Si Ud est√° en una plataforma x86_64, necesitar√° configurar 'CFLAGS' "
 "del ambiente del compilador anteponiendo el siguiente comando con <quote>"
-"CFLAGS=-fPIC</quote>, asÌ: <quote>CFLAGS=-fPIC ./configure ...</quote>"
+"CFLAGS=-fPIC</quote>, as√≠: <quote>CFLAGS=-fPIC ./configure ...</quote>"
 
 #: tpl/vpopmail.xml:29
 msgid ""
@@ -2374,9 +2374,9 @@ msgid ""
 "fPIC -02 -c ${1+\"$@\"}' After editing compile, do <quote>make &amp;&amp; "
 "make install-strip</quote> again.  see this post for more details"
 msgstr ""
-"NOTA: Si Ud est· en una plataforma x86_64, necesitar· editar 'cdb/compile'"
-"para agregar el argumento -fPIC a cc. Esto deberÌa verse como sigue:"
-" 'exec gcc -fPIC -02 -c ${1+\"$@\"}' . DespuÈs de editar, compile, haga"
+"NOTA: Si Ud est√° en una plataforma x86_64, necesitar√° editar 'cdb/compile'"
+"para agregar el argumento -fPIC a cc. Esto deber√≠a verse como sigue:"
+" 'exec gcc -fPIC -02 -c ${1+\"$@\"}' . Despu√©s de editar, compile, haga"
 "<quote>make &amp;&amp; make install-strip</quote> again"
 
 #: tpl/vpopmail.xml:34
@@ -2385,7 +2385,7 @@ msgstr "instalar el script de inicio de vpopmail"
 
 #: tpl/vpopmail.xml:40
 msgid "add qmail toaster patch now that vpopmail is installed"
-msgstr "agregar el parche 'qmail-toaster' ahora que vpopmail est· instalado"
+msgstr "agregar el parche 'qmail-toaster' ahora que vpopmail est√° instalado"
 
 #: tpl/vpopmail.xml:48
 msgid ""
@@ -2393,23 +2393,23 @@ msgid ""
 "qmail as it will chown this directory back to qmail"
 msgstr ""
 "NOTA: se necesita correr el siguiente comando luego de que cualquier"
-"re-instalaciÛn futura de qmail cambie el dueÒo del directorio de nuevo"
+"re-instalaci√≥n futura de qmail cambie el due√±o del directorio de nuevo"
 "a qmail"
 
 #: tpl/vpopmail.xml:53
 msgid "enter your company's information"
-msgstr "ingrese la informaciÛn de su compaÒÌa"
+msgstr "ingrese la informaci√≥n de su compa√±√≠a"
 
 #: tpl/vpopmail.xml:55
 msgid "NOTE: This may take a LONG time"
-msgstr "NOTA: Esto podrÌa llevar un LARGO tiempo"
+msgstr "NOTA: Esto podr√≠a llevar un LARGO tiempo"
 
 #: tpl/vpopmail.xml:57
 msgid ""
 "now add the following line to your crontab via `crontab -e` to update "
 "these temp keys each night"
 msgstr ""
-"agregue ahora la siguiente lÌnea a su 'crontab' via `crontab -e` para "
+"agregue ahora la siguiente l√≠nea a su 'crontab' via `crontab -e` para "
 "actualizar esas claves cada noche"
 
 #: tpl/vpopmail.xml:60
