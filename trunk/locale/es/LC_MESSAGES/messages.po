@@ -53,7 +53,7 @@ msgid ""
 "toaster-unsubscribe@shupp.org'>toaster-subscribe@shupp.org</ulink>)"
 msgstr ""
 "Para subscribirse a la lista de correo del toaster: <ulink url='mailto:"
-"toaster-subscribe@shupp.org</ulink> (para desubscribirse: <ulink url='mailto:"
+"toaster-subscribe@shupp.org'>toaster-subscribe@shupp.org</ulink> (para desubscribirse: <ulink url='mailto:"
 "toaster-unsubscribe@shupp.org'>toaster-subscribe@shupp.org</ulink>)" 
 
 
@@ -259,7 +259,7 @@ msgid ""
 "toasterdoc'>ToasterDoc</ulink> for more info."
 msgstr ""
 "Se migró la documentación al formato <ulink url='http://www.docbook.org/"
-"schemas/sdocbook/index.html>DocBook Simplificado</ulink> con soporte gettext"
+"schemas/sdocbook/index.html'>DocBook Simplificado</ulink> con soporte gettext"
 "embebido. Se exhibe via unas pocas clases HP nuevas escritas para este"
 "propósito. Vea <ulink url='http://trac.merchbox.com/trac/toasterdoc'>"
 "ToasterDoc</ulink> para más información."
@@ -1867,7 +1867,7 @@ msgstr ""
 
 #: tpl/qmail.xml:65
 msgid "Replace <quote>admin@example.com</quote> with your email address"
-msgstr "Reemplace <quote/>admin@example.com</quote> con su direccióni de email"
+msgstr "Reemplace <quote>admin@example.com</quote> con su direccióni de email"
 
 #: tpl/qmail.xml:77
 msgid "add qmail man pages to MANPATH"
@@ -2377,7 +2377,7 @@ msgstr ""
 "NOTA: Si Ud está en una plataforma x86_64, necesitará editar 'cdb/compile'"
 "para agregar el argumento -fPIC a cc. Esto debería verse como sigue:"
 " 'exec gcc -fPIC -02 -c ${1+\"$@\"}' . Después de editar, compile, haga"
-"<quote>make &amp;&amp; "
+"<quote>make &amp;&amp; make install-strip</quote> again"
 
 #: tpl/vpopmail.xml:34
 msgid "install the vpopmail start script"
