@@ -142,6 +142,7 @@ class Book
         $neg = &new I18Nv2_Negotiator;
         I18Nv2::setLocale($neg->getLocaleMatch());
         bindtextdomain("messages", "./locale");
+        bind_textdomain_codeset("messages", 'UTF-8');
         textdomain("messages");
     }
 
@@ -271,12 +272,14 @@ class Book
 
         $xmlIn = $this->tpl->display((string)$this->outline->mainWrapper, 1);
         // Load the XML source
-        $xml = new DOMDocument;
+        $xml = new DOMDocument('1.0', 'UTF-8');
+        $xmlIn = "<?xml version='1.0' encoding='UTF-8'?>" . $xmlIn;
         $xml->loadXML($xmlIn);
 
         $xslIn = $this->tpl->display((string)$this->renderer . '.xsl', 1);
+        $xslIn = "<?xml version='1.0' encoding='UTF-8'?>" . $xslIn;
         // Load the XSL source
-        $xsl = new DOMDocument;
+        $xsl = new DOMDocument('1.0', 'UTF-8');
         $xsl->loadXML($xslIn);
 
         // Configure the transformer

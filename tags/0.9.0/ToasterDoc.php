@@ -38,6 +38,9 @@ class ToasterDoc extends Book
         $this->sessionInit();
         $this->selectVarsrc();
         $this->loadVersions();
+        ini_set('mbstring.internal_encoding', 'UTF-8');
+        ini_set('mbstring.http_input', 'auto');
+        ini_set('mbstring.http_output', 'UTF-8');
     } 
 
     /**
