@@ -2197,7 +2197,7 @@ msgstr "TMDA"
 #: tpl/tmda.xml:6
 
 msgid ""
-"If you want the option to be very agressive about spam control, TMDA (Tagged"
+"If you want the option to be very aggressive about spam control, TMDA (Tagged"
 "Message Delivery Agent) is a challenge based tool that requires a sender to "
 "confirm their sending address before the incoming message is delivered. I "
 "don't use it myself, but many people do."
