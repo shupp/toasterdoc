@@ -2201,7 +2201,6 @@ msgid ""
 "Message Delivery Agent) is a challenge based tool that requires a sender to "
 "confirm their sending address before the incoming message is delivered. I "
 "don't use it myself, but many people do."
-
 msgstr ""
 "Si Ud quiere la opción de ser muy agresivo acerca del control de spam, TMDA"
 "('Tagged Message Delivery Agent') es una herramienta basada en recusación que"
