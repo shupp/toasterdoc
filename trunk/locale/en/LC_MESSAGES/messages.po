@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-04-04 11:04-0500\n"
+"POT-Creation-Date: 2007-04-05 14:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Bill Shupp <hostmaster@shupp.org>\n"
 "Language-Team: Toaster Translators <toaster-tr@shupp.org>\n"
@@ -1925,7 +1925,8 @@ msgstr ""
 #: tpl/ucspi-tcp.xml:19
 msgid ""
 "NOTE: If you are on the x86_64 platform, you need to remove the <quote>-02</"
-"quote> argument to gcc in conf-cc. See this for details"
+"quote> argument to gcc in conf-cc. See <ulink url='http://marc.info/?"
+"l=qmail&amp;m=111725518121864&amp;w=2'>this</ulink> for details"
 msgstr ""
 
 #: tpl/vpopmail.xml:5

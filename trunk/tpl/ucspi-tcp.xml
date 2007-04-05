@@ -16,7 +16,7 @@
             <literal>cd ucspi-tcp-0.88</literal>
             <literal>patch -p1 &lt; {varsrc}/netqmail-1.05/other-patches/ucspi-tcp-0.88.errno.patch</literal>
             <literal></literal>
-            <lineannotation><?php echo _("NOTE: If you are on the x86_64 platform, you need to remove the <quote>-02</quote> argument to gcc in conf-cc. See this for details")?></lineannotation>
+            <lineannotation><?php echo _("NOTE: If you are on the x86_64 platform, you need to remove the <quote>-02</quote> argument to gcc in conf-cc. See <ulink url='http://marc.info/?l=qmail&amp;m=111725518121864&amp;w=2'>this</ulink> for details")?></lineannotation>
             <literal></literal>
             <literal>make</literal>
             <literal>make setup check</literal>
