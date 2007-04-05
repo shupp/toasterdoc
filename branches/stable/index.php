@@ -5,8 +5,8 @@ define('BTS_TEMPLATE_DIR', './tpl');
 require('ToasterDoc.php');
 
 $book = new ToasterDoc;
-$book->display();
-if(PEAR::isError($book)) {
+$return = $book->display();
+if(PEAR::isError($return)) {
     die($book->getMessage());
 }
 

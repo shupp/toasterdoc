@@ -3,7 +3,7 @@
 <itemizedlist>
     <listitem>
         <para><anchor id="tmda" /><emphasis><?php echo _("TMDA")?></emphasis></para>
-        <para><?php echo _("If you want the option to be very agressive about spam control, TMDA (Tagged Message Delivery Agent) is a challenge based tool that requires a sender to confirm their sending address before the incoming message is delivered. I don't use it myself, but many people do.")?></para>
+        <para><?php echo _("If you want the option to be very aggressive about spam control, TMDA (Tagged Message Delivery Agent) is a challenge based tool that requires a sender to confirm their sending address before the incoming message is delivered. I don't use it myself, but many people do.")?></para>
         <para><?php echo _("Info: ")?> <ulink url="http://www.tmda.net">http://www.tmda.net</ulink></para>
         <para><?php echo _("Install:")?></para>
 
