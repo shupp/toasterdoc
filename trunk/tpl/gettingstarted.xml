@@ -51,7 +51,7 @@
         <literal>wget http://shupp.org/software/ezmlm-idx-{ezmlmidx}.tar.gz</literal>
         <literal>wget http://shupp.org/software/courier-imap-{courierimap}.tar.bz2</literal>
         <literal>wget http://shupp.org/software/courier-authlib-{courierauthlib}.tar.bz2</literal>
-        <literal>wget http://shupp.org/patches/vpopmail_courier_cram.diff</literal>
+        <literal>wget http://shupp.org/patches/vpopmail_courier_cram-1.diff</literal>
         <literal>wget http://shupp.org/software/squirrelmail-{squirrelmail}.tar.bz2</literal>
         <literal>wget http://shupp.org/software/quota_usage-{quotausage}.tar.gz</literal>
         <literal>wget http://shupp.org/software/toaster-scripts-{toasterscripts}.tar.gz</literal>

@@ -1,6 +1,11 @@
 <title><?php echo _("ChangeLog")?></title>
-
-
+<literallayout><?php echo _("0.9.1 - 4/13/2007")?></literallayout>
+<itemizedlist>
+    <listitem><literallayout role="listitem"><?php echo _("Upgrade clamav to 0.90.2")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Added Spanish translation - tnx Abel Lucano and also Ingo Carlo")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Fix courier-authlib patch (implicit declaration)")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Remove verbose option from tar commands")?></literallayout></listitem>
+</itemizedlist>
 <literallayout><?php echo _("0.9.0 - 3/28/2007")?></literallayout>
 <itemizedlist>
     <listitem><literallayout role="listitem"><?php echo _("Moved documentation to <ulink url='http://www.docbook.org/schemas/sdocbook/index.html'>Simplified DocBook</ulink> format with embedded gettext support.  It's displayed via a few new PHP classes written for this purpose.   See <ulink url='http://trac.merchbox.com/trac/toasterdoc'>ToasterDoc</ulink> for more info.")?></literallayout></listitem>

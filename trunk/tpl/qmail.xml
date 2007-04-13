@@ -143,7 +143,7 @@
 
         <programlisting>
 				<literal>cd {varsrc}</literal>
-				<literal>tar -xvzf tar/libdomainkeys-{libdomainkeys}.tar.gz</literal>
+				<literal>tar -xzf tar/libdomainkeys-{libdomainkeys}.tar.gz</literal>
 				<literal>cd libdomainkeys-{libdomainkeys}</literal>
 				<literal>patch -p0 &lt;  ../tar/libdomainkeys.diff</literal>
 				<literal>make</literal>

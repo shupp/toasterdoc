@@ -14,7 +14,7 @@
 			<literal>wget http://shupp.org/patches/tmda-cgi-parent_re.patch</literal>
 			<literal></literal>
 			<literal>cd ../</literal>
-			<literal>tar -xvzf tar/tmda-{tmda}.tgz</literal>
+			<literal>tar -xzf tar/tmda-{tmda}.tgz</literal>
 			<literal>cd tmda-{tmda}</literal>
 			<literal>./compileall</literal>
 			<literal>cd ../</literal>
@@ -51,7 +51,7 @@
 			<lineannotation><?php echo _("Setup tmda-cgi")?></lineannotation>
 			<literal></literal>
 			<literal>cd {varsrc}</literal>
-			<literal>tar -xvjf tar/tmda-cgi-{tmdacgi}.tar.bz2</literal>
+			<literal>tar -xjf tar/tmda-cgi-{tmdacgi}.tar.bz2</literal>
 			<literal>cd tmda-cgi-{tmdacgi}</literal>
 			<literal>patch -p0 &lt; ../tar/tmda-cgi-parent_re.patch</literal>
 			<literal>rm -r skel/uninstall/%\(Parent\)s/</literal>
