@@ -2243,10 +2243,12 @@ msgstr ""
 #: tpl/ucspi-tcp.xml:19
 msgid ""
 "NOTE: If you are on the x86_64 platform, you need to remove the <quote>-02</"
-"quote> argument to gcc in conf-cc. See this for details"
+"quote> argument to gcc in conf-cc. See <ulink url='http://marc.info/?"
+"l=qmail&amp;m=111725518121864&amp;w=2'>this</ulink> for details"
 msgstr ""
 "NOTa: Daca esti pe platforma x86_64, trebuie sa stergi argumentul <quote>-02</"
-"quote> catre gcc din fisierul conf-cc. Vezi asta pentru detalii"
+"quote> catre gcc din fisierul conf-cc. Vezi <ulink url='http://marc.info/?"
+"l=qmail&amp;m=111725518121864&amp;w=2'>asta</ulink> pentru detalii"
 
 #: tpl/vpopmail.xml:5
 msgid "Vpopmail"
