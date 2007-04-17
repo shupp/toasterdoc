@@ -35,28 +35,12 @@ class ToasterDoc extends Book
      */
     function __construct() {
         parent::__construct();
-        $this->sessionInit();
         $this->selectVarsrc();
         $this->loadVersions();
         ini_set('mbstring.internal_encoding', 'UTF-8');
         ini_set('mbstring.http_input', 'auto');
         ini_set('mbstring.http_output', 'UTF-8');
     } 
-
-    /**
-     * sessionInit 
-     * 
-     * Session initialization
-     * 
-     * @access protected
-     * @return void
-     */
-    protected function sessionInit() {
-        ini_set('session.use_cookies',1);
-        ini_set('session.use_trans_sid',0);
-        session_name('toasterSession');
-        session_start();
-    }
 
     /**
      * selectVarsrc 

@@ -114,6 +114,14 @@ class Book
     public $pages = null;
 
     /**
+     * languages
+     * 
+     * @var mixed
+     * @access public
+     */
+    public $languages = null;
+
+    /**
      * __construct 
      * 
      * Constructor
@@ -123,10 +131,16 @@ class Book
      */
     function __construct() {
         $this->tpl = new BTS;
+        // Supported Languages
+        $this->languages = $this->simpleLoad('languages.xml');
+        if(PEAR::isError($this->languages)) return $this->languages;
+        // outline
         $this->outline = $this->simpleLoad('outline.xml');
         if(PEAR::isError($this->outline)) return $this->outline;
+        // Renderers
         $this->rendererConfig = $this->simpleLoad('renderers.xml');
         if(PEAR::isError($this->rendererConfig)) return $this->rendererConfig;
+        $this->sessionInit();
         $this->setLocale();
     }
 
@@ -139,11 +153,37 @@ class Book
      * @return void
      */
     protected function setLocale() {
-        $neg = &new I18Nv2_Negotiator;
-        I18Nv2::setLocale($neg->getLocaleMatch());
-        bindtextdomain("messages", "./locale");
-        bind_textdomain_codeset("messages", 'UTF-8');
-        textdomain("messages");
+        // Not using negotiation for the time being, static selection only
+        // $neg = &new I18Nv2_Negotiator;
+        // I18Nv2::setLocale($neg->getLocaleMatch());
+        if(isset($_GET['language'])) {
+            $array = $this->xmlObjToArray($this->languages->xpath('language'), 'name');
+            if(in_array($_GET['language'], $array)) {
+                $_SESSION['language'] = $_GET['language'];
+            }
+        }
+        // print_r($_GET['language']);exit;
+        if(isset($_SESSION['language'])) {
+            I18Nv2::setLocale($_SESSION['language']);
+            bindtextdomain("messages", "./locale");
+            bind_textdomain_codeset("messages", 'UTF-8');
+            textdomain("messages");
+        }
+    }
+
+    /**
+     * sessionInit 
+     * 
+     * Session initialization
+     * 
+     * @access protected
+     * @return void
+     */
+    protected function sessionInit() {
+        ini_set('session.use_cookies',1);
+        ini_set('session.use_trans_sid',0);
+        session_name('bookSession');
+        session_start();
     }
 
     /**

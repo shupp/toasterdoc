@@ -121,6 +121,17 @@
         <xsl:apply-templates/>
    </a>
  </xsl:template>
+ <xsl:template match="imageobject">
+   <img>
+        <xsl:attribute name="src">
+            <xsl:value-of select="@id"/>
+        </xsl:attribute>
+        <xsl:attribute name="alt">
+            <xsl:value-of select="@role"/>
+        </xsl:attribute>
+        <xsl:attribute name="border">0</xsl:attribute>
+    </img>
+ </xsl:template>
  <xsl:template match="anchor">
    <a>
         <xsl:attribute name="name"><xsl:value-of select="@id"/></xsl:attribute>
