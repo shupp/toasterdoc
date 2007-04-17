@@ -62,6 +62,7 @@
         <listitem><literallayout role="listitem"><ulink url="?page=appendix#donate"><?php echo _("Donate")?></ulink></literallayout></listitem>
         <listitem><literallayout role="listitem"><ulink url="?page=appendix#troubleshooting"><?php echo _("Troubleshooting")?></ulink></literallayout></listitem>
         <listitem><literallayout role="listitem"><ulink url="?page=appendix#credits"><?php echo _("Credits")?></ulink></literallayout></listitem>
+        <listitem><literallayout role="listitem"><ulink url="?page=appendix#translations"><?php echo _("Translations")?></ulink></literallayout></listitem>
         <listitem><literallayout role="listitem"><ulink url="?page=appendix#resources"><?php echo _("Resources")?></ulink></literallayout></listitem>
         <listitem><literallayout role="listitem"><ulink url="?page=appendix#success"><?php echo _("Success Reports")?></ulink></literallayout></listitem>
     </itemizedlist>

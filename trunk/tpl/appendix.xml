@@ -34,6 +34,15 @@
         </itemizedlist>
     </listitem>
 
+    
+    <listitem>
+        <para><anchor id="translations" /><emphasis><?php echo _("Translations")?></emphasis></para>
+
+        <itemizedlist>
+            <listitem><literallayout><?php echo _("Spanish translation by Abel Lucano with some input from Ingo Carlo")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("Romanian translation by Daniel Toma")?></literallayout></listitem>
+        </itemizedlist>
+    </listitem>
     <listitem>
         <para><anchor id="resources" /><emphasis><?php echo _("Resources")?></emphasis></para>
 

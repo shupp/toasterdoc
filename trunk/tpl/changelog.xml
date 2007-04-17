@@ -1,4 +1,11 @@
 <title><?php echo _("ChangeLog")?></title>
+<literallayout><?php echo _("0.9.2 - 4/17/2007")?></literallayout>
+<itemizedlist>
+    <listitem><literallayout role="listitem"><?php echo _("Upgrade tmda-cgi to 0.16.3")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Added Romanian translation - tnx Daniel Toma")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Upgrade toaster patch to 0.9.1 (updated tls patch)")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Make language selection static (from table of contents page)")?></literallayout></listitem>
+</itemizedlist>
 <literallayout><?php echo _("0.9.1 - 4/13/2007")?></literallayout>
 <itemizedlist>
     <listitem><literallayout role="listitem"><?php echo _("Upgrade clamav to 0.90.2")?></literallayout></listitem>
