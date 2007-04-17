@@ -25,7 +25,7 @@
             <literal>cp -rp * /var/www/html/images/qmailadmin/help</literal>
         </programlisting>
 
-        <para>Your toaster installation is done! Now we're ready to take it for a test drive.</para>
+        <para><?php echo _("Your toaster installation is done! Now we're ready to take it for a test drive.")?></para>
 
     </listitem>
 </itemizedlist>
