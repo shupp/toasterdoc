@@ -5,6 +5,7 @@
     <listitem><literallayout role="listitem"><?php echo _("Added Romanian translation - tnx Daniel Toma")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Upgrade toaster patch to 0.9.1 (updated tls patch)")?></literallayout></listitem>
     <listitem><literallayout role="listitem"><?php echo _("Make language selection static (from table of contents page)")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Update simscan tar ball with updated configure script (should fix problem locating the clamavdb directory)")?></literallayout></listitem>
 </itemizedlist>
 <literallayout><?php echo _("0.9.1 - 4/13/2007")?></literallayout>
 <itemizedlist>
