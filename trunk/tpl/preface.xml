@@ -68,7 +68,7 @@
         <literal>dpkg --ignore-depends=exim4 -r exim4</literal>
         <literal>dpkg --ignore-depends=exim4-daemon-light -r exim4-daemon-light</literal>
         <literal>dpkg --ignore-depends=exim4-base -r exim4-base</literal>
-        <literal>dpkg --ignore-depends=exim4-base -r exim4-base</literal>
+        <literal>dpkg --ignore-depends=exim4-config -r exim4-config</literal>
         <literal></literal>
         <lineannotation><?php echo _("and install the dummy mta package")?></lineannotation>
         <literal>dpkg -i /tmp/mta-local_1.0_all.deb</literal>
