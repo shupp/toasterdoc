@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Abel Lucano <abel@decode.com.ar>, 2007.
 # 
-# 
 msgid ""
 msgstr ""
-"Project-Id-Version: $Id: messages.po, v 0.90.1 2007/04/13\n"
+"Project-Id-Version: $Id: messages.po, v 0.90.2 2007/04/28\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-04-17 18:51-0500\n"
-"PO-Revision-Date: 2007-04-14 11:58-0300\n"
+"POT-Creation-Date: 2007-04-28 12:51-0500\n"
+"PO-Revision-Date: 2007-04-28 12:51-0300\n"
 "Last-Translator: Abel Lucano <abel@decode.com.ar>\n"
 "Language-Team: spanish <toaster-tr@shupp.org>\n"
 "MIME-Version: 1.0\n"
@@ -126,17 +125,16 @@ msgstr ""
 
 #: tpl/appendix.xml:39 tpl/toc.xml:65
 msgid "Translations"
-msgstr ""
+msgstr "Traducciones"
 
 #: tpl/appendix.xml:42
 #, fuzzy
 msgid "Spanish translation by Abel Lucano with some input from Ingo Carlo"
-msgstr ""
-"Agregado de traducción al español - tnx Abel Lucano y tambien Ingo Claro"
+msgstr "Traducción al español por Abel Lucano con aportes de Ingo Carlo"
 
 #: tpl/appendix.xml:43
 msgid "Romanian translation by Daniel Toma"
-msgstr ""
+msgstr "Traducción al por Daniel Toma"
 
 #: tpl/appendix.xml:47 tpl/toc.xml:66
 msgid "Resources"
@@ -262,33 +260,37 @@ msgstr "Archivo de modificaciones"
 #: tpl/changelog.xml:2
 #, fuzzy
 msgid "0.9.2 - 4/17/2007"
-msgstr "0.9.1 - 4/13/2007"
+msgstr "0.9.2 - 4/17/2007"
 
 #: tpl/changelog.xml:4
 #, fuzzy
 msgid "Upgrade tmda-cgi to 0.16.3"
-msgstr "Actualización de clamav a 0.83"
+msgstr "Actualización de tmda-cgi a 0.16.3"
 
 #: tpl/changelog.xml:5
 #, fuzzy
 msgid "Added Romanian translation - tnx Daniel Toma"
 msgstr ""
-"Agregado de traducción al español - tnx Abel Lucano y tambien Ingo Claro"
+"Agregado de traducción al Rumano - tnx Daniel Toma"
 
 #: tpl/changelog.xml:6
 #, fuzzy
 msgid "Upgrade toaster patch to 0.9.1 (updated tls patch)"
-msgstr "Actualización del toaster patch a 0.9.0"
+msgstr "Actualización del toaster patch a 0.9.1 (parche a tls actualizado)"
 
 #: tpl/changelog.xml:7
 msgid "Make language selection static (from table of contents page)"
 msgstr ""
+"Hacer estática la selección del idioma (de la página de la tabla de"
+" de contenidos)"
 
 #: tpl/changelog.xml:8
 msgid ""
 "Update simscan tar ball with updated configure script (should fix problem "
 "locating the clamavdb directory)"
 msgstr ""
+"Actualización del archivo 'tar' del simscan con un script 'configure'" 
+" actualizado (deberia solucionar el problema de localizar el directorio clamavbd)"
 
 #: tpl/changelog.xml:10
 msgid "0.9.1 - 4/13/2007"
@@ -344,13 +346,13 @@ msgid ""
 "for authvchkpw so secure auth is available for imap connections"
 msgstr ""
 "Actualización de courier-imap a 4.1.2, courier-authlib a 0.59.1. Se escribió "
-"el cram patch para authvchkpw así queda disponible secure auth para "
+"el cram patch para authvchkpw así queda disponible  'secure auth' para "
 "conexiones imap"
 
 #: tpl/changelog.xml:23
 #, fuzzy
 msgid "Updgrade vpopmail to 5.4.18 + vpopmaild and configure patches"
-msgstr "Actualización de vpopmail a 5.4.18 + vpopmaild y parches de configure"
+msgstr "Actualización de vpopmail a 5.4.18 + vpopmaild y parches de  'configure'"
 
 #: tpl/changelog.xml:24
 #, fuzzy
