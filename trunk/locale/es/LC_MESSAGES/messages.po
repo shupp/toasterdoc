@@ -5,10 +5,10 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: $Id: messages.po, v 0.90.2 2007/04/28\n"
+"Project-Id-Version: $Id: messages.po, v 0.90.2 2007/05/01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-04-28 12:51-0500\n"
-"PO-Revision-Date: 2007-04-28 12:51-0300\n"
+"POT-Creation-Date: 2007-05-01 09:50-0500\n"
+"PO-Revision-Date: 2007-05-01 09:50-0300\n"
 "Last-Translator: Abel Lucano <abel@decode.com.ar>\n"
 "Language-Team: spanish <toaster-tr@shupp.org>\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgid ""
 msgstr ""
 "<emphasis>NOTA:</emphasis> Si Ud quiere soportar una traducción particular, "
 "por favor indique cuál traducción desea soportar en la opción 'Message to "
-"Seller' al final del checkout"
+"Seller' al final del checkout."
 
 #: tpl/appendix.xml:13 tpl/toc.xml:63
 msgid "Troubleshooting"
@@ -128,13 +128,12 @@ msgid "Translations"
 msgstr "Traducciones"
 
 #: tpl/appendix.xml:42
-#, fuzzy
 msgid "Spanish translation by Abel Lucano with some input from Ingo Carlo"
 msgstr "Traducción al español por Abel Lucano con aportes de Ingo Carlo"
 
 #: tpl/appendix.xml:43
 msgid "Romanian translation by Daniel Toma"
-msgstr "Traducción al por Daniel Toma"
+msgstr "Traducción al rumano por Daniel Toma"
 
 #: tpl/appendix.xml:47 tpl/toc.xml:66
 msgid "Resources"
@@ -258,23 +257,19 @@ msgid "ChangeLog"
 msgstr "Archivo de modificaciones"
 
 #: tpl/changelog.xml:2
-#, fuzzy
 msgid "0.9.2 - 4/17/2007"
 msgstr "0.9.2 - 4/17/2007"
 
 #: tpl/changelog.xml:4
-#, fuzzy
 msgid "Upgrade tmda-cgi to 0.16.3"
 msgstr "Actualización de tmda-cgi a 0.16.3"
 
 #: tpl/changelog.xml:5
-#, fuzzy
 msgid "Added Romanian translation - tnx Daniel Toma"
 msgstr ""
 "Agregado de traducción al Rumano - tnx Daniel Toma"
 
 #: tpl/changelog.xml:6
-#, fuzzy
 msgid "Upgrade toaster patch to 0.9.1 (updated tls patch)"
 msgstr "Actualización del toaster patch a 0.9.1 (parche a tls actualizado)"
 
@@ -340,7 +335,6 @@ msgid "Upgrade clamav to 0.90.1"
 msgstr "Actualización de clamav a 0.90.1"
 
 #: tpl/changelog.xml:22
-#, fuzzy
 msgid ""
 "Updgrade courier-imap to 4.1.2, courier-authlib to 0.59.1.  Wrote cram patch "
 "for authvchkpw so secure auth is available for imap connections"
@@ -350,12 +344,10 @@ msgstr ""
 "conexiones imap"
 
 #: tpl/changelog.xml:23
-#, fuzzy
 msgid "Updgrade vpopmail to 5.4.18 + vpopmaild and configure patches"
 msgstr "Actualización de vpopmail a 5.4.18 + vpopmaild y parches de  'configure'"
 
 #: tpl/changelog.xml:24
-#, fuzzy
 msgid "Updgrade TMDA and TMDA-cgi to 1.1.11 and 0.16.2 respectively"
 msgstr "Actualización de TMDA y TMDA-cgi a 1.1.11 y 0.16.2 respectivamente"
 
@@ -404,17 +396,14 @@ msgid "Upgrade clamav to 0.88.6"
 msgstr "Actualización de clamav a 0.88.6"
 
 #: tpl/changelog.xml:36
-#, fuzzy
 msgid "Updgrade courier-imap to 4.1.1"
 msgstr "Actualización de courier-imap a 0.88.6"
 
 #: tpl/changelog.xml:37
-#, fuzzy
 msgid "Updgrade vpopmail to 5.4.17 + vpopmaild patches"
 msgstr "Actualización de vpopmail a 5.4.17 + parches vpopmaild"
 
 #: tpl/changelog.xml:38
-#, fuzzy
 msgid "Updgrade TMDA and TMDA-cgi to 1.1.9 and 0.15+patch respectively"
 msgstr "Actualización de TMDA y TMDA-cgi a 1.1.9 y 0.15+parche respectivamente"
 
@@ -1154,7 +1143,7 @@ msgstr "ClamAV"
 
 #: tpl/clamav.xml:6
 msgid "This open source virus scanner will be called by simscan."
-msgstr "Este escaneador de virus de código abierto será llamado por simscan"
+msgstr "Este escaneador de virus de código abierto será llamado por simscan."
 
 #: tpl/clamav.xml:9
 msgid ""
@@ -1162,7 +1151,7 @@ msgid ""
 "virus database."
 msgstr ""
 "NOTA: Ud necesita gmp-devel instalado para verificar las firmas digitales de "
-"la base de datos de virus"
+"la base de datos de virus."
 
 #: tpl/clamav.xml:29
 msgid "setup freshclam"
@@ -1195,7 +1184,7 @@ msgid ""
 "during the install of courier-authlib and courier-imap.  Most Linux systems "
 "use GNU make."
 msgstr ""
-"<emphasis>NOTA:</emphasis> Si Ud está en un sistema que no usa GNU 'make'tal "
+"<emphasis>NOTA:</emphasis> Si Ud está en un sistema que no usa GNU 'make' tal "
 "como FreeBSD, instale GNU 'make' y sustituya 'gmake' por 'make' durante la "
 "instalación de courier-authlib y courier-imap. La mayoría de los sistemas "
 "Linux usan GNU 'make'."
@@ -1265,9 +1254,9 @@ msgid ""
 "pop3d) so that the common name matches your server name BEFORE you start the "
 "server for the first time."
 msgstr ""
-"opcional: La primera que 'courier-imap' es iniciado, el certificado SSL es "
+"opcional: La primera vez que 'courier-imap' es iniciado, el certificado SSL es "
 "creado por primera vez usando 'localhost' como el 'common name'. Si ud "
-"quiere cambiar esto para igualar a su 'hostname', Ud puede personalizar la "
+"quiere cambiar esto para igualar a su 'hostname', puede personalizar la "
 "línea CN en /usr/lib/courier-imap/etc/imapd.cnf (y pop3d.cnf de su elección "
 "para  usar el 'pop3d' de courier) así el 'common name' es igual a su nombre "
 "de  servidor ANTES que Ud inicie el server por primera vez."
@@ -1282,7 +1271,7 @@ msgstr ""
 "Ahora que Ud ya bajó todos los paquetes de software a {varsrc}, por favor "
 "recorra cada uno de esos pasos de instalación como aparecen, y en este "
 "orden, a menos que Ud realmente sepa qué es lo que está haciendo. (Porque si "
-"lo  hizo, Ud no querría estar leyendo esto, ¿correcto?)"
+"lo sabe, Ud no querría estar leyendo esto, ¿correcto?)"
 
 #: tpl/daemontools.xml:3
 msgid ""
@@ -1636,15 +1625,14 @@ msgstr ""
 "desactivar ese aliasing de los comandos más comunes si Ud no está seguro:"
 
 #: tpl/preface.xml:46
-#, fuzzy
 msgid ""
 "This orignial version of this document was written using RedHat Linux 9.0. "
 "However, I now use debian exclusively now, and I fully recommend it. Once "
 "you get comfortable with apt, you'll never go back!"
 msgstr ""
-"La versión original del documento fue escrita usando RedHat Linux 9.0. Sin "
-"embargo, ahora uso debian exclusivamente, y la recomiendo por completo Una "
-"vez que te sientes cómodo con 'apt', nunca querrás volver atrás!"
+"La versión original de este documento fue escrita usando RedHat Linux 9.0."
+" Sin embargo, ahora uso debian exclusivamente, y la recomiendo por completo."
+" Una vez que te sientes cómodo con 'apt', nunca querrás volver atrás!"
 
 #: tpl/preface.xml:49 tpl/toc.xml:15
 msgid "Debian Notes"
@@ -1655,7 +1643,7 @@ msgid ""
 "The easy way to make sure you have all the proper debian packages installed "
 "is to just execute this command:"
 msgstr ""
-"La manera sencilla para asegurarse que Ud tiene instalados todos los "
+"La manera sencilla de asegurarse que Ud tiene instalados todos los "
 "paquetes debian instalados es ejecutar este comando:"
 
 #: tpl/preface.xml:52
@@ -1723,7 +1711,7 @@ msgstr ""
 
 #: tpl/preface.xml:94
 msgid "ClamAV requires the zlib and zlib-dev packages:"
-msgstr "ClamAV requiere los paquetes 'zlib' y 'zilb-devel'"
+msgstr "ClamAV requiere los paquetes 'zlib' y 'zlib-devel'"
 
 #: tpl/preface.xml:100
 msgid "QmailMRTG7 requires the mrtg package:"
@@ -1787,6 +1775,9 @@ msgid ""
 "Your toaster installation is done! Now we're ready to take it for a test "
 "drive."
 msgstr ""
+"Su instalación del toaster está completa!. Ahora estamos listos para hacerle"
+"una prueba de funcionamiento."
+
 
 #: tpl/qmailmrtg7.xml:5
 msgid "QmailMRTG7"
@@ -1829,7 +1820,7 @@ msgstr ""
 msgid ""
 "The patch you will apply later is a composite of these existing patches:"
 msgstr ""
-"El parche que Ud aplicará después es una composición de estos parches "
+"El parche que Ud aplicará luego es una composición de estos parches "
 "existentes:"
 
 #: tpl/qmail.xml:14
@@ -2001,7 +1992,7 @@ msgid ""
 "simscan."
 msgstr ""
 "ripmime es una herramienta para extraer adjuntos MIME del correo electrónico,"
-"y es utilizado por simscan."
+" y es utilizado por simscan."
 
 #: tpl/simscan.xml:5
 msgid "Simscan"
@@ -2017,10 +2008,10 @@ msgid ""
 msgstr ""
 "Su instalación de qmail ya está parcheada (parche qmail-queue) para soportar "
 "simscan, una nueva herramienta para utilizar escaneadores de virus/spam "
-"conqmail. Lo interesante es que evita que viruses (y spam opcionalmente) "
-"aúningresen en su cola de correo. Esto es diferente de qmail-scanner, el "
-"cualpone en cuarentena los mensajes infectado en lugar de detenerlos a nivel "
-"SMTP"
+"con qmail. Lo interesante es que evita que virus (y spam opcionalmente) "
+"aún ingresen en su cola de correo. Esto es diferente de qmail-scanner, el "
+"cual pone en cuarentena los mensajes infectado en lugar de detenerlos a nivel "
+"SMTP."
 
 #: tpl/simscan.xml:29
 msgid "add default rules for simscan"
@@ -2033,7 +2024,7 @@ msgstr "actualizar /var/qmail/control/simcontrol.cdb"
 #: tpl/simscan.xml:33
 msgid "put versions for received header in /var/qmail/control/simversions.cdb"
 msgstr ""
-"poner versiones para el encabezado 'receiver' en /var/qmail/control/"
+"poner versiones para el encabezado 'received' en /var/qmail/control/"
 "simversions.cdb"
 
 #: tpl/simscan.xml:36
@@ -2046,8 +2037,8 @@ msgid ""
 "your system via email, and tag spam for client filtering"
 msgstr ""
 "Aquí, Ud puede agregar 4 herramientas que juntas prevendrán que los "
-"viruseslleguen a su sistema via correo electrónico, y etiquetar 'spam' para "
-"el filtrado por el cliente"
+"virus lleguen a su sistema via correo electrónico, y etiquetar 'spam' para "
+"el filtrado por el cliente."
 
 #: tpl/spamassassin.xml:7
 msgid "SpamAssassin"
@@ -2059,7 +2050,7 @@ msgid ""
 "SpamAssassin via CPAN below."
 msgstr ""
 "SpamAssassin es el escaner lider de spam de código abierto.  "
-"InstalaremosSpamAssassin via CPAN debajo."
+"Instalaremos SpamAssassin via CPAN debajo."
 
 #: tpl/spamassassin.xml:9
 msgid ""
@@ -2070,13 +2061,13 @@ msgid ""
 "you could then simply do 'yum uninstall spamassassin', and follow the CPAN "
 "installation below, as you'll have the dependencies."
 msgstr ""
-"<emphasis>NOTA:</emphasis> usuarios Debian deberían tener instalados los pre-"
-"requisitos SpamAssassin durante 'Notas para Debian' anteriormente.  "
-"Lasdistribuciones RPM podrían querer usar 'yum install spamassassin' en "
-"lugar deCPAN debajo, así que Ud obtendrá todas las dependencias.  Si el RPM "
+"<emphasis>NOTA:</emphasis> Los usuarios Debian deberían tener instalados los"
+"antes los pre-requisitos para SpamAssassin de las 'Notas para Debian'.  "
+"Las distribuciones RPM podrían querer usar 'yum install spamassassin' en "
+"lugar de CPAN debajo, así que Ud obtendrá todas las dependencias.  Si el RPM "
 "de SpamAssassin está desactualizado, Ud simplemente puede hacer 'yum "
-"uninstallspamassassin', y seguir la instalación por CPAN siguiente, y "
-"obtendrá todaslas dependencias."
+"uninstall spamassassin', y seguir la instalación por CPAN siguiente, y "
+"obtendrá todas las dependencias."
 
 #: tpl/spamassassin.xml:22
 msgid "run spamd under daemontools"
@@ -2129,7 +2120,7 @@ msgid ""
 "From the main menu, go to Plugins and enable the quota_usage plugin, along "
 "with any others you prefer"
 msgstr ""
-"Del menú principal, vaya a 'Plugins' y habilite el plugin 'quota_usage',"
+"Del menú principal, vaya a 'Plugins' y habilite el plugin 'quota_usage', "
 "igualmente con cualquiera de los otros que Ud prefiera"
 
 #: tpl/squirrelmail.xml:34
@@ -2157,9 +2148,9 @@ msgid ""
 "Here we'll add a virtual domain, 'test.com', and test sending/receiving "
 "mail. Substitue 'test.com' for whatever domain you setup DNS for."
 msgstr ""
-"Aquí agregaremos un dominio virtual, 'test.com', y preobaremos enviar/"
+"Aquí agregaremos un dominio virtual, 'test.com', y probaremos enviar/"
 "recibir correo. Sustituya 'test.com' por cualquier dominio para el que haya "
-"configu-rado en el DNS."
+"configurado en el DNS."
 
 #: tpl/test.xml:6
 msgid "Add the domain to vpopmail"
@@ -2198,20 +2189,20 @@ msgid ""
 "Now, to log into SquirrelMail as user@test.com, point your browser here:"
 msgstr ""
 "Ahora, para loguearse al SquirrelMail como user@test.com, apunte su "
-"navegadorweb aquí:"
+"navegador web aquí:"
 
 #: tpl/test.xml:27
 msgid ""
 "Send yourself a message. If you get it, it's likely you're up and running."
 msgstr ""
 "Envíese un mensaje a Ud mismo. Si lo recibe, es posible que ya su "
-"instalaciónesté activa y corriendo."
+"instalación esté activa y corriendo."
 
 #: tpl/test.xml:29
 msgid "To test your POP server, try telnetting to port 110 and logging in."
 msgstr ""
 "Para testear su servidor POP, intente hacer 'telnet' al puerto 110 "
-"yloguearse en el mismo."
+"y loguearse en el mismo."
 
 #: tpl/test.xml:46
 msgid "Test your IMAP server in the same way:"
@@ -2223,8 +2214,8 @@ msgid ""
 "tests above, but use openssl's s_client tool to handle encryption."
 msgstr ""
 "Para probar nuestras conexiones SSL/TLS, todo lo que necesita es duplicar "
-"losmismas pruebas de arribar, pero utilice la herramienta 's_client' de "
-"opensslpara manejar la encripción."
+"las mismas pruebas de arriba, pero utilice la herramienta 's_client' de "
+"openssl para manejar la encripción."
 
 #: tpl/test.xml:75
 msgid "<emphasis>NOTE:</emphasis> If you get an error like this:"
@@ -2235,8 +2226,8 @@ msgid ""
 "your qmail install might need the cipher lists. Debian does this, I don't "
 "know why. The following commands will fix it:"
 msgstr ""
-"su instalación de qmail podría necesitar las listas de cifrado. Con "
-"Debianocurre esto, no sé porqué. Los siguientes comandos corregirán esto:"
+"su instalación de qmail podría necesitar las listas de cifrado. Esto "
+"ocurre en Debian, no sé porqué. Los siguientes comandos corregirán esto:"
 
 #: tpl/tmda.xml:5 tpl/toc.xml:53
 msgid "TMDA"
@@ -2271,10 +2262,10 @@ msgid ""
 "copy over stunnel.conf like so: cp {varsrc}/toaster-scripts-{toasterscripts}/"
 "tmda-stunnel.conf /var/qmail/supervise/tmda-ssl/stunnel.conf"
 msgstr ""
-"NOTA: Si Ud está usando la version 4 de 'stunnel',debería utilizar 'tmda.ssl."
+"NOTA: Si Ud está usando la versión 4 de 'stunnel', debería utilizar 'tmda.ssl."
 "run.v4' en lugar del 'tmda-ofmipd.ssl.run' debajo. Tipee 'stunnel -V' (v. 3) "
-"or 'stunnel -version' (v. 4) para ver qué version está instalada. "
-"Tambiénnecesitará una copiar sobre 'stunnel.conf' de este modo: cp {varsrc}/"
+"or 'stunnel -version' (v. 4) para ver qué versión está instalada. "
+"También necesitará copiar sobre 'stunnel.conf' de este modo: cp {varsrc}/"
 "toaster-scripts-{toasterscripts}/tmda-stunnel.conf /var/qmail/supervise/tmda-"
 "ssl/stunnel.conf"
 
@@ -2283,7 +2274,6 @@ msgid "Setup tmda-cgi"
 msgstr "Configurar tmda-cgi"
 
 #: tpl/tmda.xml:69
-#, fuzzy
 msgid ""
 "NOTE: If you installed vpopmail somewhere other than /home/vpopmail, you'll "
 "need to update refernces in defaults.ini here"
@@ -2308,10 +2298,10 @@ msgid ""
 "account. Note that the .qmail files created by tmda WILL show up in "
 "QmailAdmin."
 msgstr ""
-"Ahora, Ud debería ser capaz de apuntar su navegador web a /cgi-bin/tmda.cgi,"
-"loguearse xon su dirección de correo electrónico y contraseña, y agregar/"
+"Ahora, Ud debería ser capaz de apuntar su navegador web a /cgi-bin/tmda.cgi ,"
+"loguearse con su dirección de correo electrónico y contraseña, y agregar/"
 "editar/remover 'tmda' de su cuenta. Note que los archivos .qmail creados "
-"por'tmda' SERAN mostrados por QmailAdmin."
+"por 'tmda' SERAN visibles a travós de QmailAdmin."
 
 #: tpl/toc.xml:3
 msgid "Available Languages:"
@@ -2473,7 +2463,6 @@ msgid "NOTE: This may take a LONG time"
 msgstr "NOTA: Esto podría llevar un LARGO tiempo"
 
 #: tpl/vpopmail.xml:57
-#, fuzzy
 msgid ""
 "now add the followowing line to your crontab via `crontab -e` to update "
 "these temp keys each night"
