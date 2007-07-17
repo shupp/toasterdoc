@@ -1,4 +1,10 @@
 <title><?php echo _("ChangeLog")?></title>
+<literallayout><?php echo _("0.9.3 - 7/17/2007")?></literallayout>
+<itemizedlist>
+    <listitem><literallayout role="listitem"><?php echo _("Upgrade vpopmail to 5.4.19a")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Upgrade ClamAV to 0.91.1, add ldconfig command since it's now a shared library")?></literallayout></listitem>
+    <listitem><literallayout role="listitem"><?php echo _("Use sed in qmailmrtg7 installation - tnx Tom Collins")?></literallayout></listitem>
+</itemizedlist>
 <literallayout><?php echo _("0.9.2 - 4/17/2007")?></literallayout>
 <itemizedlist>
     <listitem><literallayout role="listitem"><?php echo _("Upgrade tmda-cgi to 0.16.3")?></literallayout></listitem>
