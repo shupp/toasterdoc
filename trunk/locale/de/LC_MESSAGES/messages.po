@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: messages.po 0.9.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-07-17 17:33-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2007-07-17 15:42-8\n"
 "Last-Translator: Martin Pittelkow <martin@pittelkow.net>\n"
 "Language-Team: Toaster Translators <toaster-tr@shupp.org>\n"
 "MIME-Version: 1.0\n"
