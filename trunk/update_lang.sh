@@ -11,7 +11,7 @@ sed -i -e 's!LANGUAGE <LL@li.org>!Toaster Translators <toaster-tr@shupp.org>!' $
 echo "compiling english ... "
 (cd $LCDIR ; msgfmt messages.po)
 
-for i in es ro ; do
+for i in es ro de ; do
     echo "merging $i ... "
     LCDIR="locale/$i/LC_MESSAGES"
     mv $LCDIR/messages.po $LCDIR/messages.po.old
