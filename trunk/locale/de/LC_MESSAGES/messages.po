@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages.po 0.9.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-07-17 17:33-0500\n"
+"POT-Creation-Date: 2007-07-17 18:10-0500\n"
 "PO-Revision-Date: 2007-07-17 15:42-8\n"
 "Last-Translator: Martin Pittelkow <martin@pittelkow.net>\n"
 "Language-Team: Toaster Translators <toaster-tr@shupp.org>\n"
@@ -87,7 +87,7 @@ msgstr ""
 #: tpl/appendix.xml:32
 msgid ""
 "There have been countless ideas, corrections, testing, and even bits of code "
-"contribted from the toaster users list."
+"contributed from the toaster users list."
 msgstr ""
 
 #: tpl/appendix.xml:33

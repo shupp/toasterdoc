@@ -29,7 +29,7 @@
         <itemizedlist>
             <listitem><literallayout><?php echo _("This document is certainly inspired by Matt Simerson's <ulink url='http://www.tnpi.biz/internet/mail/toaster/'>FreeBSD Mail Toaster</ulink>. If you use FreeBSD, use it instead, it's great.")?></literallayout></listitem>
             <listitem><literallayout><?php echo _("Most of the commands listed in the steps above are derived either directly from the documentation or <ulink url='http://www.lifewithqmail.org/'>Life With Qmail</ulink>.")?></literallayout></listitem>
-            <listitem><literallayout><?php echo _("There have been countless ideas, corrections, testing, and even bits of code contribted from the toaster users list.")?></literallayout></listitem>
+            <listitem><literallayout><?php echo _("There have been countless ideas, corrections, testing, and even bits of code contributed from the toaster users list.")?></literallayout></listitem>
             <listitem><literallayout><?php echo _("This toaster was put together by Bill Shupp (hostmaster@shupp.org) in December of 2001.")?></literallayout></listitem>
         </itemizedlist>
     </listitem>
