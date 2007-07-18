@@ -3,6 +3,7 @@
     <?php echo _("Available Languages:")?> <ulink url="?page=toc&amp;language=en"><?php echo _("English")?></ulink> <imageobject id='images/us.gif' role="<?php echo _('English')?>"/>
     <ulink url="?page=toc&amp;language=es"><?php echo _("Spanish")?></ulink> <imageobject id='images/spain.gif' role="<?php echo _('Spanish')?>"/> 
     <ulink url="?page=toc&amp;language=ro_RO"><?php echo _("Romanian")?></ulink> <imageobject id='images/romania.gif' role="<?php echo _('Romanian')?>"/>
+    <ulink url="?page=toc&amp;language=de"><?php echo _("German")?></ulink> <imageobject id='images/germany.gif' role="<?php echo _('German')?>"/>
 </para>
 <itemizedlist>
 <listitem>
